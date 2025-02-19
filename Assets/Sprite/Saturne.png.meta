@@ -1,0 +1,1227 @@
+fileFormatVersion: 2
+guid: ea197bcde4b48eea1ad37369de94862b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Saturne_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 59
+        width: 227
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe028e4db5ad1fdb0a0db3f0f7d011d9
+      internalID: -364551257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_1
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69ab680e398b7b31a6e21ae9247d7ff
+      internalID: -487442432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_2
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552b80aa35ceddd47ae258032e8cd442
+      internalID: -1153474949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_3
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 51
+        width: 228
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c483bc46e952961b77ec0729bae8a3
+      internalID: 922579295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_4
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b899ed33a27fd467da57d3573a290aa3
+      internalID: -1783773569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_5
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6457dfe9a0894edbb969a76cb2d944
+      internalID: -933558680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_6
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64dca831359f26731b7c7e9f09009845
+      internalID: 805199352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_7
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab71c211dacd4a137a94fb6f06a5e2ae
+      internalID: 365446788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_8
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 59
+        width: 227
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8511ecb9837f89c8db566608b42d3081
+      internalID: 1153057298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_9
+      rect:
+        serializedVersion: 2
+        x: 2739
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c44ca3f8bc46c8b09b983b06f18fad0
+      internalID: -1826321004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_10
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de54bc97726d961fa990b9de131168a
+      internalID: 18599635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_11
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132bd169f54fe6b6cb76c46380b75169
+      internalID: -1874875962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_12
+      rect:
+        serializedVersion: 2
+        x: 3640
+        y: 51
+        width: 220
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cfd2edee220231f3bee214a20c02e99
+      internalID: -1716464730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_13
+      rect:
+        serializedVersion: 2
+        x: 3940
+        y: 51
+        width: 220
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824d502643987430998931035800819b
+      internalID: -1871459436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_14
+      rect:
+        serializedVersion: 2
+        x: 4241
+        y: 51
+        width: 219
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1720f5f9be11cac8a08ab66258bfdf1
+      internalID: 2005290441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_15
+      rect:
+        serializedVersion: 2
+        x: 4534
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444836b674b6599ad950c9b14933369f
+      internalID: -1370796650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_16
+      rect:
+        serializedVersion: 2
+        x: 4834
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859c55e8684489c85a803d7789a6cc79
+      internalID: 129777535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_17
+      rect:
+        serializedVersion: 2
+        x: 5142
+        y: 51
+        width: 219
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e63f7bc30b109f99f1e7614af2212e
+      internalID: -1650781531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_18
+      rect:
+        serializedVersion: 2
+        x: 5435
+        y: 51
+        width: 234
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f5cbec38698ca3492caacda69b6bfa
+      internalID: -1305229083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_19
+      rect:
+        serializedVersion: 2
+        x: 5735
+        y: 51
+        width: 234
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b367fd38d449dddf0815fe77ebbc88d6
+      internalID: -1759182532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_20
+      rect:
+        serializedVersion: 2
+        x: 6035
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a960e95189780f40797bc99012852622
+      internalID: -2133079568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_21
+      rect:
+        serializedVersion: 2
+        x: 6335
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1202d27cb13b1674fa49dabab627e3b9
+      internalID: 1345742646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_22
+      rect:
+        serializedVersion: 2
+        x: 6636
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5056cb532c1ff0f70ac16c8b9fc8300d
+      internalID: -1182525662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_23
+      rect:
+        serializedVersion: 2
+        x: 6936
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf41460a5f20c60eb01b6e8e4123c24
+      internalID: -345114929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_24
+      rect:
+        serializedVersion: 2
+        x: 7236
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062d3fe4b1e9e494cad927f9d1610e4c
+      internalID: 382840298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_25
+      rect:
+        serializedVersion: 2
+        x: 7537
+        y: 51
+        width: 227
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33cb05414e643d92f832542246981d6e
+      internalID: -814564580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_26
+      rect:
+        serializedVersion: 2
+        x: 7837
+        y: 51
+        width: 227
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a001f775dc86a4c59496ffc6eeb605a
+      internalID: 1900742711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_27
+      rect:
+        serializedVersion: 2
+        x: 8137
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a61d0a5719fd3aa9b08611d3f5e7714
+      internalID: 605999346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_28
+      rect:
+        serializedVersion: 2
+        x: 8437
+        y: 51
+        width: 228
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b7df37d71cd46358c9b335ca3bd9da
+      internalID: -1514439476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_29
+      rect:
+        serializedVersion: 2
+        x: 8738
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a522530633c3d66b35a62e40c9a22a
+      internalID: 1826660874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_30
+      rect:
+        serializedVersion: 2
+        x: 9038
+        y: 51
+        width: 220
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04abf587e020d908813399b2805faf4
+      internalID: 85407938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_31
+      rect:
+        serializedVersion: 2
+        x: 9338
+        y: 51
+        width: 220
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e7c271a93b37f9d8ac84fb626b65a8
+      internalID: 1462182133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_32
+      rect:
+        serializedVersion: 2
+        x: 9639
+        y: 51
+        width: 219
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2910afef4b2971cf99736f507865e2a3
+      internalID: -1106153132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_33
+      rect:
+        serializedVersion: 2
+        x: 9939
+        y: 51
+        width: 227
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c636f419d4843459bb3ac0e9c3d818a
+      internalID: -86279088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_34
+      rect:
+        serializedVersion: 2
+        x: 10239
+        y: 51
+        width: 227
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538bdfd0f17ef1df6b81dbc43bc05522
+      internalID: -90705965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_35
+      rect:
+        serializedVersion: 2
+        x: 10540
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd42982cd840ca0c68ac6746fe26ccee
+      internalID: -1780037568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_36
+      rect:
+        serializedVersion: 2
+        x: 10840
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2418e5627cf0c5c6ba36371569f06a9
+      internalID: 1835308703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_37
+      rect:
+        serializedVersion: 2
+        x: 11140
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367cc0fbc9f9ded7d9ffeabdc1e98964
+      internalID: 932904774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_38
+      rect:
+        serializedVersion: 2
+        x: 11440
+        y: 51
+        width: 220
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e767f9e73067e8ab55a8229474060a
+      internalID: 1695076522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_39
+      rect:
+        serializedVersion: 2
+        x: 11741
+        y: 51
+        width: 219
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d039cc84cfba92b8ad0bc2c77043306
+      internalID: 1828232075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_40
+      rect:
+        serializedVersion: 2
+        x: 12041
+        y: 51
+        width: 220
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113b9b5adfc5ab2cf89a088501a6a42a
+      internalID: -622494349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_41
+      rect:
+        serializedVersion: 2
+        x: 12341
+        y: 51
+        width: 220
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374630aca749e4adda29fd78c6274367
+      internalID: 910722680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_42
+      rect:
+        serializedVersion: 2
+        x: 12634
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520a5c7a3ed1689048aa1b27c6113c7a
+      internalID: -693810966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_43
+      rect:
+        serializedVersion: 2
+        x: 12935
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9394d8d2e602dd41bbb41cbee5f66345
+      internalID: 1082071930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_44
+      rect:
+        serializedVersion: 2
+        x: 13235
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06025b3182ca69ee29abfef0e686448e
+      internalID: -1194783716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_45
+      rect:
+        serializedVersion: 2
+        x: 13535
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623e8425ba2f4e90fa4ebab7ce4f760b
+      internalID: -366129350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_46
+      rect:
+        serializedVersion: 2
+        x: 13835
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5106325a0bfac7b8caea4dfae2feb902
+      internalID: 1728925475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_47
+      rect:
+        serializedVersion: 2
+        x: 14136
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0060e9fbd3960f09c42caf93e2fd50
+      internalID: -1168041762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_48
+      rect:
+        serializedVersion: 2
+        x: 14443
+        y: 51
+        width: 220
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f207ba67b7d4213a1110afcb643560
+      internalID: -832047729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saturne_49
+      rect:
+        serializedVersion: 2
+        x: 14736
+        y: 51
+        width: 227
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22727c281a2d955181a7e7a7657d1b3
+      internalID: -818901083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Saturne_0: -364551257
+      Saturne_1: -487442432
+      Saturne_10: 18599635
+      Saturne_11: -1874875962
+      Saturne_12: -1716464730
+      Saturne_13: -1871459436
+      Saturne_14: 2005290441
+      Saturne_15: -1370796650
+      Saturne_16: 129777535
+      Saturne_17: -1650781531
+      Saturne_18: -1305229083
+      Saturne_19: -1759182532
+      Saturne_2: -1153474949
+      Saturne_20: -2133079568
+      Saturne_21: 1345742646
+      Saturne_22: -1182525662
+      Saturne_23: -345114929
+      Saturne_24: 382840298
+      Saturne_25: -814564580
+      Saturne_26: 1900742711
+      Saturne_27: 605999346
+      Saturne_28: -1514439476
+      Saturne_29: 1826660874
+      Saturne_3: 922579295
+      Saturne_30: 85407938
+      Saturne_31: 1462182133
+      Saturne_32: -1106153132
+      Saturne_33: -86279088
+      Saturne_34: -90705965
+      Saturne_35: -1780037568
+      Saturne_36: 1835308703
+      Saturne_37: 932904774
+      Saturne_38: 1695076522
+      Saturne_39: 1828232075
+      Saturne_4: -1783773569
+      Saturne_40: -622494349
+      Saturne_41: 910722680
+      Saturne_42: -693810966
+      Saturne_43: 1082071930
+      Saturne_44: -1194783716
+      Saturne_45: -366129350
+      Saturne_46: 1728925475
+      Saturne_47: -1168041762
+      Saturne_48: -832047729
+      Saturne_49: -818901083
+      Saturne_5: -933558680
+      Saturne_6: 805199352
+      Saturne_7: 365446788
+      Saturne_8: 1153057298
+      Saturne_9: -1826321004
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
