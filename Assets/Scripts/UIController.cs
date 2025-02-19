@@ -1,14 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UiController : MonoBehaviour
 {
 
     [SerializeField] private GameObject _panelStartAnimation;
     [SerializeField] private GameObject _menuPanel;
+    [SerializeField] private GameObject _continueGame;
     private Animator _animatorIntro;
     private bool _canStartGame = false;
+
     void Start()
     {
         _menuPanel.SetActive(false);
@@ -22,6 +25,7 @@ public class UiController : MonoBehaviour
         else
         {
             StartCoroutine(PlayIntro());
+
         }
     }
 
@@ -40,6 +44,14 @@ public class UiController : MonoBehaviour
 
         _panelStartAnimation.SetActive(false);
         _menuPanel.SetActive(true);
+        if (PlayerPrefs.GetInt("_hasAlreadyPlay", 0) == 1)
+        {
+            _continueGame.SetActive(true);
+        }
+        else
+        {
+            _continueGame.SetActive(false);
+        }
         PlayerPrefs.SetInt("_hasSeeIntro", 1);
     }
 
@@ -48,9 +60,12 @@ public class UiController : MonoBehaviour
         return Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began;
     }
 
-    void LoadScene()
+   
+
+    public void LeaveGame ()
     {
-        Debug.Log("Game");
+        //Debug.Log("Le jeu se ferme !");
+        Application.Quit();
     }
     void Update()
     {
