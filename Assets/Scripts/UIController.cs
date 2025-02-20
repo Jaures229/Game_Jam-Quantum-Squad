@@ -16,7 +16,7 @@ public class UiController : MonoBehaviour
 
 
     private Animator _animatorIntro;
-    private bool _canStartGame = false;
+    //private bool _canStartGame = false;
 
     void Start()
     {

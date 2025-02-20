@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
+    public static SceneLoader Instance { get; private set; }
+
     private static SceneLoader instance;
     [SerializeField] private string _sceneToLoad;
     private void Awake ()
