@@ -10,6 +10,11 @@ public class UiController : MonoBehaviour
     [SerializeField] private GameObject _menuPanel;
     [SerializeField] private GameObject _continueGame;
     [SerializeField] private AudioSource backgroundMusic;
+
+    [SerializeField] private AudioSource TouchingSound;
+    [SerializeField] private AudioClip buttonClickSound;
+
+
     private Animator _animatorIntro;
     private bool _canStartGame = false;
 
@@ -66,12 +71,25 @@ public class UiController : MonoBehaviour
         PlayerPrefs.SetInt("_hasSeeIntro", 1);
     }
 
+    // bool IsTouching()
+    // {
+
+    //     backgroundMusic.volume = Mathf.Clamp01(5.5f);
+    //     TouchingSound.Play();
+    //     return Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began;
+
+    // }
     bool IsTouching()
     {
-        return Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began;
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+        {
+            backgroundMusic.volume = Mathf.Clamp(backgroundMusic.volume * 0.2f, 0.1f, 1f); // Diminue de moitié
+            TouchingSound.Play();
+            return true;
+        }
+        return false;
     }
 
-   
 
     public void LeaveGame ()
     {
