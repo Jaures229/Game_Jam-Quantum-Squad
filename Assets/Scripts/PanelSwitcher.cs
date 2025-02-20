@@ -7,6 +7,7 @@ public class PanelSwitcher : MonoBehaviour
 {
     public GameObject[] panels; // Liste des panels à assigner dans l'inspecteur
     public GameObject finish_panel;
+    public GameObject game_panel;
     private int currentIndex = 0;
 
     void Start()
@@ -28,6 +29,7 @@ public class PanelSwitcher : MonoBehaviour
         } else {
             panels[currentIndex].SetActive(false);
             finish_panel.SetActive(false);
+            game_panel.SetActive(true);
         }
     }
 }
