@@ -17,6 +17,7 @@ public class PlayerControler : MonoBehaviour
 
         if (_joystick.Horizontal != 0 || _joystick.Vertical != 0)
         {
+            Debug.Log("moveeeee");
             Quaternion _targetRotation = Quaternion.LookRotation(transform.forward, _rigidbody.velocity);
             Quaternion _rotation = Quaternion.RotateTowards(transform.rotation, _targetRotation, _speedRotation * Time.deltaTime);
             _rigidbody.MoveRotation(_rotation);

@@ -8,7 +8,6 @@ public class StarSpawners : MonoBehaviour
     public int numberOfStars = 100;
     public float spawnRangeX = 10f;
     public float spawnRangeY = 10f;
-    public float starDespawnThreshold = 3f;
 
     private List<GameObject> stars = new List<GameObject>();
     private Camera cam;
@@ -27,39 +26,43 @@ public class StarSpawners : MonoBehaviour
 
     void Update()
     {
-        CheckStarsInView();
+        RemoveAndSpawnStars();
     }
 
     void SpawnStars()
     {
         for (int i = 0; i < numberOfStars; i++)
         {
-            float positionX = Random.Range(-spawnRangeX, spawnRangeX);
-            float positionY = Random.Range(-spawnRangeY, spawnRangeY);
-
-            Vector3 spawnPosition = new Vector3(positionX, positionY, 0f);
-            GameObject star = Instantiate(starPrefab, spawnPosition, Quaternion.identity);
-            stars.Add(star);
-
-            float randomScale = Random.Range(0.2f, 0.4f);
-            star.transform.localScale = new Vector3(randomScale, randomScale, 1f);
+            SpawnStarInView();
         }
     }
 
-    void CheckStarsInView()
+    void RemoveAndSpawnStars()
     {
-        foreach (GameObject star in stars)
+        List<GameObject> starsToRemove = new List<GameObject>();
+
+        for (int i = 0; i < stars.Count; i++)
         {
-            Vector3 starViewportPosition = cam.WorldToViewportPoint(star.transform.position);
-
-            if (starViewportPosition.x < 0 || starViewportPosition.x > 1 || starViewportPosition.y < 0 || starViewportPosition.y > 1)
+            if (!IsStarInView(stars[i]))
             {
-                Destroy(star);
-                stars.Remove(star);
-
-                SpawnStarInView();
+                starsToRemove.Add(stars[i]); // Marquer les étoiles à supprimer
             }
         }
+
+        // Supprimer et recréer les étoiles en dehors de la boucle de parcours
+        foreach (GameObject star in starsToRemove)
+        {
+            stars.Remove(star);
+            Destroy(star);
+            SpawnStarInView();
+        }
+    }
+
+    bool IsStarInView(GameObject star)
+    {
+        Vector3 starViewportPosition = cam.WorldToViewportPoint(star.transform.position);
+        return starViewportPosition.x >= 0 && starViewportPosition.x <= 1 &&
+               starViewportPosition.y >= 0 && starViewportPosition.y <= 1;
     }
 
     void SpawnStarInView()

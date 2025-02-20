@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b114db2b6dc87e94e88552b33c4f136c
+guid: 3bbd5be1b9fed304d9d68d904d707511
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,34 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bouton_shoot_00000_0
+      name: Missile_00000_0
       rect:
         serializedVersion: 2
-        x: 206
-        y: 260
-        width: 279
-        height: 214
+        x: 272
+        y: 301
+        width: 513
+        height: 156
+      alignment: 9
+      pivot: {x: 1.0780026, y: 0.6380881}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbca66250020f0946909192f156c8acb
+      internalID: -448765978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Missile_00000_1
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 276
+        width: 294
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16b9154010db7d04fb3d6b8f40cbc0b2
-      internalID: 1159439971
+      spriteID: e019927a5e771e14eb64f76db7b9766f
+      internalID: 1258156942
       vertices: []
       indices: 
       edges: []
@@ -141,7 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      bouton_shoot_00000_0: 1159439971
+      Missile_00000_0: -448765978
+      Missile_00000_1: 1258156942
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
