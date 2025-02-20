@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
     private static SceneLoader instance;
+    [SerializeField] private string _sceneToLoad;
     private void Awake ()
     {
         if (instance == null)
@@ -30,7 +31,7 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("LoadingScene");
         yield return null;
 
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("MainScene1");
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(_sceneToLoad);
         asyncLoad.allowSceneActivation = false;
 
         float minLoadingTime = 5f;

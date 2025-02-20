@@ -9,12 +9,14 @@ public class UiController : MonoBehaviour
     [SerializeField] private GameObject _panelStartAnimation;
     [SerializeField] private GameObject _menuPanel;
     [SerializeField] private GameObject _continueGame;
+    [SerializeField] private AudioSource backgroundMusic;
     private Animator _animatorIntro;
     private bool _canStartGame = false;
 
     void Start()
     {
         _menuPanel.SetActive(false);
+        PlayBackgroundMusic();
         _animatorIntro = _panelStartAnimation.GetComponent<Animator>();
         if (PlayerPrefs.GetInt("_hasSeeIntro", 0) == 1)
         {
@@ -26,6 +28,15 @@ public class UiController : MonoBehaviour
         {
             StartCoroutine(PlayIntro());
 
+        }
+    }
+
+    public void PlayBackgroundMusic()
+    {
+        if (backgroundMusic != null)
+        {
+            backgroundMusic.loop = true; // Assure que la musique se joue en boucle
+            backgroundMusic.Play();
         }
     }
 
