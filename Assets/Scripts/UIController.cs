@@ -8,6 +8,7 @@ public class UiController : MonoBehaviour
 
     [SerializeField] private GameObject _panelStartAnimation;
     [SerializeField] private GameObject _menuPanel;
+    [SerializeField] private GameObject _transiGame;
     [SerializeField] private GameObject _continueGame;
     [SerializeField] private AudioSource backgroundMusic;
 
@@ -16,11 +17,11 @@ public class UiController : MonoBehaviour
 
 
     private Animator _animatorIntro;
-    //private bool _canStartGame = false;
 
     void Start()
     {
         _menuPanel.SetActive(false);
+        _transiGame.SetActive(false);
         PlayBackgroundMusic();
         _animatorIntro = _panelStartAnimation.GetComponent<Animator>();
         if (PlayerPrefs.GetInt("_hasSeeIntro", 0) == 1)
@@ -40,7 +41,7 @@ public class UiController : MonoBehaviour
     {
         if (backgroundMusic != null)
         {
-            backgroundMusic.loop = true; // Assure que la musique se joue en boucle
+            backgroundMusic.loop = true;
             backgroundMusic.Play();
         }
     }
@@ -71,29 +72,25 @@ public class UiController : MonoBehaviour
         PlayerPrefs.SetInt("_hasSeeIntro", 1);
     }
 
-    // bool IsTouching()
-    // {
-
-    //     backgroundMusic.volume = Mathf.Clamp01(5.5f);
-    //     TouchingSound.Play();
-    //     return Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began;
-
-    // }
     bool IsTouching()
     {
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
-            backgroundMusic.volume = Mathf.Clamp(backgroundMusic.volume * 0.2f, 0.1f, 1f); // Diminue de moitié
+            backgroundMusic.volume = Mathf.Clamp(backgroundMusic.volume * 0.2f, 0.1f, 1f);
             TouchingSound.Play();
             return true;
         }
         return false;
     }
 
+    public void Trasi ()
+    {
+        _transiGame.SetActive(true);
+
+    }
 
     public void LeaveGame ()
     {
-        //Debug.Log("Le jeu se ferme !");
         Application.Quit();
     }
     void Update()

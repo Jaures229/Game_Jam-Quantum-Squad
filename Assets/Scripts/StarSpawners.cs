@@ -45,11 +45,10 @@ public class StarSpawners : MonoBehaviour
         {
             if (!IsStarInView(stars[i]))
             {
-                starsToRemove.Add(stars[i]); // Marquer les étoiles à supprimer
+                starsToRemove.Add(stars[i]);
             }
         }
 
-        // Supprimer et recréer les étoiles en dehors de la boucle de parcours
         foreach (GameObject star in starsToRemove)
         {
             stars.Remove(star);
@@ -74,7 +73,7 @@ public class StarSpawners : MonoBehaviour
         GameObject star = Instantiate(starPrefab, spawnPosition, Quaternion.identity);
         stars.Add(star);
 
-        float randomScale = Random.Range(0.2f, 0.4f);
+        float randomScale = Random.Range(0.1f, 0.3f);
         star.transform.localScale = new Vector3(randomScale, randomScale, 1f);
     }
 }

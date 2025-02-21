@@ -1,61 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    public static SceneLoader Instance { get; private set; }
+    
+    private Animator animator;
 
-    private static SceneLoader instance;
-    [SerializeField] private string _sceneToLoad;
-    private void Awake ()
+    [SerializeField] private List<GameObject> objectsToDisable; // Liste des objets à désactiver
+
+    private void Awake()
     {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        animator = GetComponent<Animator>();
     }
 
-    public void StartLoading()
+    public void StartSceneTransition(string sceneName)
     {
-        StartCoroutine(LoadSceneMainScene());
+        StartCoroutine(LoadSceneWithAnimation(sceneName));
     }
 
-    IEnumerator LoadSceneMainScene()
+    IEnumerator LoadSceneWithAnimation(string sceneName)
     {
-        SceneManager.LoadScene("LoadingScene");
-        yield return null;
-
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(_sceneToLoad);
-        asyncLoad.allowSceneActivation = false;
-
-        float minLoadingTime = 5f;
-        float timer = 0f;
-
-        while (!asyncLoad.isDone)
+        foreach (GameObject obj in objectsToDisable)
         {
-            timer += Time.deltaTime;
-            float progress = Mathf.Clamp01(asyncLoad.progress / 0.9f);
-            //Debug.Log("Chargement: " + (progress * 100) + "%");
-
-            if (asyncLoad.progress >= 0.9f && timer >= minLoadingTime)
-            {
-                asyncLoad.allowSceneActivation = true;
-            }
-
-            yield return null;
+            if (obj != null) obj.SetActive(false);
         }
-        Debug.Log("Game Loaded !");
+        animator.SetTrigger("Load");
+
+        yield return new WaitForSeconds(5f);
+
+        SceneManager.LoadScene(sceneName);
     }
-    //void Update()
-    //{
-        
-    //}
 }

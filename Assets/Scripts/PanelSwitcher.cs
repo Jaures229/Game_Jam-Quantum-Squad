@@ -8,11 +8,13 @@ public class PanelSwitcher : MonoBehaviour
     public GameObject[] panels; // Liste des panels à assigner dans l'inspecteur
     public GameObject finish_panel;
     public GameObject game_panel;
+    [SerializeField] private GameObject load;
     private int currentIndex = 0;
 
     void Start()
     {
         // Désactiver tous les panels sauf le premier
+        load.SetActive(false);
         for (int i = 0; i < panels.Length; i++)
         {
             panels[i].SetActive(i == 0);
@@ -31,5 +33,10 @@ public class PanelSwitcher : MonoBehaviour
             finish_panel.SetActive(false);
             game_panel.SetActive(true);
         }
+    }
+
+    public void Transi ()
+    {
+        load.SetActive(true);
     }
 }
