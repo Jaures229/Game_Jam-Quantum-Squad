@@ -92,6 +92,7 @@ public class UiController : MonoBehaviour
     public void LeaveGame ()
     {
         Application.Quit();
+        PlayerPrefs.SetInt("_hasSeeIntro", 0);
     }
     void Update()
     {
