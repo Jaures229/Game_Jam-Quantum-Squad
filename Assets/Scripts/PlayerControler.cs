@@ -20,7 +20,7 @@ public class PlayerControler : MonoBehaviour
         if (isMoving)
         {
             _animator.SetBool("Idle", isMoving);
-            Debug.Log("moveeeee");
+            //Debug.Log("moveeeee");
             Quaternion _targetRotation = Quaternion.LookRotation(transform.forward, _rigidbody.velocity);
             Quaternion _rotation = Quaternion.RotateTowards(transform.rotation, _targetRotation, _speedRotation * Time.deltaTime);
             _rigidbody.MoveRotation(_rotation);
