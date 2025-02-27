@@ -24,6 +24,7 @@ public class UiController : MonoBehaviour
         _transiGame.SetActive(false);
         PlayBackgroundMusic();
         _animatorIntro = _panelStartAnimation.GetComponent<Animator>();
+        PlayerPrefs.SetString("_currentScene", "MainScene1");
         if (PlayerPrefs.GetInt("_hasSeeIntro", 0) == 1)
         {
             _panelStartAnimation.SetActive(false);
@@ -86,7 +87,6 @@ public class UiController : MonoBehaviour
     public void Trasi ()
     {
         _transiGame.SetActive(true);
-
     }
 
     public void LeaveGame ()

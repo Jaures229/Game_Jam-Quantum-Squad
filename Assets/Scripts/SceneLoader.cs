@@ -8,7 +8,7 @@ public class SceneLoader : MonoBehaviour
     
     private Animator animator;
 
-    [SerializeField] private List<GameObject> objectsToDisable; // Liste des objets à désactiver
+    [SerializeField] private List<GameObject> objectsToDisable;
 
     private void Awake()
     {
@@ -31,5 +31,6 @@ public class SceneLoader : MonoBehaviour
         yield return new WaitForSeconds(5f);
 
         SceneManager.LoadScene(sceneName);
+        PlayerPrefs.SetString("_currentScene", sceneName);
     }
 }
