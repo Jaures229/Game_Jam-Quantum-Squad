@@ -8,6 +8,7 @@ public class Transition : MonoBehaviour
     [SerializeField] private GameObject _stagesPanel;
     [SerializeField] private GameObject _optionsPanel;
     [SerializeField] private GameObject _menuPanel;
+    //private Animator anim;
 
     private void Start()
     {
@@ -44,6 +45,12 @@ public class Transition : MonoBehaviour
         _stagesPanel.SetActive(true);
         _menuPanel.SetActive(false);
     }
+
+    public void PressButton (Animator anim)
+    {
+        anim.SetTrigger("Pressed");
+    }
+
     public void TransiToExit()
     {
         Application.Quit();
