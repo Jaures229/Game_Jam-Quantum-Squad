@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 using System.Collections.Generic;
+using UnityEngine.UI;
+using TMPro;
 
 public class DragAndDropUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
@@ -75,17 +77,16 @@ public class DragAndDropUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         if (currentTarget != null)
         {
             RectTransform targetRect = currentTarget.GetComponent<RectTransform>();
-
+            Image targetImage = currentTarget.GetComponent<Image>();
+            PlanetController TargetplanetController = currentTarget.GetComponent<PlanetController>();
+ 
             if (targetRect != null)
             {
-                rectTransform.position = targetRect.position; 
-                rectTransform.localScale = targetRect.localScale;
-                rectTransform.sizeDelta = targetRect.sizeDelta;
+                targetImage.color = new Color(255, 255, 255);
+                TargetplanetController.activated = true;
+                TargetplanetController.planetTextGameobject.SetActive(true);
             }
-
-            currentTarget.SetActive(false);
-            currentTarget = null;
-            //isPlaced = true;
+            gameObject.SetActive(false);
             DragAndDropManager.Instance.ObjectPlaced();
         }
         else
