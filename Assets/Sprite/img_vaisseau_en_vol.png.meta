@@ -1,0 +1,2076 @@
+fileFormatVersion: 2
+guid: 20f78127a467e5d4299ef24fdbf14787
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2758.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83710d9aa759c2c42a08afb47323ba69
+      internalID: -1978962801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_1
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 2758.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc03ef8f0acd4b48840dd77778ac112
+      internalID: -241269375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_2
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 2758.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f18e37000904f4eae10ed412c4a1fb
+      internalID: -991454040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_3
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 2758.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d1270ddbdc8de48a8add32a5edc2f2
+      internalID: 1358732372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_4
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 2758.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b55c720065ab44395cc621d9544512
+      internalID: -1987131124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_5
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 2758.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1bebf7ccf8918478fd2ea3525bcc65
+      internalID: -293439999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_6
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 2758.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d7a92a687aae648b7efd45fa110087
+      internalID: 91875542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_7
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 2758.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11402380704c4b4e8b929693df51821
+      internalID: -168955677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_8
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 2758.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfc870ffb513244f9c1a0177d5e7c28
+      internalID: 543687749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_9
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 2758.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c55f61cd95d75a4aae503d831304bf4
+      internalID: -356319353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2414.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61330ce9b6f55a458cee98dd531f4e1
+      internalID: -1751144510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_11
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 2414.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e24085c1155e3147b2f8a9e948c7511
+      internalID: -2130798244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_12
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 2414.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b6d5d211224654f8f5869dafa092f2
+      internalID: 1461749386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_13
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 2414.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d55c40198cb41458adb9566c25aded
+      internalID: 269808110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_14
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 2414.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94489cbf494aee1439a34fffb14b8224
+      internalID: 368236605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_15
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 2414.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3431846f7fce337478261a23129269f7
+      internalID: 286945226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_16
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 2414.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f9444f161c2ea4d87036e7e7e460c8
+      internalID: -1240193191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_17
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 2414.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fdfbf4cd81d054ba55f7c8cae61957
+      internalID: -671199761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_18
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 2414.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcdc45af2800d240a4bb3e1db68e0bc
+      internalID: 221228091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_19
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 2414.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9aca8c9e0de13f499d879920727d8ee
+      internalID: -1235449993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2070.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6130bc59bedbfd847be1620f84076694
+      internalID: 865487302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_21
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 2070.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aef8a8a1a1e0a6498978bbff8e16b4d
+      internalID: 1951159098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_22
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 2070.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be07fc4802760a84989fd4350e5be27b
+      internalID: 663976546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_23
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 2070.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f2f264d34157244afcbaef7f3e88b2
+      internalID: 814098268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_24
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 2070.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40608c06bf0bb144abedca177752dd75
+      internalID: 1623656594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_25
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 2070.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2e54556f8746246ad1784c3bc7abde
+      internalID: 1926339207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_26
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 2070.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0312366933457a438969abe69f613fa
+      internalID: 1075820502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_27
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 2070.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d42d0b55515c64b81d6f3cb47e187a
+      internalID: 1811446357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_28
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 2070.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b5e3ac444580046bdb32776b600d0b
+      internalID: -712633362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_29
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 2070.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff37416aa331b1944b02da0ab4d98c11
+      internalID: 123855686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1726.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b290ea3d64128a14e8bc908fdbd307ee
+      internalID: 495260194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_31
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1726.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f4ec48189d67c4f8a75504a7df96be
+      internalID: -1341169654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_32
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1726.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54ce8f3f015b3b4cacb76c40ddc1c90
+      internalID: -1535599046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_33
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1726.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86c1407ccba7044a9e2d46ba0ec6086
+      internalID: 1062973832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_34
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 1726.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b03025ab88f3a41a23e1fce6aafe54
+      internalID: 371101488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_35
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 1726.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b57253b926b183438c575a60529d491
+      internalID: -1955183157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_36
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 1726.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6b64efcbb95824e9db17213f39aa41
+      internalID: -1029750134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_37
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 1726.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba8c0edd46e57e42a2b16b8986f1fc2
+      internalID: 2104419370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_38
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 1726.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e16b13554b35b549891e7c21c84b80d
+      internalID: -1169481032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_39
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 1726.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825d344dfdc2b954babd2a47df8fb9e8
+      internalID: 1455936573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1382.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15d2dacf5788654b90bfe1830b7de1b
+      internalID: -1295000187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_41
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1382.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b167a5ec4d7604db7d0dd04ad6856a
+      internalID: -1692551935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_42
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1382.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a4fec635bf7a44ba737224bec6b339
+      internalID: 937424602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_43
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1382.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a282d690f713341bcfa7caddfd21eb
+      internalID: -1905762601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_44
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 1382.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73510acd6973b2c4cbd66c8e23642fd8
+      internalID: -544551949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_45
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 1382.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c76e8b5f3267814fa10479048c5a498
+      internalID: -1032658510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_46
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 1382.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee7b776cf131f54e8ffc94d4ad71209
+      internalID: 809622988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_47
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 1382.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7484af963474c054cb61d0e75e84159d
+      internalID: -528216559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_48
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 1382.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427b55c5be88f8140a8bf23952ef0807
+      internalID: 1782989394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_49
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 1382.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ca94b72a75bb64db5ca4263574f03a
+      internalID: -419040068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1038.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f849727a3fedb6b43ad7fc59779f0911
+      internalID: -147669440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_51
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1038.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba1c3105dc1f374ab01e876163c2425
+      internalID: 874889908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_52
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1038.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9e80ee624d2ca41a443b8b865bc8b0
+      internalID: 813842258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_53
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1038.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17ab5d4ba67b344c91874a83cc34f56
+      internalID: -1311869934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_54
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 1038.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08609142962e6c4fa9a51e7f1c6dfaa
+      internalID: 1442151840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_55
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 1038.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0e7d3c8c3b47a46818ca0135a0de5e
+      internalID: 1003837542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_56
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 1038.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb95e7d87c7371640aa8ebbcc8712eeb
+      internalID: -1298093448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_57
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 1038.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13639a3f01ae34149b5d7eaf342b462b
+      internalID: -764042445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_58
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 1038.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f26ad1c28f1ff041906d264a2cb9b31
+      internalID: -1176189799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_59
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 1038.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20495fe2e585cea43b4574b4b77226b4
+      internalID: -1026335776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 694.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1442b5982e7633a4eab16d79fc30633c
+      internalID: -1221200730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_61
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 694.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52afc61567f24464a86539751485027d
+      internalID: 1272010860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_62
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 694.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cc52c501f133d46b42e45f6049021e
+      internalID: -1732396759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_63
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 694.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa79ea76982ce234a85c33f262affdf6
+      internalID: 1200408174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_64
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 694.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e34bd22ed52b5c43aace26fc1107d7d
+      internalID: -343320692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_65
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 694.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b69e9ed6d0741d438ba30cd12e52cca
+      internalID: -251328984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_66
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 694.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6174ac20c79734f8fa9dacc0820c10
+      internalID: -1402601245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_67
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 694.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb256ca67e980be43a5c7b29f5069e24
+      internalID: -352896540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_68
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 694.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881d38e2adf7834489c70a80f4988262
+      internalID: 1983087013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_69
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 694.2222
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8d3d641672076449a0d85e402dd427
+      internalID: 1860122718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350.22223
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9381a800c9942cc439b5049ffe466ed5
+      internalID: 255894225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_71
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 350.22223
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f705248c81aed594dafb00361e8747f0
+      internalID: -570258117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_72
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 350.22223
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406397fe895fcb34da90782799ed7994
+      internalID: 1966345924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_73
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 350.22223
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd734a7097750943af3964b4c82c4ff
+      internalID: -1952149120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_74
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 350.22223
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d25aa9fb9d0f0347b61e4cc3fafa64e
+      internalID: -356789811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_75
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 350.22223
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc4fc1e9f336fa4dac5991c49114c87
+      internalID: -782727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_76
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 350.22223
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ed0d20974e3e64b94a4cf68e758338
+      internalID: 1348008886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_77
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 350.22223
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f256025984123ad4eb65323a5e64eadc
+      internalID: -765731528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_78
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 350.22223
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39b8171ed042f84db053b499464a7c0
+      internalID: 407323687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_79
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 350.22223
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c58243eef97ee24cb1fc68810898246
+      internalID: -1573291528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6.222229
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2666dd3ef976b7046adf866df7a09717
+      internalID: -34819164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_81
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 6.222229
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d8a8a4f6d79044c846fcb26958458b
+      internalID: 619993259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_82
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 6.222229
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b7dd13b86bec943b2e879a3b211b54
+      internalID: -1662702285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_83
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 6.222229
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c33be1cb05448543839894de0214256
+      internalID: 1641034558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_84
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 6.222229
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f90f2a9d068ef4d8a16bff456217e0
+      internalID: -1817466465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_85
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 6.222229
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c039a18d3ecd207418ba594c6dac1c5d
+      internalID: 1754831900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_86
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 6.222229
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078a8a9c3514c6f4f8185bf73db9ea03
+      internalID: 292800571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_vaisseau_en_vol_87
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 6.222229
+        width: 261.8
+        height: 344.77777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3faf0ba3a80c7443a7ce47bb1b5ae54
+      internalID: -499776805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      img_vaisseau_en_vol_0: -1978962801
+      img_vaisseau_en_vol_1: -241269375
+      img_vaisseau_en_vol_10: -1751144510
+      img_vaisseau_en_vol_11: -2130798244
+      img_vaisseau_en_vol_12: 1461749386
+      img_vaisseau_en_vol_13: 269808110
+      img_vaisseau_en_vol_14: 368236605
+      img_vaisseau_en_vol_15: 286945226
+      img_vaisseau_en_vol_16: -1240193191
+      img_vaisseau_en_vol_17: -671199761
+      img_vaisseau_en_vol_18: 221228091
+      img_vaisseau_en_vol_19: -1235449993
+      img_vaisseau_en_vol_2: -991454040
+      img_vaisseau_en_vol_20: 865487302
+      img_vaisseau_en_vol_21: 1951159098
+      img_vaisseau_en_vol_22: 663976546
+      img_vaisseau_en_vol_23: 814098268
+      img_vaisseau_en_vol_24: 1623656594
+      img_vaisseau_en_vol_25: 1926339207
+      img_vaisseau_en_vol_26: 1075820502
+      img_vaisseau_en_vol_27: 1811446357
+      img_vaisseau_en_vol_28: -712633362
+      img_vaisseau_en_vol_29: 123855686
+      img_vaisseau_en_vol_3: 1358732372
+      img_vaisseau_en_vol_30: 495260194
+      img_vaisseau_en_vol_31: -1341169654
+      img_vaisseau_en_vol_32: -1535599046
+      img_vaisseau_en_vol_33: 1062973832
+      img_vaisseau_en_vol_34: 371101488
+      img_vaisseau_en_vol_35: -1955183157
+      img_vaisseau_en_vol_36: -1029750134
+      img_vaisseau_en_vol_37: 2104419370
+      img_vaisseau_en_vol_38: -1169481032
+      img_vaisseau_en_vol_39: 1455936573
+      img_vaisseau_en_vol_4: -1987131124
+      img_vaisseau_en_vol_40: -1295000187
+      img_vaisseau_en_vol_41: -1692551935
+      img_vaisseau_en_vol_42: 937424602
+      img_vaisseau_en_vol_43: -1905762601
+      img_vaisseau_en_vol_44: -544551949
+      img_vaisseau_en_vol_45: -1032658510
+      img_vaisseau_en_vol_46: 809622988
+      img_vaisseau_en_vol_47: -528216559
+      img_vaisseau_en_vol_48: 1782989394
+      img_vaisseau_en_vol_49: -419040068
+      img_vaisseau_en_vol_5: -293439999
+      img_vaisseau_en_vol_50: -147669440
+      img_vaisseau_en_vol_51: 874889908
+      img_vaisseau_en_vol_52: 813842258
+      img_vaisseau_en_vol_53: -1311869934
+      img_vaisseau_en_vol_54: 1442151840
+      img_vaisseau_en_vol_55: 1003837542
+      img_vaisseau_en_vol_56: -1298093448
+      img_vaisseau_en_vol_57: -764042445
+      img_vaisseau_en_vol_58: -1176189799
+      img_vaisseau_en_vol_59: -1026335776
+      img_vaisseau_en_vol_6: 91875542
+      img_vaisseau_en_vol_60: -1221200730
+      img_vaisseau_en_vol_61: 1272010860
+      img_vaisseau_en_vol_62: -1732396759
+      img_vaisseau_en_vol_63: 1200408174
+      img_vaisseau_en_vol_64: -343320692
+      img_vaisseau_en_vol_65: -251328984
+      img_vaisseau_en_vol_66: -1402601245
+      img_vaisseau_en_vol_67: -352896540
+      img_vaisseau_en_vol_68: 1983087013
+      img_vaisseau_en_vol_69: 1860122718
+      img_vaisseau_en_vol_7: -168955677
+      img_vaisseau_en_vol_70: 255894225
+      img_vaisseau_en_vol_71: -570258117
+      img_vaisseau_en_vol_72: 1966345924
+      img_vaisseau_en_vol_73: -1952149120
+      img_vaisseau_en_vol_74: -356789811
+      img_vaisseau_en_vol_75: -782727
+      img_vaisseau_en_vol_76: 1348008886
+      img_vaisseau_en_vol_77: -765731528
+      img_vaisseau_en_vol_78: 407323687
+      img_vaisseau_en_vol_79: -1573291528
+      img_vaisseau_en_vol_8: 543687749
+      img_vaisseau_en_vol_80: -34819164
+      img_vaisseau_en_vol_81: 619993259
+      img_vaisseau_en_vol_82: -1662702285
+      img_vaisseau_en_vol_83: 1641034558
+      img_vaisseau_en_vol_84: -1817466465
+      img_vaisseau_en_vol_85: 1754831900
+      img_vaisseau_en_vol_86: 292800571
+      img_vaisseau_en_vol_87: -499776805
+      img_vaisseau_en_vol_9: -356319353
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

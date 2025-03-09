@@ -49,7 +49,7 @@ public class UiController : MonoBehaviour
 
     IEnumerator PlayIntro()
     {
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(15f);
 
         _animatorIntro.SetBool("part2", true);
 
@@ -58,7 +58,7 @@ public class UiController : MonoBehaviour
         _animatorIntro.SetBool("part2", false);
         _animatorIntro.SetBool("part3", true);
 
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(10f);
 
         _panelStartAnimation.SetActive(false);
         _menuPanel.SetActive(true);
