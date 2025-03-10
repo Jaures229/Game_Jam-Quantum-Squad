@@ -1,0 +1,3031 @@
+fileFormatVersion: 2
+guid: 44b838b84cfe2fa96aef88d1c25a90aa
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jupiter_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345480b4d13ab9e5781f98603681d0a7
+      internalID: -1895104174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_1
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3866237e0ea620f48e7869ba47a4bba
+      internalID: -181742004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_2
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 2878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d539bea28c00e20bb0264d18862ead
+      internalID: -2118175517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_3
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 2878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8411ceba78dd5838c897e7742c7b11e8
+      internalID: -127307807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_4
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 2878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9119cb54cc51878e691ac7c5cf2a0df5
+      internalID: 1292450171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_5
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 2878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644c54ef7387bb6d7a7067f67bf8b65b
+      internalID: 103779565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_6
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 2878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa0cd564ecbba869a7cd37be40f2ce5
+      internalID: 1714020383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_7
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 2878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4783ecbd573f7bee5856ae7b633b3eef
+      internalID: 581022286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_8
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 2878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609344450a449350f8bcf11e95ea6820
+      internalID: 1732496156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_9
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 2878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b2f777d0d7ca8b4ac96f7a52a15309
+      internalID: -1274981950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_10
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 2878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e343c9e15f66305cd83d106dadf1ddee
+      internalID: 1683264936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfbff1113e305ffcba834b71846d1911
+      internalID: 325463827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_12
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a73fbffda9d23890abd5fe206b6941b
+      internalID: -236966161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_13
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 2628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc85d47b9300cb9b5b2e2193c9c9af3c
+      internalID: 1941783960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_14
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 2628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7173cae1331484745a401e9e9fb78eef
+      internalID: -478931712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_15
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 2628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbff381866777c487bb86e561030c68d
+      internalID: 1455795408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_16
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 2628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa97c864f5a4f49f2bfd7a8aca5bb601
+      internalID: 834053898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_17
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 2628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07ff05334e5196bcad5d502e1a46dd6
+      internalID: 1760243106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_18
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 2628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f7b2724ce547b1bb6d801de70f15e0
+      internalID: -1676593263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_19
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 2628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc7ff27a2e84cbc7a62cec544fffbdd
+      internalID: 278786766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_20
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 2628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839ff245948957bbe98419687d2c6f4a
+      internalID: 1196034096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_21
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 2628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8490b3f863f7b9893810244962980b68
+      internalID: -1568827801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1a691da3617b296b75976162512841
+      internalID: 100547759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_23
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67af707d99635a56874d468c8952628
+      internalID: -197939207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_24
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 2378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97adbaf0095457ecfac5ee2278fc0d2b
+      internalID: 1676995713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_25
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 2378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3b9f3ec9334c78faa0997dcab4103e
+      internalID: 441070013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_26
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 2378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9703b4dcf92a5bb64b512647fbc67dd9
+      internalID: 1064462129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_27
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 2378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f4b890075bcefcc86d74bafc5e3dd8
+      internalID: -384507689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_28
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 2378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c677ed5150a947cbe4cf1e1d23313f
+      internalID: -977301730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_29
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 2378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3a56695cea372399f89f13dc6b61b5
+      internalID: 1026166912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_30
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 2378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ee5d0ec617f7f4d9ab702be02d94c5
+      internalID: 583496538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_31
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 2378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb32a31dfcd2e7ae8f48b825b1337a3
+      internalID: -268175750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_32
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 2378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490dc083c56e8b98a98029364036fc0c
+      internalID: -1278385154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3891e906c1dd0d9be0ef321ce92989
+      internalID: -1782670951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_34
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160c6cac54bf0c2f2aaaa91264c52fd2
+      internalID: 1235127524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_35
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 2128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1545bc1def7842422a2fb10dbc494bf6
+      internalID: 545201834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_36
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 2128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc2654e3bc5d44eabe2ecbe44de7102
+      internalID: -1442596739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_37
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 2128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5671757384175bfdaa42716a86f09ef
+      internalID: 1860767674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_38
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 2128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac8da00e337d13429a7dc0b76ee099c
+      internalID: 2108355927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_39
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 2128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d539435a640881d0d947cd6d73b51789
+      internalID: -558284127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_40
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 2128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d9ed992d42d00529cc6456e6b8cf77
+      internalID: -445179203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_41
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 2128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6d7aa19da45b321a430c07c6664f3e
+      internalID: -2014434561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_42
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 2128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774e0c7c4dd9aae4c9fccbf31490b3f7
+      internalID: 2016230722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_43
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 2128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89b81fb787d645ac9e2d5c77115b8bd
+      internalID: 340440917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f4521a67e4c423dada2f7ad2350762
+      internalID: -909322520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_45
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64497adaa7048cdfba1016fc1dacc2b6
+      internalID: 2102065874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_46
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65668bafbe22cc540ab13628ff3341f8
+      internalID: -680197214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_47
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e77a6b8d9c85298aa7878039b3dd62
+      internalID: 285943122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_48
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34af30ba2f0f14ff88877243c3cd9ebf
+      internalID: 1593414649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_49
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0fc8f438f5abfb4839650bec1bbe50
+      internalID: 1016342505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_50
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a48cd2e1e43e045bd3f244ff1921c1
+      internalID: 731237071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_51
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 1878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b56e370987f29259c26d4195ad3cc9
+      internalID: -1020825492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_52
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 1878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6becebdd966c70f8897e61a2151e588a
+      internalID: -1784891386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_53
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 1878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9814563820be0e231a6e15fa3f519582
+      internalID: -1560594223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_54
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 1878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870799182b32414bfbbb4549b02d2447
+      internalID: -558606862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46721e388bce0b259604ba128d54087
+      internalID: -1333824204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_56
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ecd905d54f16088eb62a32363588886
+      internalID: -447572530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_57
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4228df3f92759bb46b78558af3608d48
+      internalID: -2126607972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_58
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2285b2b91745aaa15ac02ce1c381f6a5
+      internalID: -664800674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_59
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11b44b9ed77503dfbae8addec7a42ff
+      internalID: 1774523972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_60
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d16514b292519b4a1d27323d812b9f
+      internalID: -1287144796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_61
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0666ff8052a43b816a749fdaa86a4e4c
+      internalID: -1803967247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_62
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 1628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0141bd73ca29bb5ba813e12d53d0f233
+      internalID: 1584644923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_63
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 1628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4ebbcdd132cf5b982c9469093344dd
+      internalID: -1348883444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_64
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 1628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1faded5a5ca6a8ba10de255d069cea
+      internalID: -1442132177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_65
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 1628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5139797afad2c0b7cbb96d14b149cf4a
+      internalID: -1520486455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4b8efbda79395a897f960520de5701
+      internalID: -2104526179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_67
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24642cae84a85d3dd94791cc12d8bb37
+      internalID: 1509434538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_68
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24523bb86b97b44feb047f3f4290a8c5
+      internalID: -1531243394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_69
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cea10e4d78e821e694b198a90b4e54a
+      internalID: 73200128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_70
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef69a67ee61e7a1488cd3b464d5d3e23
+      internalID: -1302760140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_71
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0186d818ed54f5ff1a794f50effa5992
+      internalID: -32063659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_72
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f82b3c92356c6cf8f9c276bc62243e
+      internalID: 657349925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_73
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 1378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8beded4b11c857047b3b6a346b1b021b
+      internalID: -1225099988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_74
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 1378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4329943f84d90bf1288abf96a4902edd
+      internalID: 1260980780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_75
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 1378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8f58265337449f7a96d4d4dd198208
+      internalID: 1126565107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_76
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 1378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05bb72dca14a0271881f0013c482265f
+      internalID: 1871032014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80ff6508448d771e99b5c122e5d105c
+      internalID: 291984419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_78
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e809fbf1204344e8843384f2a26538
+      internalID: -89139877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_79
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af5e88b6569e4c59a6dfee89429adcb
+      internalID: -1699418856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_80
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39b366738d67be52a0af1ea2772f36c
+      internalID: 1395944920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_81
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4defda28f60c84888cd8b1cb876b42
+      internalID: -1503776687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_82
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68a5bf766462443ea72af14574ce16d
+      internalID: 1164486876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_83
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18ea340eaddc7328bf4d23b48800339
+      internalID: -220779835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_84
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 1128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0599049d46dc58799a64c533ef12f4
+      internalID: -2046592676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_85
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 1128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600f4b5c5cfa1bb25b5b6d24abb06420
+      internalID: 1878266440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_86
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 1128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ff010647bb976c395c5f13c430cd30
+      internalID: 1957336299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_87
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 1128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55b2d4e9a01b7fe88d893070262c139
+      internalID: -2131162603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a491512e9f3acd5d785213967a32e6b1
+      internalID: -641527489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_89
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6bbf1546418016f9815f18d506cebe
+      internalID: 575061703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_90
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ecd2762ad57a649868dbf6b6debd7e
+      internalID: 1358165543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_91
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fadf8eefc0c9b29f9395b117f49d392
+      internalID: 329346854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_92
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b95f9ba3b8615eca1d688572c69dd9
+      internalID: 1266732486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_93
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce252e881975cf9d3b4fb97b37e0571e
+      internalID: 1670289153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_94
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3855a9b7eb5c1e04dbd95b82ec80af16
+      internalID: -805852330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_95
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f7568c8bf97e68ca6af320dd26233b
+      internalID: 2008541210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_96
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f6d405de02deaea95fc151ea958153
+      internalID: 2034809302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_97
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d161e0e1ebf7d8e8c3b3f7eafc9188
+      internalID: 748916115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_98
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 878
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106fa563a9135a64c88aed0e6cf6cf6a
+      internalID: -378546499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef67f7436fa1b821bafc3d3f402bf87
+      internalID: 376150839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_100
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8ff848ca590e1239c05dbfef2bd8a5
+      internalID: -1333514560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_101
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f14e31a88de6548588d4b7df4a9990e
+      internalID: -274055312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_102
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b564bf3b107c2f08aa357f1f974e09dd
+      internalID: 2040192325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_103
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08a034b64bbce2a2b4cfc9ee964623b
+      internalID: 1185378564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_104
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28f7628da5569549b1e9e2dccf5a735
+      internalID: 2119753944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_105
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b616eeb407da91eaeb4d4878511d50
+      internalID: 1963834353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_106
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fffd00eb94e05291bb1253b13d52ae3
+      internalID: 1243842202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_107
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f9fd1b7b1ceb4a28bc0178445477ba
+      internalID: -1566122186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_108
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1bc16ebc76df4bd80e6b5ba5ecaf4a
+      internalID: 1199345862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_109
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 628
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289cb67ab9127f8f086054afccf8fb88
+      internalID: 152220133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08061617ecc6bd0339f1a72ef7d2fc69
+      internalID: -1657057058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_111
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a30dcee0686870aa386353664fd7ad
+      internalID: -1161155004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_112
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567e217bf71b794849f5b35015540d03
+      internalID: 370053115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_113
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5a9d01cc2fcf92899c2e6f810eaa44
+      internalID: 918776745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_114
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3b1899fa855275a93fd67bfcf64d4a
+      internalID: 2100473263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_115
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2fdf503ba912cd4aa6cfe59f4962429
+      internalID: -1905397931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_116
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a7a2c50ef387103b77d4ae46374cb6
+      internalID: -32709632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_117
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192853468c63274aa9b35052d43321d6
+      internalID: 1875222338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_118
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4751bf5a573ba0095819ddc98c159a06
+      internalID: -262083664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_119
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18b48d12c130d8d4a4c7f8a3e7eaf28
+      internalID: -1478361047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_120
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 378
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbe68abb438183ebbda145ff4981d0a
+      internalID: 287041107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_121
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f658d26aa21f2c6b9672a3c8400961
+      internalID: -1728987798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_122
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780af60163c108b59a2adea5c597fccc
+      internalID: -1168821892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_123
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad399c1a97a43faf4a54e3dc640cc8a7
+      internalID: 53389577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_124
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bd637939be6f7fca78ed8c180ec44d
+      internalID: -1114341400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_125
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bb785fd7c7d65bb9a66b9844bdd4a3
+      internalID: -572411273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_126
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f15bd2f1455b8c29b407561c0a64924
+      internalID: 761926263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_127
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ff8ea652e8fbc17853562bd4de0435
+      internalID: -1931850113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_128
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b2e7e72dc405e929f96050a7038715
+      internalID: 1941862436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_129
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013c5ded4c23ff2c68bd033fa7edb536
+      internalID: 138895072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_130
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c56e318e524b823972d2d524a8830e
+      internalID: -430862585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jupiter_131
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 128
+        width: 262
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4edd11c5e83f08488f9a2c759064685
+      internalID: 699795383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      jupiter_0: -1895104174
+      jupiter_1: -181742004
+      jupiter_10: 1683264936
+      jupiter_100: -1333514560
+      jupiter_101: -274055312
+      jupiter_102: 2040192325
+      jupiter_103: 1185378564
+      jupiter_104: 2119753944
+      jupiter_105: 1963834353
+      jupiter_106: 1243842202
+      jupiter_107: -1566122186
+      jupiter_108: 1199345862
+      jupiter_109: 152220133
+      jupiter_11: 325463827
+      jupiter_110: -1657057058
+      jupiter_111: -1161155004
+      jupiter_112: 370053115
+      jupiter_113: 918776745
+      jupiter_114: 2100473263
+      jupiter_115: -1905397931
+      jupiter_116: -32709632
+      jupiter_117: 1875222338
+      jupiter_118: -262083664
+      jupiter_119: -1478361047
+      jupiter_12: -236966161
+      jupiter_120: 287041107
+      jupiter_121: -1728987798
+      jupiter_122: -1168821892
+      jupiter_123: 53389577
+      jupiter_124: -1114341400
+      jupiter_125: -572411273
+      jupiter_126: 761926263
+      jupiter_127: -1931850113
+      jupiter_128: 1941862436
+      jupiter_129: 138895072
+      jupiter_13: 1941783960
+      jupiter_130: -430862585
+      jupiter_131: 699795383
+      jupiter_14: -478931712
+      jupiter_15: 1455795408
+      jupiter_16: 834053898
+      jupiter_17: 1760243106
+      jupiter_18: -1676593263
+      jupiter_19: 278786766
+      jupiter_2: -2118175517
+      jupiter_20: 1196034096
+      jupiter_21: -1568827801
+      jupiter_22: 100547759
+      jupiter_23: -197939207
+      jupiter_24: 1676995713
+      jupiter_25: 441070013
+      jupiter_26: 1064462129
+      jupiter_27: -384507689
+      jupiter_28: -977301730
+      jupiter_29: 1026166912
+      jupiter_3: -127307807
+      jupiter_30: 583496538
+      jupiter_31: -268175750
+      jupiter_32: -1278385154
+      jupiter_33: -1782670951
+      jupiter_34: 1235127524
+      jupiter_35: 545201834
+      jupiter_36: -1442596739
+      jupiter_37: 1860767674
+      jupiter_38: 2108355927
+      jupiter_39: -558284127
+      jupiter_4: 1292450171
+      jupiter_40: -445179203
+      jupiter_41: -2014434561
+      jupiter_42: 2016230722
+      jupiter_43: 340440917
+      jupiter_44: -909322520
+      jupiter_45: 2102065874
+      jupiter_46: -680197214
+      jupiter_47: 285943122
+      jupiter_48: 1593414649
+      jupiter_49: 1016342505
+      jupiter_5: 103779565
+      jupiter_50: 731237071
+      jupiter_51: -1020825492
+      jupiter_52: -1784891386
+      jupiter_53: -1560594223
+      jupiter_54: -558606862
+      jupiter_55: -1333824204
+      jupiter_56: -447572530
+      jupiter_57: -2126607972
+      jupiter_58: -664800674
+      jupiter_59: 1774523972
+      jupiter_6: 1714020383
+      jupiter_60: -1287144796
+      jupiter_61: -1803967247
+      jupiter_62: 1584644923
+      jupiter_63: -1348883444
+      jupiter_64: -1442132177
+      jupiter_65: -1520486455
+      jupiter_66: -2104526179
+      jupiter_67: 1509434538
+      jupiter_68: -1531243394
+      jupiter_69: 73200128
+      jupiter_7: 581022286
+      jupiter_70: -1302760140
+      jupiter_71: -32063659
+      jupiter_72: 657349925
+      jupiter_73: -1225099988
+      jupiter_74: 1260980780
+      jupiter_75: 1126565107
+      jupiter_76: 1871032014
+      jupiter_77: 291984419
+      jupiter_78: -89139877
+      jupiter_79: -1699418856
+      jupiter_8: 1732496156
+      jupiter_80: 1395944920
+      jupiter_81: -1503776687
+      jupiter_82: 1164486876
+      jupiter_83: -220779835
+      jupiter_84: -2046592676
+      jupiter_85: 1878266440
+      jupiter_86: 1957336299
+      jupiter_87: -2131162603
+      jupiter_88: -641527489
+      jupiter_89: 575061703
+      jupiter_9: -1274981950
+      jupiter_90: 1358165543
+      jupiter_91: 329346854
+      jupiter_92: 1266732486
+      jupiter_93: 1670289153
+      jupiter_94: -805852330
+      jupiter_95: 2008541210
+      jupiter_96: 2034809302
+      jupiter_97: 748916115
+      jupiter_98: -378546499
+      jupiter_99: 376150839
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

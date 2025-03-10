@@ -1,0 +1,3163 @@
+fileFormatVersion: 2
+guid: 5601fce742832fdc9b20d7bc4ee70767
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mercure_0
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 3641
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfce1fe599457b1499525a77f198980
+      internalID: -1625591331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_1
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 3641
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42482e11c6e5a60ac892818415e13c48
+      internalID: 420715925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_2
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 3641
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94965018b3ede63739dc3baf2057e166
+      internalID: 710429795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_3
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 3641
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a71bfccb079169c1a40addad32c9f83
+      internalID: 1930540614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_4
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 3641
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcdbac258fc7b9ee9327349fc3f9226
+      internalID: 871052152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_5
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 3641
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ec6101240ea874eb61a8a6b2720174
+      internalID: 608393669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_6
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 3641
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53691d1edb2f941fc81384bc17e77ad0
+      internalID: -1677736159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_7
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 3641
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec12aa06c7be8ced8b360845fabc2e26
+      internalID: 1872463197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_8
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 3641
+        width: 189
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6237735570ad7ac1a787bd9b889c79e
+      internalID: 1303122895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_9
+      rect:
+        serializedVersion: 2
+        x: 3021
+        y: 3641
+        width: 188
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93327309854b2422a04485095831380
+      internalID: -748751296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_10
+      rect:
+        serializedVersion: 2
+        x: 3341
+        y: 3641
+        width: 189
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6243d4a9bed2434ef90e293c44bf0e24
+      internalID: -2129179518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_11
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 3641
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b1ff1bb9321e4f083b320ab164c55e
+      internalID: 625167306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_12
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 3320
+        width: 189
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147b33ca7a4a33152b2a13ce1bd4a5be
+      internalID: 1349341729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_13
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 3320
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42662ead347f8361483ed777f9f137e4
+      internalID: 326223356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_14
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 3320
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3338967827efa3652b257cec2d32e981
+      internalID: 1725683877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_15
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 3320
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb4523d196fd625caa6dc6a4dd44af4
+      internalID: 104548012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_16
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 3320
+        width: 189
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd3726b1ec83cb8fb900964416273b2
+      internalID: 1155641100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_17
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 3320
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d78174ae33b243389b9b55f1640ec76
+      internalID: -373245282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_18
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 3320
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26869af4ae9f459638e2cf041b7c6075
+      internalID: 7687942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_19
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 3320
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f58e355776dbd97b8c69c3b5bbccd5
+      internalID: -280079526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_20
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 3320
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5afcc4d85ef3a3d854260b9b62c488
+      internalID: 1527267795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_21
+      rect:
+        serializedVersion: 2
+        x: 3021
+        y: 3320
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc00f99b8f9894c7195e5aed25965373
+      internalID: -154456512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_22
+      rect:
+        serializedVersion: 2
+        x: 3341
+        y: 3320
+        width: 189
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72eade67b4febd64ca101a7b371924b2
+      internalID: 1899961951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_23
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 3320
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae95c03e4e8df9acb25ae61b909c192
+      internalID: 958128603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_24
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 3000
+        width: 189
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb60353acc1af07b9bd5c4301d0099f
+      internalID: -588898271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_25
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 3000
+        width: 186
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577f84f4a1ea4ffecbfa1f5ff94c07c8
+      internalID: -651313112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_26
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 3000
+        width: 186
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b397b848ec3954ec5b941b6b0873fecb
+      internalID: -211205720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_27
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 3000
+        width: 187
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783c27364c7fb4189b8f98dbffb8f187
+      internalID: 1069827549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_28
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 3000
+        width: 189
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081148d83222fa35f965311a13177d52
+      internalID: -1681905079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_29
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 3000
+        width: 186
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c62788d09f6e2a0a4ea7997805ab70
+      internalID: 1547096144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_30
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 3000
+        width: 186
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6def3bc1cd2480989beef17c570a4f21
+      internalID: 2098430130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_31
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 3000
+        width: 187
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9a2319be707ea58a643b263c5b3f5d
+      internalID: -876687017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_32
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 3000
+        width: 187
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1e881da7c7233b2b8ee4b45f11b530
+      internalID: -1912499474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_33
+      rect:
+        serializedVersion: 2
+        x: 3021
+        y: 3000
+        width: 186
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f8a459700ebb5bab78e89874bf1825
+      internalID: 913680210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_34
+      rect:
+        serializedVersion: 2
+        x: 3343
+        y: 3000
+        width: 185
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f8173919ef0a9f8810ae401d99ce95
+      internalID: 2025883808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_35
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 3000
+        width: 187
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3451bf64b7f3158b8bd81ece4a3aef1d
+      internalID: -176509728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_36
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 2679
+        width: 185
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5e13f4fa1aaae7f8d64ce903e130ab
+      internalID: -521662747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_37
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 2679
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb5cda75ca205155bf974ce31ee71e4
+      internalID: -1531077889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_38
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 2679
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ffc86d431ea560db86436de5362a72
+      internalID: 686789329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_39
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 2679
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76df6669eddf4e74f9602e23ecb2e660
+      internalID: 1819497704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_40
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 2679
+        width: 185
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a36247aa907827ce964ad5e0f13d929
+      internalID: 2046591137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_41
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 2679
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96716762d9f1e52aeb155859f40eceee
+      internalID: -557798831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_42
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 2679
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af67b878d5374a2f8990f596edf79c1
+      internalID: -474764783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_43
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 2679
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b7e9fd14c746cc3a8b94dd126129e7
+      internalID: -1666158124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_44
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2679
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8dcf25580259db4bb198d2ab32443c
+      internalID: 1589175592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_45
+      rect:
+        serializedVersion: 2
+        x: 3021
+        y: 2679
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90abc779e73e436f80db76098a70c4e
+      internalID: 1773378138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_46
+      rect:
+        serializedVersion: 2
+        x: 3343
+        y: 2679
+        width: 185
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1e52ec69676ccd9ae35e40e881613e
+      internalID: -186186951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_47
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 2679
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eeecd202ea514de5912c70cc738df39
+      internalID: -1255126598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_48
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 2358
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c93b6723e42c19695a390bb163a0fc
+      internalID: 519222683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_49
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 2358
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4281b5201be186a381571b845413351
+      internalID: 2131577025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_50
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 2358
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67693cb692c94515b011e429c13df9a
+      internalID: 1319336660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_51
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 2358
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1188ede952e8582a9e6c9aaa6f5f9e
+      internalID: 175169401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_52
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 2358
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677ae6770ded8338ca8b92d15cd5f2b5
+      internalID: -1210552201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_53
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 2358
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c41879506f83fc1a8eb94c437309ad6
+      internalID: -1105001068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_54
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 2358
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ccee4f965d6e4719e8c557219abc05
+      internalID: 227789425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_55
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 2358
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40937c2d8a3f8c096a9c77103e379fc0
+      internalID: -268951263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_56
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2358
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1646d17e99e9f903599581f8ef549b84
+      internalID: 1118688579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_57
+      rect:
+        serializedVersion: 2
+        x: 3021
+        y: 2358
+        width: 188
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee1b844abb2c288b9f15b5c62421a74
+      internalID: -1506087473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_58
+      rect:
+        serializedVersion: 2
+        x: 3343
+        y: 2358
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e61cb513fe952b6a57f7fdbbaf1b19
+      internalID: 1659580540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_59
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 2358
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba77051c7d82d0cb5beadf893fbf7868
+      internalID: -771193798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_60
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 2037
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a92824c56ae6b110a06d4469375cadd
+      internalID: -930906025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_61
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 2037
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a383c4854941f0ef5972c41fa93b6ee4
+      internalID: 1973660261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_62
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 2037
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fd2577e5ecf71fbab2b91612e3a9a1
+      internalID: 480371652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_63
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 2037
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ce5dbf380c7d4f1896bac430d3b078
+      internalID: 21673920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_64
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 2037
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58bee3d979a77997bc378e814beab05
+      internalID: 746981712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_65
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 2037
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d8036f79ec822d1a23df56cfd3a92e
+      internalID: 1346282659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_66
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 2037
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32eb2b094d68a740086dc9882bf6adbb
+      internalID: 897388601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_67
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 2037
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d9c9ebd60e00e6bb316400ebb49886
+      internalID: 322869680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_68
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2037
+        width: 189
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1dc5a23fa04fcb56a9562b678b30d94
+      internalID: -310403696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_69
+      rect:
+        serializedVersion: 2
+        x: 3021
+        y: 2037
+        width: 188
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92c10559aa3ae47bb4ba5d249ebe95e
+      internalID: -98710420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_70
+      rect:
+        serializedVersion: 2
+        x: 3343
+        y: 2037
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8580deba8fdacb94af5dc367d727b37
+      internalID: -2100833674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_71
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 2037
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f801794cd8ba848693e7bd88e4e4f74
+      internalID: -58422351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_72
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1715
+        width: 187
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a6306851e6e9753a893056f43e0358
+      internalID: -164086784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_73
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1715
+        width: 186
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a504cf8169b66bcb3aa3905c6539127c
+      internalID: -1477327491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_74
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1715
+        width: 186
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875e52d3193d0c2388f249ebf60a4e57
+      internalID: -963944650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_75
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 1715
+        width: 187
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8588f76bbe80935ea1056c455732dc1
+      internalID: -241783410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_76
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 1715
+        width: 187
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b515afbda1b79860a3ad9c09f558718
+      internalID: 54815144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_77
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 1715
+        width: 186
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8f7e61f793823c9920942243c4dd16
+      internalID: 1545561165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_78
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 1715
+        width: 186
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89125d84c3a04bac9b08780a174c0bb2
+      internalID: -2098653608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_79
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 1715
+        width: 187
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79f88ac9ffe700a881391c36b9e7219
+      internalID: 631464041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_80
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1715
+        width: 189
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1b9ec16adee038ebd1a667c902ea8d
+      internalID: -591282499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_81
+      rect:
+        serializedVersion: 2
+        x: 3021
+        y: 1715
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4c9998dbb6e0d7f8e0fab566f6ca2f
+      internalID: 2888913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_82
+      rect:
+        serializedVersion: 2
+        x: 3341
+        y: 1715
+        width: 189
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3a555be35680bb6a9d6f8914240b90
+      internalID: -1255615101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_83
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 1715
+        width: 187
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28f0e119be4939e1978a27cff7730c4
+      internalID: -1432616331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_84
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1394
+        width: 187
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7d43a50a61b5975940adaeeba213db
+      internalID: 539058906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_85
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1394
+        width: 186
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8a74140485800e8b61ccad543bc9ee
+      internalID: 160676667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_86
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1394
+        width: 186
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017f1e2945779803ba8dc4a8c7451418
+      internalID: 616500335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_87
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 1394
+        width: 187
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a658c102d8dc762ba8aab8f0dc3c00
+      internalID: 246627370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_88
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 1394
+        width: 187
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbe0273f94cf8c36a62fa3e9642a1df
+      internalID: -291338874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_89
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 1394
+        width: 186
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e145dce409dbf898d0db51bba58a93
+      internalID: -828505917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_90
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 1394
+        width: 186
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fedd3645dc80f3736ae971acd187111b
+      internalID: 1269306733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_91
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 1394
+        width: 187
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57747dbf2a1416436ad03f2453448187
+      internalID: -1544736280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_92
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1394
+        width: 189
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca845b9396277e70e83d1add32d12276
+      internalID: 1177273328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_93
+      rect:
+        serializedVersion: 2
+        x: 3021
+        y: 1394
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349c144f8999908c4b811eb1e25dd5c6
+      internalID: -126701003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_94
+      rect:
+        serializedVersion: 2
+        x: 3341
+        y: 1394
+        width: 189
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7320ca6932c8de212b41cd102054aa38
+      internalID: -567719248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_95
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 1394
+        width: 187
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af251e571f4431b05a8bb8ae3a278db3
+      internalID: -140318471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_96
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1075
+        width: 189
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a181d447017475dc95bd82640e983a9
+      internalID: -2132285121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_97
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1075
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260dc22596f66a424bf188b2ffc6e157
+      internalID: -1818196200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_98
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1075
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd0581408fff46528b355d3301daabb
+      internalID: -787691585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_99
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 1075
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571d922df4783bbf0983caf6feed3628
+      internalID: -1967992367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_100
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 1075
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa51d5e14d063b97a8db7d779318fdbe
+      internalID: 1559827444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_101
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 1075
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08109dd1f277e8ff9bebf7536672eb22
+      internalID: 101035124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_102
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 1075
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7feb7f761d50b78822743b1d6a1106
+      internalID: -818605034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_103
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 1075
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ed2106895b9c53b80821fb69e98d25
+      internalID: 236630573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_104
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1075
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a80cc4a3dc01dcda99dce7ff55c6516
+      internalID: -1103276491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_105
+      rect:
+        serializedVersion: 2
+        x: 3021
+        y: 1075
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e07b15a60748f1faa47d40614936e7b
+      internalID: -1654306577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_106
+      rect:
+        serializedVersion: 2
+        x: 3343
+        y: 1075
+        width: 185
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33d409ce6d77fafebaa011fc69aab77
+      internalID: 1377594039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_107
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 1075
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8118c895f31599d3a310ada2be33ff0
+      internalID: 393041227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_108
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 752
+        width: 185
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa21f67d909b416a3ab948b0f02341d9
+      internalID: 582273299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_109
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 752
+        width: 186
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549914235f2be9136a86eee1eb5a6522
+      internalID: -32285340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_110
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 752
+        width: 186
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b93ec137b8e28d8876ce5be5f50022
+      internalID: -1227495027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_111
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 752
+        width: 187
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bfb3222a992ee819b70e85cb52a387
+      internalID: -394371550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_112
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 752
+        width: 185
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee10258268a59f12b264f445d8ba4de
+      internalID: -2031466132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_113
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 752
+        width: 186
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e408186e376c7ad1bb6e7d3bd0fa458
+      internalID: -1977332629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_114
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 752
+        width: 186
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3eddd2bb431a41db6fc4ad7c902580
+      internalID: -1669115864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_115
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 752
+        width: 187
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3605ac2d29947d8996b0a6fe94f82f
+      internalID: -848410450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_116
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 752
+        width: 187
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62088bbbc8ccc023a42cb11ac7d4f99
+      internalID: -721326604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_117
+      rect:
+        serializedVersion: 2
+        x: 3021
+        y: 752
+        width: 186
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd049265cb1854219eb534da99604be
+      internalID: -2029733794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_118
+      rect:
+        serializedVersion: 2
+        x: 3343
+        y: 752
+        width: 185
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353e8792a835a1dce8bb4a4b9f8104c5
+      internalID: -1989644206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_119
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 752
+        width: 187
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a0cc2b989955da6a93abc381961606
+      internalID: -2102968726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_120
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 432
+        width: 185
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f893d22b29765b3bb8f0f2e5f348d653
+      internalID: -302073055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_121
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 432
+        width: 186
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52275ee3f146c6f7bd55b0d26770a98
+      internalID: -1075788298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_122
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 432
+        width: 186
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1e2bed43aefba11b0599067a0280ae
+      internalID: -241605090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_123
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 432
+        width: 187
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f802df3ae8096f649bc504cee0456e74
+      internalID: 358791838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_124
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 432
+        width: 185
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52df55d01ee65dff6b44a911fa429a46
+      internalID: -484961007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_125
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 432
+        width: 186
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac147b6cb9d91429194cd31554e1c9c7
+      internalID: -1592913855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_126
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 432
+        width: 186
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09b95008d15a6e98871cc1228b4e3db
+      internalID: -2049474637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_127
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 432
+        width: 187
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc12607cb76a4cbaa5597dfcd37452b
+      internalID: 1225444991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_128
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 432
+        width: 187
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb431b2d6ded92d3c980aca0ac0511b1
+      internalID: -1349223617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_129
+      rect:
+        serializedVersion: 2
+        x: 3021
+        y: 432
+        width: 186
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbae504c4212f33680742968eae228f
+      internalID: -962757159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_130
+      rect:
+        serializedVersion: 2
+        x: 3343
+        y: 432
+        width: 185
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047a69d4cccb55ee0854bb4a59e812b4
+      internalID: -904232583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_131
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 432
+        width: 187
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c8573b865f580fdbf3a6e830d5879c
+      internalID: 488408292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_132
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 111
+        width: 187
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d6276d51ce3890f8badc6d014665dd
+      internalID: 395096896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_133
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 111
+        width: 186
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8390891bc8cfe82bfd6d53c7b4ecb5
+      internalID: -134555398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_134
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 111
+        width: 186
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4deb1da8b323220e28e4e8364ec723a4
+      internalID: 2084038233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_135
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 111
+        width: 187
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c421d4b1c105cbd89adbda28531b47
+      internalID: 1876555888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_136
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 111
+        width: 187
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0764f1bacc7239792b50227d13722ca2
+      internalID: 411843031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mercure_137
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 111
+        width: 186
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8cfbb732d2c1577afb2d2b3adf2198
+      internalID: -3911544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mercure_0: -1625591331
+      mercure_1: 420715925
+      mercure_10: -2129179518
+      mercure_100: 1559827444
+      mercure_101: 101035124
+      mercure_102: -818605034
+      mercure_103: 236630573
+      mercure_104: -1103276491
+      mercure_105: -1654306577
+      mercure_106: 1377594039
+      mercure_107: 393041227
+      mercure_108: 582273299
+      mercure_109: -32285340
+      mercure_11: 625167306
+      mercure_110: -1227495027
+      mercure_111: -394371550
+      mercure_112: -2031466132
+      mercure_113: -1977332629
+      mercure_114: -1669115864
+      mercure_115: -848410450
+      mercure_116: -721326604
+      mercure_117: -2029733794
+      mercure_118: -1989644206
+      mercure_119: -2102968726
+      mercure_12: 1349341729
+      mercure_120: -302073055
+      mercure_121: -1075788298
+      mercure_122: -241605090
+      mercure_123: 358791838
+      mercure_124: -484961007
+      mercure_125: -1592913855
+      mercure_126: -2049474637
+      mercure_127: 1225444991
+      mercure_128: -1349223617
+      mercure_129: -962757159
+      mercure_13: 326223356
+      mercure_130: -904232583
+      mercure_131: 488408292
+      mercure_132: 395096896
+      mercure_133: -134555398
+      mercure_134: 2084038233
+      mercure_135: 1876555888
+      mercure_136: 411843031
+      mercure_137: -3911544
+      mercure_14: 1725683877
+      mercure_15: 104548012
+      mercure_16: 1155641100
+      mercure_17: -373245282
+      mercure_18: 7687942
+      mercure_19: -280079526
+      mercure_2: 710429795
+      mercure_20: 1527267795
+      mercure_21: -154456512
+      mercure_22: 1899961951
+      mercure_23: 958128603
+      mercure_24: -588898271
+      mercure_25: -651313112
+      mercure_26: -211205720
+      mercure_27: 1069827549
+      mercure_28: -1681905079
+      mercure_29: 1547096144
+      mercure_3: 1930540614
+      mercure_30: 2098430130
+      mercure_31: -876687017
+      mercure_32: -1912499474
+      mercure_33: 913680210
+      mercure_34: 2025883808
+      mercure_35: -176509728
+      mercure_36: -521662747
+      mercure_37: -1531077889
+      mercure_38: 686789329
+      mercure_39: 1819497704
+      mercure_4: 871052152
+      mercure_40: 2046591137
+      mercure_41: -557798831
+      mercure_42: -474764783
+      mercure_43: -1666158124
+      mercure_44: 1589175592
+      mercure_45: 1773378138
+      mercure_46: -186186951
+      mercure_47: -1255126598
+      mercure_48: 519222683
+      mercure_49: 2131577025
+      mercure_5: 608393669
+      mercure_50: 1319336660
+      mercure_51: 175169401
+      mercure_52: -1210552201
+      mercure_53: -1105001068
+      mercure_54: 227789425
+      mercure_55: -268951263
+      mercure_56: 1118688579
+      mercure_57: -1506087473
+      mercure_58: 1659580540
+      mercure_59: -771193798
+      mercure_6: -1677736159
+      mercure_60: -930906025
+      mercure_61: 1973660261
+      mercure_62: 480371652
+      mercure_63: 21673920
+      mercure_64: 746981712
+      mercure_65: 1346282659
+      mercure_66: 897388601
+      mercure_67: 322869680
+      mercure_68: -310403696
+      mercure_69: -98710420
+      mercure_7: 1872463197
+      mercure_70: -2100833674
+      mercure_71: -58422351
+      mercure_72: -164086784
+      mercure_73: -1477327491
+      mercure_74: -963944650
+      mercure_75: -241783410
+      mercure_76: 54815144
+      mercure_77: 1545561165
+      mercure_78: -2098653608
+      mercure_79: 631464041
+      mercure_8: 1303122895
+      mercure_80: -591282499
+      mercure_81: 2888913
+      mercure_82: -1255615101
+      mercure_83: -1432616331
+      mercure_84: 539058906
+      mercure_85: 160676667
+      mercure_86: 616500335
+      mercure_87: 246627370
+      mercure_88: -291338874
+      mercure_89: -828505917
+      mercure_9: -748751296
+      mercure_90: 1269306733
+      mercure_91: -1544736280
+      mercure_92: 1177273328
+      mercure_93: -126701003
+      mercure_94: -567719248
+      mercure_95: -140318471
+      mercure_96: -2132285121
+      mercure_97: -1818196200
+      mercure_98: -787691585
+      mercure_99: -1967992367
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -8,7 +8,7 @@ public class DragAndDropUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 {
     private RectTransform rectTransform;
     private Vector3 startPosition;
-    private Canvas canvas;
+    //private Canvas canvas;
     private GameObject currentTarget = null; 
 
     [SerializeField] private string[] allowedTags; 
@@ -17,7 +17,7 @@ public class DragAndDropUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
-        canvas = GetComponentInParent<Canvas>();
+        //canvas = GetComponentInParent<Canvas>();
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -78,13 +78,13 @@ public class DragAndDropUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         {
             RectTransform targetRect = currentTarget.GetComponent<RectTransform>();
             Image targetImage = currentTarget.GetComponent<Image>();
-            PlanetController TargetplanetController = currentTarget.GetComponent<PlanetController>();
+            //PlanetController TargetplanetController = currentTarget.GetComponent<PlanetController>();
  
             if (targetRect != null)
             {
                 targetImage.color = new Color(255, 255, 255);
-                TargetplanetController.activated = true;
-                TargetplanetController.planetTextGameobject.SetActive(true);
+                //TargetplanetController.activated = true;
+                //TargetplanetController.planetTextGameobject.SetActive(true);
             }
             gameObject.SetActive(false);
             DragAndDropManager.Instance.ObjectPlaced();

@@ -1,0 +1,3295 @@
+fileFormatVersion: 2
+guid: e04a3067a3166f22282c4f2a10ad8366
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: uranus_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7a1e1fc9c152f2f9aba891e31bb88f
+      internalID: 1663224993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02799a405daaf6305a6bd7f45fcfadae
+      internalID: 1924953393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9166282ae9945ccddb209ae798469a34
+      internalID: 1813629875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_3
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b407aa2f93e55d404ba0d523a5da8da3
+      internalID: -1090698856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_4
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26aa15b97ab0bd5328fa90fe4cd74401
+      internalID: 712421179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_5
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 2878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417c0560a427b3be091a8e9443f517a7
+      internalID: 1950250010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_6
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f599af23bc00ac38718e6c5d870963
+      internalID: -1878625811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_7
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91801c608aa045aceaa448c4bb5c769f
+      internalID: 310995008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_8
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b98e7f15ec38d95b23833f43b75b43
+      internalID: -1539894590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_9
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704a43786f3064401963bd635278829a
+      internalID: 516667229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_10
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a1e1b8db1e37fbcb327f058679b0db
+      internalID: 1271404134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_11
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 2878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0988ab6c3f7e4e6e090d5ef0356b4bee
+      internalID: -371403592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d585cfa16e24d32b4d60c1f0ffb475
+      internalID: -1725812546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_13
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40f5c96a59bd934f945619653d6da16
+      internalID: 1617764466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_14
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6aca7280c955981939c3256a892f85
+      internalID: 1915727533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_15
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afda2a1135babf3c8d08a987f383554
+      internalID: 1859350250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_16
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22388c9071ca133e09b1e3a2b596ba3f
+      internalID: 344753630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_17
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 2628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95373eba576800d096023a0cb75b72a
+      internalID: 392438237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_18
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a517e5a0f486463ea60edcae326064d
+      internalID: 465717269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_19
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f27b94cc344db4ea7d3671e2635c0c
+      internalID: 1747572418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_20
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ebaf0379159d9d5a53800dc0d15993
+      internalID: -788997303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_21
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5997cde223f3fc1b59d0e510e91efc
+      internalID: -993204535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_22
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d362fd7caceb9ec9a6c2bdea6fef81
+      internalID: -1088164506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_23
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 2628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc7cd6f5587b29e6a19de153b6594eb
+      internalID: -1364284025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56cd56bac80fe391ca233642d540b60d
+      internalID: 585006076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_25
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc6865507c4c3bb9aff7f6868a463e0
+      internalID: 1211539190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_26
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e12e281c51b82147a6091878d117c4c
+      internalID: 2123078334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_27
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca12f8da017c929aca4c1b9131f5405e
+      internalID: 923771331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_28
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5082513320d4a6dfbef3a14f9dc8968
+      internalID: -878238055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_29
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 2378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26dfd6324e418b3daa856bd86f8820dc
+      internalID: 573415114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_30
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9daf8c18031c4c29a8aaa8da5f2c6147
+      internalID: -1265209718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_31
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90eec2b4ba77b6029e519eff5a225c3
+      internalID: -1203300931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_32
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947ed59fc0042844087e7903fd33a3d9
+      internalID: -2139305474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_33
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98eb4b8bdb5f9ddf8a0db25c8f655e1
+      internalID: -82287054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_34
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb7e8ac9c0a8ede98429b75db80522e
+      internalID: 433821169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_35
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 2378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f3ccb5a123a83fe8fdb8d62225127a
+      internalID: -23430572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf5d2d96f4b59f35a963dc0f9a9ec1a
+      internalID: -943197121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_37
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0959e655256944c884a6435d16d9868
+      internalID: -221198518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_38
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcee4ba91f0db5516b45f537e7d5eabb
+      internalID: -2016736846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_39
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e1156813a864d4b899134ce196dbd0
+      internalID: -596207014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_40
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575401304205e7a71a56dc23f3f0ed4d
+      internalID: -781189489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_41
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 2128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33c46554c6431ddaa2d8a487b29b20a
+      internalID: -2094173907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_42
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8d523db6187449b8e2ab651c0b8faa
+      internalID: -1712072132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_43
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385f5e75dca610ff09dc84870a409571
+      internalID: 408089962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_44
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522a86f670afbcb93a283d5adfee07a7
+      internalID: -855156396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_45
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1213205dd1ccf49bbd810da0699bf05
+      internalID: -1547908242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_46
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192d008156a008a6b9a394bcbca85f74
+      internalID: 1476764588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_47
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 2128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc4f795696b6c33799cfd1b57ea79a5
+      internalID: -1880773874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5610c29f0da685ffd919280be7561875
+      internalID: 1821292126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_49
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c16f3ecf3c9d02fa91f3a65524c55a0
+      internalID: -353126694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_50
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5815f3d6a0321a2b41148e3b1919c4
+      internalID: -727733952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_51
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8928d5ffc7f84964891e696a030ea466
+      internalID: -527476916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_52
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327e01572996d179886c0968a8dfae7b
+      internalID: -998164209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_53
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad3135466d9c193b8cbcb93bd01a59d
+      internalID: 1277742717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_54
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32ba451c5ae068cfbd46e410fb533d1
+      internalID: -91827879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_55
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21c8ad59c2f5529988def4bdf9f5933
+      internalID: -1041842861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_56
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43fcf282243b1d511ad1fa7583c596bc
+      internalID: -1448886149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_57
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c796d92478ab50184d3da2f35cadba
+      internalID: -92214754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_58
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645558d732d44dca4a1f51814ac3b956
+      internalID: -580525011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_59
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 1878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a73e23e14905c31aadf7b8639adb73
+      internalID: -806915583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2746ae1180dee6afaeb333d6294d190
+      internalID: 1707842295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_61
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518eea529fe5415f2b64a9bbedc7d285
+      internalID: 489862252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_62
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89d19a03bda52d53bdd1e43dfc99170
+      internalID: -204464457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_63
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93860c387c508f3fe865ac9ce75cff20
+      internalID: -916071334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_64
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4eef28d1f1b11b6935cfa22c7b4d6d
+      internalID: -313170967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_65
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4825a73a10250facaaaca52044703417
+      internalID: -1612935013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_66
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a959cd00adfa4f844b5392c92d87935f
+      internalID: 1350537982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_67
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa35da11a34aaccf28eaf992b0cbe571
+      internalID: -461574919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_68
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d851c658f1755c3965c61115e0033f
+      internalID: -1267664170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_69
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbaaf833870395e4eaf22fd378ce3ce4
+      internalID: -1595131274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_70
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d475004176a078485ab2b2273ddda7
+      internalID: -1850007620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_71
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 1628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a1c50ca97fab41c817dc264a87f16f
+      internalID: 1604081272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22e1b6d449d47517b98e3c1c4809e11
+      internalID: 1490138512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_73
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c030184b7e7d1bfe9722831a46e07a4
+      internalID: -1367998605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_74
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d96f23886131d39b9e49619a08a6ec5
+      internalID: 787352749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_75
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab2f74a9341f3eb3ba8bf56ef8d43c0
+      internalID: -1973029165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_76
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488ab415840e3971b9e548ead109dd40
+      internalID: -904365322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_77
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a871ed8097727c08cb5cf3c0e11ea84e
+      internalID: 1724364985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_78
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248d01c1658c555a5a9e7b75cd07684e
+      internalID: 1376071097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_79
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c67ece713612d57fa724cd9b94a31a4
+      internalID: -822948105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_80
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95396674a1660e2a6b2d3ae154a9349c
+      internalID: 1037401764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_81
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f642ccaba955dbb19b40d8b1f7429cec
+      internalID: 1164335571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_82
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e8df515381d14e38264c798d649a01
+      internalID: -200270285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_83
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 1378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7be9d9e0ca9905e89c2d615bef38ab0
+      internalID: 1195270549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7ac0d2007ea748bb21b4cbef53656f
+      internalID: 1986852758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_85
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b76d2eb295dc3de48ed4090f13eabe4
+      internalID: 1910098297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_86
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d1f7b972bd4e09183cf3fb22d64062
+      internalID: 183073475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_87
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f14f542e9cf73f78d3f12bb9b3777b
+      internalID: -1266895862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_88
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23afa925a5917af5ca4ef1417deaaba1
+      internalID: 11915227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_89
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc847f95ab3e78f28e9ba316b648acd
+      internalID: 42991177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_90
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b30187e1ffab2ee8b76f31afd81c3f3
+      internalID: 205073181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_91
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4383f40dbe158a36188f0f93085e5d6e
+      internalID: 229759898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_92
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffe2ff4ae8c4fe65810e70df270ec99
+      internalID: -847201630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_93
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6cb914ef5e0e98ea9a4b9a8c43aa04
+      internalID: 1873548243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_94
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5cab9fd44d6ad158874f2d5114323c4
+      internalID: -1154977711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_95
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 1128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78889ce475c7bfcc7857bcbe31644863
+      internalID: 1104122316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd7b0436e6a5032c8a80d39bb2f0778
+      internalID: -807051099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_97
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bdbf8e31267c6eda41051f695c5b1f
+      internalID: 1234871408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_98
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0c3a7caf5f9aa1ebb792b687a9fe43
+      internalID: 1425123247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_99
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0c29de79ef1c8bab497189ad1e360d
+      internalID: 1207533637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_100
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e7d8bac981f0c13afeb983b54b937f
+      internalID: 320594316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_101
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1845873a8d7a235bb66b24b9078a8e8
+      internalID: -1142542222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_102
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7be25393b214939480a56c7e82dd06a
+      internalID: 504225503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_103
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24d002a35b423191bab000cd1991580
+      internalID: 207189249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_104
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bdb45ca3b31f3fa795eb2a6e70063ee
+      internalID: 904446923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_105
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471d687ecb4e370b8bea7458e9b7c2bd
+      internalID: -1497122722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_106
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc10fa081f49852fb7130d9acf7b452
+      internalID: -421463601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_107
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 878
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17086dfac1be840c584a5754ec63ebb3
+      internalID: 546708806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cce07029d3f7e7acaa3e5f4f4d7c958
+      internalID: -347163238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_109
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d79d222771dccab8931df40d806de26
+      internalID: -1555592886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_110
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718e03c2f83cba0f199602c101b80c51
+      internalID: -421051887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_111
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9ab1eb812b20018a9357f0d1bacfe1
+      internalID: 669834998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_112
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd2bcd7f22cc5875be004ed322ff152
+      internalID: 1884167465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_113
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf9f9107186c4f9da8e7a1401483fb9
+      internalID: 218064403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_114
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2ec6662c23c9a9cb14204e86a86d3e
+      internalID: -735504210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_115
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e4da2edca7cd99ba5c72f6de785f83
+      internalID: 391659359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_116
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500d3a0beced3dac2a0588b91d666df0
+      internalID: 636333628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_117
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dcbb51ad932a25fa907efc2a7b72a09
+      internalID: 1094564771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_118
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8d36cee6831f84a89e65791392ca41
+      internalID: 733977241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_119
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 628
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865f8f6e1939b072380353705b475a27
+      internalID: 766174971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c97d35cca1b3820a486268d884f7fd
+      internalID: 493871213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_121
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22916a030888bb0c3b31e027fd600175
+      internalID: 1101701906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_122
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a6f7751f71c9b4ab209094a33d8fe9
+      internalID: -754465025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_123
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9253b72380f83f99e965ae89af723d0c
+      internalID: 1989472705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_124
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b09aeb2e01d46e2abe22f4e929274db
+      internalID: -1426611823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_125
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5016752c0e433bac2b4514fb25c2bcb3
+      internalID: 1244814785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_126
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d3de24ee51aa11da539f4ac943236c
+      internalID: -84717104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_127
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f2f1de0125b5cabac4061cf4611a69
+      internalID: 247248488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_128
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d83d284d48e64f6af8ca732b4f129a
+      internalID: 406661316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_129
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735b687b73fce473781aac4684d48e2c
+      internalID: 256684935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_130
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f277540476f33310f9460c0328de2c0b
+      internalID: -164097235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_131
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 378
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8055bd0bcd503439ea0d076f3f9d7d
+      internalID: 578503875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d22be656e78d40a9a8a91b8577fa07f
+      internalID: 1579060879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_133
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce98f8f5844644348efc52752e1d42d
+      internalID: -2011170133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_134
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ccf7ee74fdb18ee92b02d79673627c
+      internalID: 1749437669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_135
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827fa27dd6bedf1ee8303399ef2f85f6
+      internalID: 1603693341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_136
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bdb4fed83e3e1ec81afc0e9e078a84
+      internalID: 1940454506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_137
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df56e89face0f8706b805da9d7c01f19
+      internalID: 806080176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_138
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3323adb1cd69c546990bcf65f5cc77f4
+      internalID: -1758633471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_139
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82426f58c38ac950eaca356bf4b97b74
+      internalID: 1638940365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_140
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f024537bebb96394b14678b618d0e34
+      internalID: 43483576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_141
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b0161933c490f478fd875465f9d100
+      internalID: -700839707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_142
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f51db9912ab0dc9b9ac7df18510cd3f
+      internalID: 1028424403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uranus_143
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 128
+        width: 250
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f409fb28b8337ab96b3b78a3ff3a2492
+      internalID: -1230220871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      uranus_0: 1663224993
+      uranus_1: 1924953393
+      uranus_10: 1271404134
+      uranus_100: 320594316
+      uranus_101: -1142542222
+      uranus_102: 504225503
+      uranus_103: 207189249
+      uranus_104: 904446923
+      uranus_105: -1497122722
+      uranus_106: -421463601
+      uranus_107: 546708806
+      uranus_108: -347163238
+      uranus_109: -1555592886
+      uranus_11: -371403592
+      uranus_110: -421051887
+      uranus_111: 669834998
+      uranus_112: 1884167465
+      uranus_113: 218064403
+      uranus_114: -735504210
+      uranus_115: 391659359
+      uranus_116: 636333628
+      uranus_117: 1094564771
+      uranus_118: 733977241
+      uranus_119: 766174971
+      uranus_12: -1725812546
+      uranus_120: 493871213
+      uranus_121: 1101701906
+      uranus_122: -754465025
+      uranus_123: 1989472705
+      uranus_124: -1426611823
+      uranus_125: 1244814785
+      uranus_126: -84717104
+      uranus_127: 247248488
+      uranus_128: 406661316
+      uranus_129: 256684935
+      uranus_13: 1617764466
+      uranus_130: -164097235
+      uranus_131: 578503875
+      uranus_132: 1579060879
+      uranus_133: -2011170133
+      uranus_134: 1749437669
+      uranus_135: 1603693341
+      uranus_136: 1940454506
+      uranus_137: 806080176
+      uranus_138: -1758633471
+      uranus_139: 1638940365
+      uranus_14: 1915727533
+      uranus_140: 43483576
+      uranus_141: -700839707
+      uranus_142: 1028424403
+      uranus_143: -1230220871
+      uranus_15: 1859350250
+      uranus_16: 344753630
+      uranus_17: 392438237
+      uranus_18: 465717269
+      uranus_19: 1747572418
+      uranus_2: 1813629875
+      uranus_20: -788997303
+      uranus_21: -993204535
+      uranus_22: -1088164506
+      uranus_23: -1364284025
+      uranus_24: 585006076
+      uranus_25: 1211539190
+      uranus_26: 2123078334
+      uranus_27: 923771331
+      uranus_28: -878238055
+      uranus_29: 573415114
+      uranus_3: -1090698856
+      uranus_30: -1265209718
+      uranus_31: -1203300931
+      uranus_32: -2139305474
+      uranus_33: -82287054
+      uranus_34: 433821169
+      uranus_35: -23430572
+      uranus_36: -943197121
+      uranus_37: -221198518
+      uranus_38: -2016736846
+      uranus_39: -596207014
+      uranus_4: 712421179
+      uranus_40: -781189489
+      uranus_41: -2094173907
+      uranus_42: -1712072132
+      uranus_43: 408089962
+      uranus_44: -855156396
+      uranus_45: -1547908242
+      uranus_46: 1476764588
+      uranus_47: -1880773874
+      uranus_48: 1821292126
+      uranus_49: -353126694
+      uranus_5: 1950250010
+      uranus_50: -727733952
+      uranus_51: -527476916
+      uranus_52: -998164209
+      uranus_53: 1277742717
+      uranus_54: -91827879
+      uranus_55: -1041842861
+      uranus_56: -1448886149
+      uranus_57: -92214754
+      uranus_58: -580525011
+      uranus_59: -806915583
+      uranus_6: -1878625811
+      uranus_60: 1707842295
+      uranus_61: 489862252
+      uranus_62: -204464457
+      uranus_63: -916071334
+      uranus_64: -313170967
+      uranus_65: -1612935013
+      uranus_66: 1350537982
+      uranus_67: -461574919
+      uranus_68: -1267664170
+      uranus_69: -1595131274
+      uranus_7: 310995008
+      uranus_70: -1850007620
+      uranus_71: 1604081272
+      uranus_72: 1490138512
+      uranus_73: -1367998605
+      uranus_74: 787352749
+      uranus_75: -1973029165
+      uranus_76: -904365322
+      uranus_77: 1724364985
+      uranus_78: 1376071097
+      uranus_79: -822948105
+      uranus_8: -1539894590
+      uranus_80: 1037401764
+      uranus_81: 1164335571
+      uranus_82: -200270285
+      uranus_83: 1195270549
+      uranus_84: 1986852758
+      uranus_85: 1910098297
+      uranus_86: 183073475
+      uranus_87: -1266895862
+      uranus_88: 11915227
+      uranus_89: 42991177
+      uranus_9: 516667229
+      uranus_90: 205073181
+      uranus_91: 229759898
+      uranus_92: -847201630
+      uranus_93: 1873548243
+      uranus_94: -1154977711
+      uranus_95: 1104122316
+      uranus_96: -807051099
+      uranus_97: 1234871408
+      uranus_98: 1425123247
+      uranus_99: 1207533637
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2789 @@
+fileFormatVersion: 2
+guid: c11207d093e6e1c9aad48f8966460b83
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: venus_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3349
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8f00b8dfd1470a7ab82ce6965ccbb6
+      internalID: 1826571900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_1
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 3349
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93fc7f7efcdbc67e6bf8b8d932681901
+      internalID: 637638439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_2
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 3349
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d06494d23464bcc85977a0ffaab469
+      internalID: -1324501331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_3
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 3349
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43ec1fe9aa8ab61782a3d0a038f40b6
+      internalID: -499015090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_4
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 3349
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f907a0365915721aca81ddc9f76b450d
+      internalID: -1572189179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_5
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 3349
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26aaae0e314eadb7cbb86bf0b73242a7
+      internalID: 306797870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_6
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 3349
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef282fcd60be73659c3e28d053ea438
+      internalID: -663536737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_7
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 3349
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3b39d0ec798fb90b8d992309ded16e
+      internalID: 2008947667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_8
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 3349
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16700867898a999238bab35d95da34cd
+      internalID: -1096322413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_9
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 3349
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb20e8aae12a7be48bb7cd64f9f34378
+      internalID: 1432668834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_10
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 3349
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e457d5ed0b12ea999138b01f71d6d2
+      internalID: -1938409498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3044
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8be9ad3044a9978b7d4ca6e07935f2
+      internalID: -626908741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_12
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 3044
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2042009b4e53ba0bb9407e9fb8c545
+      internalID: -306327150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_13
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 3044
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280af447e929b507ebc5343bcaa00f30
+      internalID: -1743318610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_14
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 3044
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1f2ba0a4d51d6a28548df0f7b8efc8
+      internalID: 1982617695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_15
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 3044
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f65e511d92694d33a2c670f12a0ba88
+      internalID: -769422714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_16
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 3044
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c21ab6876fa8d10b84bab566bb18b8
+      internalID: -134526423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_17
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 3044
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff9229e39d8153a18bbab2abbe76642
+      internalID: 2025751432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_18
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 3044
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990f649d733c456ff8c01418a7925c69
+      internalID: -1168427909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_19
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 3044
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301c9e87258f4f827baae51afd9cf6e1
+      internalID: 979670865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_20
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 3044
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2f8b825e9a107a0a2a853f5eca9139
+      internalID: -780759600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_21
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 3044
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf228dc7302ec36d6811140ef67f16eb
+      internalID: 448907054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2739
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9de313060b3e0230a5df2ad5cb944b6
+      internalID: 793287026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_23
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 2739
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ce7a7fccf2234bfb862101b8347cf5
+      internalID: -1265656283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_24
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 2739
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ac9c7987bd0a2b38806713dfec8c45
+      internalID: -1146617256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_25
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 2739
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7888d8e66f7493595d2f8b0db5f5aa
+      internalID: 1323774579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_26
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 2739
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c93236cc2e1d56e99c5ab416a947b1
+      internalID: -1872125189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_27
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 2739
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4cac4640d87ee8fb84f6be16067745
+      internalID: -1952913943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_28
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 2739
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ad9a66c14f494d1867d254d6266baa
+      internalID: -1345067260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_29
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 2739
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187d4e285d7e3a1fe9c161fdbd8aaa6c
+      internalID: -687211275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_30
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 2739
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05736526089e52c86b0eeb3ea6061c07
+      internalID: 1157813700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_31
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 2739
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5953ef3a381a43003aa4b941aaab22f6
+      internalID: -651142625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_32
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 2739
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648722d38deffb89eb779b65960643c2
+      internalID: 2053667593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2434
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1edcaf2085ab4d56b973f48f3d737f77
+      internalID: 2125134577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_34
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 2434
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90966b3ad51007367811202eb7be58c2
+      internalID: -516259272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_35
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 2434
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c13b6c3af5a2ffdaaf188d2397f55e2
+      internalID: 1235350180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_36
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 2434
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be35db464f92410b83ac5c6c38243de
+      internalID: -1836626014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_37
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 2434
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83b6ff0895ab5a13ab149395e4bdafd
+      internalID: -840493975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_38
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 2434
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e0d7566001dc2afb841b1907cc9032
+      internalID: 829988177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_39
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 2434
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be96b8eac111c04629d57ef72d470e21
+      internalID: -989876141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_40
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 2434
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45381d7e34ae153e6b43b16a3028c47b
+      internalID: 1716627466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_41
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 2434
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c7cecd1b69380b398b04fc2a76fcc1
+      internalID: -1706188963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_42
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 2434
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238f873a2f4c2ef0db36ea5cd9efb32a
+      internalID: -1599648388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_43
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 2434
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b36e6caf2ba3fdba39d3967c74f841
+      internalID: -927511678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2129
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de44243ed1795e9e187e6cc61a429120
+      internalID: -908363424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_45
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 2129
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d6d83f03155163c9244bd67af5346a
+      internalID: -1784684532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_46
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 2129
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93adf3e3f109f32a6a6805d6c025251d
+      internalID: 638216328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_47
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 2129
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04bc7115516d9f46bdb716aa895695e
+      internalID: 1222689336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_48
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 2129
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e54eb112491d85b88efa6ea6c8b769f
+      internalID: 583553665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_49
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 2129
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b351a17067f87c08e48ee33506d8af
+      internalID: 2104033802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_50
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 2129
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749f3f940318075f09f429989892c881
+      internalID: -1234386630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_51
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 2129
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12d36ec3e3bb6fb1918a94aaa4332dd
+      internalID: -391251750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_52
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 2129
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ef00d0ad0a61fe0a022ff90d1d0bb5
+      internalID: 1787500064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_53
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 2129
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af54b41597f210b099bfaf507e49918d
+      internalID: 380206009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_54
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 2129
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e7673db79fe01d0b4f8f30486e2571
+      internalID: -1707869120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1824
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c040b77f6aa3d1d1999a451a7b3ca59
+      internalID: 395836511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_56
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1824
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457cfe064f9932c20bb04ed6dda97699
+      internalID: -194052963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_57
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1824
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb3ca78afef077bfa8d68af094029f5
+      internalID: -1215943213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_58
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1824
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b865609bf78e1b9868c18354536214a8
+      internalID: -1361366773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_59
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1824
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb887108b96c8703a995d2820776210
+      internalID: 2102093221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_60
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1824
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b14c4cc1b6160a2b4e55e8ddc09fcb
+      internalID: -1355228798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_61
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1824
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460b50853f90793f78510c2d6e47b26a
+      internalID: 1150730346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_62
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 1824
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d678d3dec52b489da775fa4196b487b
+      internalID: 1240815949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_63
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 1824
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8700af7ac142e5665a971f784f763551
+      internalID: 954545705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_64
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 1824
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec5dd2656ae435f7b99409f42d26e77
+      internalID: -681769412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_65
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 1824
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255745fff1fc16da5a63170728ab8b63
+      internalID: -1668921850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1519
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7aa1a698480a9c6874d903d378203c
+      internalID: -33227616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_67
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1519
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d089c7eda41d1b59e8eab62b7d24cb
+      internalID: -680794211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_68
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1519
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d7e000a1042bb3f9bb77424a7022e8
+      internalID: 1700100582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_69
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1519
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9674bdf6ab4fa45fabaf9dcf9a8e135
+      internalID: -398540848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_70
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1519
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6204d05beac932abbbe631a318384b
+      internalID: 1645405941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_71
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1519
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47c9f8b0ef36de7ba8e30810803120b
+      internalID: 1762835067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_72
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1519
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f624496c26c42790799b13e016d2d27b
+      internalID: 88159219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_73
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 1519
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d68ec3d691d44848802e3bcbaa56a51
+      internalID: -1420768656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_74
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 1519
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cea9f2b8611f5cdb805f56e96d3b01c
+      internalID: 417659854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_75
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 1519
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6240bfeb0c69b0a928258c68747d0be1
+      internalID: 2050041475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_76
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 1519
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a3c0874de177eba971fea7f2dfd72e
+      internalID: 1320124998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1214
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb1cbbfcdb3b3df6a2b86ff12cb1f2f
+      internalID: 90004894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_78
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1214
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3d889eb90f94dc690980772aa37680
+      internalID: -1721105490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_79
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1214
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b59dd7a0f4629524becf2619f45ca72
+      internalID: 2084671989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_80
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1214
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5779c6769249adfa606a2bed788e7f
+      internalID: 301010839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_81
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1214
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcd70029c613ab5ca2f0b9d3b845da6
+      internalID: 1348688181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_82
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1214
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27389247066cf7731b37009627e3059a
+      internalID: 338294277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_83
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1214
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a0a5194b29fd855abfc223cf0f7aa1
+      internalID: 175192228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_84
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 1214
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a3deb58a9430ffeb271aaa64754af8
+      internalID: 1007522319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_85
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 1214
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bd9adb75b82085ba43599f83256245
+      internalID: -83336153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_86
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 1214
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38e6a7aca792bbed92d6dbbd40e70dd
+      internalID: -995011244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_87
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 1214
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4107d4c25e0023b8b9f4f37e118add
+      internalID: -1417003807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 909
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75003b018eeafa52598fd76645af7cbf
+      internalID: 531516382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_89
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 909
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cceef37ab4de7b209e3842a79569966
+      internalID: -1454097406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_90
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 909
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3750582ed96c38f3381cedcd2d2b6c17
+      internalID: -498964321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_91
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 909
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f82abb3c1043a9f9d18c0b6b97cd4f
+      internalID: -343724494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_92
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 909
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68219ab592a39a166a1fb7196fb3d768
+      internalID: -817298289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_93
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 909
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9433559c6c230dbbac0bb3f1ab367c9
+      internalID: -1201018029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_94
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 909
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e630d809f5d394439a1bcbf1c4a2a323
+      internalID: 1483501344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_95
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 909
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619c45ac6c6ba87b7ac654d49474ecea
+      internalID: -362497766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_96
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 909
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff73eb2c8e590602797e42645d41c0a9
+      internalID: -336088323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_97
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 909
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9ce39aeb6c5dd8c869aace0fd9af61
+      internalID: -1528721818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_98
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 909
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26506d940dad51a68ab37b2d3d920601
+      internalID: -1972953135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 604
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3c469ee07436d21b554664f12cb575
+      internalID: -255571732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_100
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 604
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd23de89bfd418fa7ac4c2bc7242ee24
+      internalID: 103260996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_101
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 604
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d9463bd60ff261bb9c9cfb97d053c8
+      internalID: -1280738800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_102
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 604
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5767d2b15e148e2729add938dd157e7a
+      internalID: -531479869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_103
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 604
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a850907d7e19ed7e48a8efa8f7b4a071
+      internalID: -508217954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_104
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 604
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14930b88910d2fb9985c025e1eb3430a
+      internalID: 882680968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_105
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 604
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7946749aebb1834adbe87d7451e5d364
+      internalID: -855341399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_106
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 604
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999ecc4d55dfd40b78b201b46891177e
+      internalID: 1860271981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_107
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 604
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4a244585c5a3b8ba618b143ba8a6e2
+      internalID: 1429924756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_108
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 604
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8fcf4f67a68ec63b97c647b25cf30dc
+      internalID: -1829490080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_109
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 604
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9412cda77189e9da5676f1f7be45dc
+      internalID: -1362207073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 299
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34deceb138a019541954ff162c55a9b0
+      internalID: 592995203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_111
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 299
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70720677a7ef86abba7f02128c28dc8f
+      internalID: 1047268998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_112
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 299
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cad3ee814e758375b4483558575771c
+      internalID: -615446971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_113
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 299
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28e2d15023edf90681157e970853c5e
+      internalID: -112687824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_114
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 299
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217569323a45495c6b09f53fa3de3ac0
+      internalID: 544945949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_115
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 299
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b750c1d973b6a4af8aa8b95fcd36246e
+      internalID: 1771531420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_116
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 299
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5980b973642b23382435b16fe9afee
+      internalID: 1689894308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_117
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 299
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e932081376853a19a8557601e14705a2
+      internalID: -1384862427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_118
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 299
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e3cfa114d37119ca3e4fbb8408da21
+      internalID: -1700296848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_119
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 299
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f87a59edadaf81c3bfda7dd49baba3a
+      internalID: -700060036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: venus_120
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 299
+        width: 306
+        height: 305
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfacc0992bef2552caa3ede28a3c7d0d
+      internalID: -1504407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      venus_0: 1826571900
+      venus_1: 637638439
+      venus_10: -1938409498
+      venus_100: 103260996
+      venus_101: -1280738800
+      venus_102: -531479869
+      venus_103: -508217954
+      venus_104: 882680968
+      venus_105: -855341399
+      venus_106: 1860271981
+      venus_107: 1429924756
+      venus_108: -1829490080
+      venus_109: -1362207073
+      venus_11: -626908741
+      venus_110: 592995203
+      venus_111: 1047268998
+      venus_112: -615446971
+      venus_113: -112687824
+      venus_114: 544945949
+      venus_115: 1771531420
+      venus_116: 1689894308
+      venus_117: -1384862427
+      venus_118: -1700296848
+      venus_119: -700060036
+      venus_12: -306327150
+      venus_120: -1504407
+      venus_13: -1743318610
+      venus_14: 1982617695
+      venus_15: -769422714
+      venus_16: -134526423
+      venus_17: 2025751432
+      venus_18: -1168427909
+      venus_19: 979670865
+      venus_2: -1324501331
+      venus_20: -780759600
+      venus_21: 448907054
+      venus_22: 793287026
+      venus_23: -1265656283
+      venus_24: -1146617256
+      venus_25: 1323774579
+      venus_26: -1872125189
+      venus_27: -1952913943
+      venus_28: -1345067260
+      venus_29: -687211275
+      venus_3: -499015090
+      venus_30: 1157813700
+      venus_31: -651142625
+      venus_32: 2053667593
+      venus_33: 2125134577
+      venus_34: -516259272
+      venus_35: 1235350180
+      venus_36: -1836626014
+      venus_37: -840493975
+      venus_38: 829988177
+      venus_39: -989876141
+      venus_4: -1572189179
+      venus_40: 1716627466
+      venus_41: -1706188963
+      venus_42: -1599648388
+      venus_43: -927511678
+      venus_44: -908363424
+      venus_45: -1784684532
+      venus_46: 638216328
+      venus_47: 1222689336
+      venus_48: 583553665
+      venus_49: 2104033802
+      venus_5: 306797870
+      venus_50: -1234386630
+      venus_51: -391251750
+      venus_52: 1787500064
+      venus_53: 380206009
+      venus_54: -1707869120
+      venus_55: 395836511
+      venus_56: -194052963
+      venus_57: -1215943213
+      venus_58: -1361366773
+      venus_59: 2102093221
+      venus_6: -663536737
+      venus_60: -1355228798
+      venus_61: 1150730346
+      venus_62: 1240815949
+      venus_63: 954545705
+      venus_64: -681769412
+      venus_65: -1668921850
+      venus_66: -33227616
+      venus_67: -680794211
+      venus_68: 1700100582
+      venus_69: -398540848
+      venus_7: 2008947667
+      venus_70: 1645405941
+      venus_71: 1762835067
+      venus_72: 88159219
+      venus_73: -1420768656
+      venus_74: 417659854
+      venus_75: 2050041475
+      venus_76: 1320124998
+      venus_77: 90004894
+      venus_78: -1721105490
+      venus_79: 2084671989
+      venus_8: -1096322413
+      venus_80: 301010839
+      venus_81: 1348688181
+      venus_82: 338294277
+      venus_83: 175192228
+      venus_84: 1007522319
+      venus_85: -83336153
+      venus_86: -995011244
+      venus_87: -1417003807
+      venus_88: 531516382
+      venus_89: -1454097406
+      venus_9: 1432668834
+      venus_90: -498964321
+      venus_91: -343724494
+      venus_92: -817298289
+      venus_93: -1201018029
+      venus_94: 1483501344
+      venus_95: -362497766
+      venus_96: -336088323
+      venus_97: -1528721818
+      venus_98: -1972953135
+      venus_99: -255571732
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
