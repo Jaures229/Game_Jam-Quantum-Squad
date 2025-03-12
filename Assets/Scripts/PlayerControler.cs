@@ -11,11 +11,15 @@ public class PlayerControler : MonoBehaviour
 
     [SerializeField] private float _speed;
     [SerializeField] private float _speedRotation;
+    [SerializeField] private Camera _camera;
+    [SerializeField] private float _speedZoom;
 
     private void FixedUpdate()
     {
         _rigidbody.velocity = new Vector2(_joystick.Horizontal * _speed, _joystick.Vertical * _speed);
         bool isMoving = _joystick.Horizontal != 0 || _joystick.Vertical != 0;
+        Vector3 targetPosition = new Vector3(transform.position.x, transform.position.y, _camera.transform.position.z + 15f);
+        transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime * _speedZoom);
 
         if (isMoving)
         {

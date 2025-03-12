@@ -28,7 +28,7 @@ public class SceneLoader : MonoBehaviour
         }
         animator.SetTrigger("Load");
 
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(15f);
 
         SceneManager.LoadScene(sceneName);
         PlayerPrefs.SetString("_currentScene", sceneName);
