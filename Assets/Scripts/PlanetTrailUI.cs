@@ -17,14 +17,14 @@ public class PlanetTrailUI : MonoBehaviour
     }
     void FixedUpdate()
     {
-        if (planetController.activated) {
+        //if (planetController.activated) {
             timer += Time.fixedDeltaTime;
             if (timer >= spawnInterval)
             {
                 SpawnTrailPoint();
                 timer = 0f;
             }
-        }
+        //}
     }
 
     void SpawnTrailPoint()

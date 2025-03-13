@@ -7,6 +7,9 @@ public class PanelSwitcher : MonoBehaviour
 {
     public GameObject[] panels; // Liste des panels à assigner dans l'inspecteur
     public GameObject finish_panel;
+    public GameObject Explore_button;
+    public GameObject Finish_button;
+
     public GameObject game_panel;
     [SerializeField] private GameObject load;
     private int currentIndex = 0;
@@ -30,12 +33,14 @@ public class PanelSwitcher : MonoBehaviour
             panels[currentIndex].SetActive(true); // Active le panel suivant
         } else {
             panels[currentIndex].SetActive(false);
-            finish_panel.SetActive(false);
-            game_panel.SetActive(true);
+            Explore_button.SetActive(true);
+            Finish_button.SetActive(true);
+            // finish_panel.SetActive(false);
+            // game_panel.SetActive(true);
         }
     }
 
-    public void Transi ()
+    public void Transi()
     {
         load.SetActive(true);
     }
