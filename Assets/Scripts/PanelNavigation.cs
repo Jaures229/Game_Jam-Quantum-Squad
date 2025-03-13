@@ -5,7 +5,7 @@ public class PanelNavigation : MonoBehaviour
 {
     public GameObject[] panels; // Liste des panels à naviguer
     private int currentIndex = 0;
-
+    //public GameObje
     void Start()
     {
         UpdatePanels();
