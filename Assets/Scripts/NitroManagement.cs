@@ -33,16 +33,13 @@ public class NitroManagement : MonoBehaviour
         _isBoosting = true;
         _boostButton.interactable = false;
 
-        // Déclenche l'animation de décharge
         _nitroAnimator.SetBool("Unload", true);
         _nitroAnimator.SetBool("Load", false);
 
         yield return new WaitForSeconds(_boostDuration);
 
-        // Attends un peu avant de pouvoir recharger, avec le cooldown
         yield return new WaitForSeconds(_cooldownBeforeReload);
 
-        // Réactive le bouton pour le boost et démarre le chargement
         _boostButton.interactable = true;
         _isBoosting = false;
         StartCoroutine(LoadNitro());
@@ -54,16 +51,12 @@ public class NitroManagement : MonoBehaviour
 
         _boostButton.interactable = false;
 
-        // Déclenche l'animation de recharge
         _nitroAnimator.SetBool("Unload", false);
         _nitroAnimator.SetBool("Load", true);
 
         yield return new WaitForSeconds(_timeForLoad);
-
-        // Une fois la recharge terminée, réactive le bouton
         _boostButton.interactable = true;
         _isCharging = false;
-        //Debug.Log("Rechargement terminé");
     }
 
 

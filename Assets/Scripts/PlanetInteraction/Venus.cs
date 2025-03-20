@@ -1,21 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Venus : MonoBehaviour
 {
     [SerializeField] private Collider _alertCollider;
+    [SerializeField] private List<GameObject> _description;
+    [SerializeField] private TextMeshProUGUI _message;
 
     private void Awake()
     {
         _alertCollider.isTrigger = true;
-    }
-    void Start()
-    {
-        
+        if (_description != null )
+        {
+            foreach ( GameObject go in _description )
+            {
+                go.SetActive( false );
+            }
+        }
     }
 
-    // Update is called once per frame
+    private void UpdateDescription()
+    {
+        foreach (GameObject go in _description)
+        {
+            go.SetActive(true);
+        }
+        _message.text = "Vous êtes en approche de la planète Vénus.";
+
+    }
+
+
     void Update()
     {
         
@@ -24,7 +40,19 @@ public class Venus : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Vous etes en approche de la planete  Venus");
+            UpdateDescription();
+            //Debug.Log("Vous etes en approche de la planete  Venus");
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            foreach ( GameObject go in _description )
+            {
+                go.SetActive(false);
+            }
         }
     }
 }
