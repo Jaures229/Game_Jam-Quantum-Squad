@@ -7474,7 +7474,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &584637180
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8557,7 +8557,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -115, y: -97.14786}
+  m_AnchoredPosition: {x: -121.09, y: -218.98}
   m_SizeDelta: {x: 105.39, y: 82.7872}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &624527444
@@ -8974,7 +8974,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 248}
-  m_SizeDelta: {x: 225.2743, y: 60.6853}
+  m_SizeDelta: {x: 351.4666, y: 60.6853}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &642783212
 MonoBehaviour:
@@ -9041,7 +9041,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: MainScene2
+          m_StringArgument: Lobby
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &642783213
@@ -24698,7 +24698,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: STAGE 2
+  m_text: SALLE DE CONTROLE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 854f2e599b88b7a00bfbf49a06ee7e4c, type: 2}
   m_sharedMaterial: {fileID: -2854132403616901820, guid: 854f2e599b88b7a00bfbf49a06ee7e4c, type: 2}
