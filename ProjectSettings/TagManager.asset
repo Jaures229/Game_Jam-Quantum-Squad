@@ -12,6 +12,7 @@ TagManager:
   - Saturne
   - Uranus
   - Neptune
+  - Player2D
   layers:
   - Default
   - TransparentFX
