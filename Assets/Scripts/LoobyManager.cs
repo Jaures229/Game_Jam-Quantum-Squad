@@ -4,36 +4,37 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.U2D;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class LoobyManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public GameObject lobbyPanel; // Panel du lobby
-    public GameObject stagePanel; // Panel de sélection des stages
+    public GameObject lobbyPanel;
+    public GameObject stagePanel;
+    [SerializeField] private GameObject _transiPanel;
+    [SerializeField] private Animator animator;
     public TMP_Text stageButtonText;
     private string Stage_to_load = "Stage 01";
     void Start()
     {
-        // Assure-toi que le lobby est affiché au départ
+        
         lobbyPanel.SetActive(true);
         stagePanel.SetActive(false);
+        _transiPanel.SetActive(false);
     }
 
-    // Afficher le panel des stages
     public void ShowStagePanel()
     {
         lobbyPanel.SetActive(false);
         stagePanel.SetActive(true);
     }
 
-    // Sélectionner un stage et mettre à jour le bouton du lobby
     public void SelectStage(string stageName)
     {
         stageButtonText.text = stageName;
         //stageButton.GetComponentInChildren<TextMeshPro>().text = stageName; // Mise à jour du texte
         Stage_to_load = stageName;
-        stagePanel.SetActive(false); // Fermer le panel des stages
-        lobbyPanel.SetActive(true);  // Retourner au lobby
+        stagePanel.SetActive(false);
+        lobbyPanel.SetActive(true);
     }
 
     public void Previous() {
@@ -41,19 +42,36 @@ public class LoobyManager : MonoBehaviour
         lobbyPanel.SetActive(true);
     }
 
+    IEnumerator LoadSceneWithAnimation(string sceneName)
+    {
+        animator.SetTrigger("Load");
+
+        yield return new WaitForSeconds(15f);
+
+        SceneManager.LoadScene(sceneName);
+        PlayerPrefs.SetString("_currentScene", sceneName);
+    }
+
     public void Play_Game()
     {
         if (Stage_to_load == "Stage 01")
         {
             lobbyPanel.SetActive(false);
-
+            _transiPanel.SetActive(true);
+            StartCoroutine(LoadSceneWithAnimation("MainScene1"));
+            //SceneManager.LoadScene("MainScene1");
         }
         if (Stage_to_load == "Stage 02") {
             lobbyPanel.SetActive(false);
-
+            _transiPanel.SetActive(true);
+            StartCoroutine(LoadSceneWithAnimation("MainScene2"));
+            //SceneManager.LoadScene("MainScene2");
         }
         if (Stage_to_load == "Stage 03") {
             lobbyPanel.SetActive(false);
+            _transiPanel.SetActive(true);
+            StartCoroutine(LoadSceneWithAnimation("Mars"));
+            //SceneManager.LoadScene("Mars");
         }
     }
 }

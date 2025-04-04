@@ -8,7 +8,7 @@ public class PanelNavigation : MonoBehaviour
     //public GameObje
     void Start()
     {
-        UpdatePanels();
+        //UpdatePanels();
     }
 
     public void NextPanel()

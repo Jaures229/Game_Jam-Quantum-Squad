@@ -26,9 +26,9 @@ public class Orbitation : MonoBehaviour
             angle += speed * Time.deltaTime;
             float radians = angle * Mathf.Deg2Rad;
 
-             x = target.position.x + distance * Mathf.Cos(radians);
-             y = target.position.y + distance * Mathf.Sin(radians);
-             z = transform.position.z;
+             x = target.position.x + distance * Mathf.Sin(radians);
+             y = transform.position.y;
+             z = target.position.z + distance * Mathf.Cos(radians);
 
             transform.position = new Vector3(x, y, z);
         }

@@ -16,7 +16,7 @@ public class NitroManagement : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(LoadNitro());
+        //StartCoroutine(LoadNitro());
     }
 
     public void ActivateBoost()
@@ -45,7 +45,7 @@ public class NitroManagement : MonoBehaviour
         StartCoroutine(LoadNitro());
     }
 
-    private IEnumerator LoadNitro()
+    public IEnumerator LoadNitro()
     {
         _isCharging = true;
 
@@ -56,6 +56,7 @@ public class NitroManagement : MonoBehaviour
 
         yield return new WaitForSeconds(_timeForLoad);
         _boostButton.interactable = true;
+        Debug.Log("interaction disponible\n");
         _isCharging = false;
     }
 

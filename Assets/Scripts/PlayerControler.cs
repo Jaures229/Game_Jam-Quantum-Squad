@@ -7,12 +7,11 @@ public class PlayerControler : MonoBehaviour
 {
     [SerializeField] private Rigidbody _rigidbody;
     [SerializeField] private FixedJoystick _joystick;
-    [SerializeField] private Animator _animator;
+   // [SerializeField] private Animator _animator;
 
     [SerializeField] private float _speed;
     [SerializeField] private float _speedRotation;
     [SerializeField] private Camera _camera;
-    [SerializeField] private float _speedZoom;
 
     [Header("Boost Setting")]
     [SerializeField] private float _boostMutiplicateur = 2.0f;
@@ -28,26 +27,26 @@ public class PlayerControler : MonoBehaviour
 
     private void FixedUpdate()
     {
-        // Déplacement en X et Y (pas de changement ici)
-        _rigidbody.velocity = new Vector3(_joystick.Horizontal * _speed, _joystick.Vertical * _speed, 0);
+        _rigidbody.velocity = new Vector3(_joystick.Horizontal * _speed, 0, _joystick.Vertical * _speed);
 
         bool isMoving = _joystick.Horizontal != 0 || _joystick.Vertical != 0;
 
         Vector3 targetPosition = new Vector3(transform.position.x, transform.position.y, _camera.transform.position.z + 15f);
-        transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime * _speedZoom);
+        //transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime * _speedZoom);
 
         if (isMoving)
         {
-            _animator.SetBool("Idle", isMoving);
-
-            // Rotation reste comme avant
-            Quaternion _targetRotation = Quaternion.LookRotation(transform.forward, _rigidbody.velocity);
-            Quaternion _rotation = Quaternion.RotateTowards(transform.rotation, _targetRotation, _speedRotation * Time.deltaTime);
-            _rigidbody.MoveRotation(_rotation);
+            Vector3 direction = new Vector3(_rigidbody.velocity.x, 0f, _rigidbody.velocity.z);
+            if (direction.magnitude > 0.1 )
+            {
+                Quaternion _targetRotation = Quaternion.LookRotation(direction);
+                Quaternion _rotation = Quaternion.RotateTowards(transform.rotation, _targetRotation, _speedRotation * Time.deltaTime);
+                _rigidbody.MoveRotation(_rotation);
+            }
         }
         else
         {
-            _animator.SetBool("Idle", false);
+            //_animator.SetBool("Idle", false);
         }
     }
 
