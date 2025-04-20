@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody), typeof(BoxCollider))] // Rigidbody 3D
+[RequireComponent(typeof(Rigidbody), typeof(BoxCollider))]
 public class PlayerControler : MonoBehaviour
 {
+    public static PlayerControler instance;
     [SerializeField] private Rigidbody _rigidbody;
     [SerializeField] private FixedJoystick _joystick;
    // [SerializeField] private Animator _animator;
@@ -19,7 +20,19 @@ public class PlayerControler : MonoBehaviour
     [SerializeField] private float _fadeOutDuration = 5.0f;
     private float _baseSpeed;
     private bool _isBoosting = false;
+    public int _healthBar = 9;
 
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
     private void Start()
     {
         _baseSpeed = _speed;
@@ -32,7 +45,6 @@ public class PlayerControler : MonoBehaviour
         bool isMoving = _joystick.Horizontal != 0 || _joystick.Vertical != 0;
 
         Vector3 targetPosition = new Vector3(transform.position.x, transform.position.y, _camera.transform.position.z + 15f);
-        //transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime * _speedZoom);
 
         if (isMoving)
         {
@@ -77,5 +89,13 @@ public class PlayerControler : MonoBehaviour
         }
         _speed = _baseSpeed;
         _isBoosting = false;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.CompareTag("Astéroides") == true)
+        {
+            _healthBar -= 1;
+        }
     }
 }

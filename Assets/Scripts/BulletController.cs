@@ -11,8 +11,8 @@ public class BulletController : MonoBehaviour
     public void Fire()
     {
         GameObject bullet = Instantiate(bulletPrefab, StartPoint.position, StartPoint.rotation);
-        Rigidbody2D bullet_rb = bullet.GetComponent<Rigidbody2D>();
+        Rigidbody bullet_rb = bullet.GetComponent<Rigidbody>();
 
-        bullet_rb.AddForce(StartPoint.up * bulletSpeed * Time.deltaTime, ForceMode2D.Impulse);
+        bullet_rb.velocity = StartPoint.forward * bulletSpeed;
     }
 }

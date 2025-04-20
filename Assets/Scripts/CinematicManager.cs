@@ -74,6 +74,7 @@ public class CinematicManager : MonoBehaviour
                 StartCoroutine(EnableAndStartNitro());
             }
         }
+        displayImage.gameObject.SetActive(false);
         gameObject.SetActive(false);
     }
     private IEnumerator EnableAndStartNitro()

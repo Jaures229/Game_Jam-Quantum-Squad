@@ -13,6 +13,7 @@ TagManager:
   - Uranus
   - Neptune
   - Player2D
+  - "Ast\xE9roides"
   layers:
   - Default
   - TransparentFX
