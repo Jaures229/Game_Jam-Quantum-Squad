@@ -7,7 +7,7 @@ public class PlayerControler : MonoBehaviour
 {
     public static PlayerControler instance;
     [SerializeField] private Rigidbody _rigidbody;
-    [SerializeField] private FixedJoystick _joystick;
+    //[SerializeField] private FixedJoystick _joystick;
    // [SerializeField] private Animator _animator;
 
     [SerializeField] private float _speed;
@@ -40,7 +40,7 @@ public class PlayerControler : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _rigidbody.velocity = new Vector3(_joystick.Horizontal * _speed, 0, _joystick.Vertical * _speed);
+        /*_rigidbody.velocity = new Vector3(_joystick.Horizontal * _speed, 0, _joystick.Vertical * _speed);
 
         bool isMoving = _joystick.Horizontal != 0 || _joystick.Vertical != 0;
 
@@ -59,7 +59,7 @@ public class PlayerControler : MonoBehaviour
         else
         {
             //_animator.SetBool("Idle", false);
-        }
+        }*/
     }
 
     public void ActiveBoost()
