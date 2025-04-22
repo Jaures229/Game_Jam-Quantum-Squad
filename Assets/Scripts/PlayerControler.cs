@@ -22,6 +22,18 @@ public class PlayerControler : MonoBehaviour
     private bool _isBoosting = false;
     public int _healthBar = 9;
 
+
+    [Header("Acelerometer Setting")]
+    public float forwardSpeed = 5f;
+    public float moveSpeed = 20f;
+    public float rotationSpeed = 100f;
+    public float maxRotationAngle = 45f;
+
+    private bool isBoostingForward = false;
+    private bool isMovingForward = false;
+
+    private float currentYRotation = 0f;
+
     private void Awake()
     {
         if (instance == null)
@@ -35,6 +47,7 @@ public class PlayerControler : MonoBehaviour
     }
     private void Start()
     {
+        _rigidbody = GetComponent<Rigidbody>();
         _baseSpeed = _speed;
     }
 
@@ -60,6 +73,29 @@ public class PlayerControler : MonoBehaviour
         {
             //_animator.SetBool("Idle", false);
         }*/
+
+        // Code for the Actual Movement
+        float tilt = Input.acceleration.x;
+        float rotationAmount = tilt * rotationSpeed * Time.fixedDeltaTime;
+        currentYRotation = Mathf.Clamp(currentYRotation + rotationAmount, -maxRotationAngle, maxRotationAngle);
+
+        Quaternion targetRotation = Quaternion.Euler(0f, currentYRotation, 0f);
+        _rigidbody.MoveRotation(targetRotation);
+
+        Vector3 forward = transform.forward;
+
+        if (isBoostingForward)
+        {
+            _rigidbody.velocity = forwardSpeed * Time.deltaTime * forward;
+        }
+        else if (isMovingForward)
+        {
+            _rigidbody.velocity = moveSpeed * Time.fixedDeltaTime * forward;
+        }
+        else
+        {
+            _rigidbody.velocity = Vector3.zero;
+        }
     }
 
     public void ActiveBoost()
@@ -71,6 +107,7 @@ public class PlayerControler : MonoBehaviour
             _baseSpeed = _speed;
             _speed *= _boostMutiplicateur;
 
+           /* Debug.Log("Boost activé");*/
             StartCoroutine(DisableBoost());
         }
     }
@@ -98,4 +135,10 @@ public class PlayerControler : MonoBehaviour
             _healthBar -= 1;
         }
     }
+
+    public void StartBoost() => isBoostingForward = true;
+    public void StopBoost() => isBoostingForward = false;
+
+    public void StartMoving() => isMovingForward = true;
+    public void StopMoving() => isMovingForward = false;
 }

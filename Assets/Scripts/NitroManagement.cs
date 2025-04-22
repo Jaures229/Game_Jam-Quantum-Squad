@@ -38,6 +38,7 @@ public class NitroManagement : MonoBehaviour
 
         yield return new WaitForSeconds(_boostDuration);
 
+        PlayerControler.instance.StopBoost();
         yield return new WaitForSeconds(_cooldownBeforeReload);
 
         _boostButton.interactable = true;
