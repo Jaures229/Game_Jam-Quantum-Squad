@@ -9,6 +9,7 @@ public class Bullet : MonoBehaviour
     void Start()
     {
         _startPosition = transform.position;
+        transform.rotation = Quaternion.Euler(90, 0, 0);
     }
 
     void Update()
