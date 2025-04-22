@@ -7,7 +7,7 @@ public class BulletController : MonoBehaviour
     [SerializeField] Transform StartPoint1;
     //[SerializeField] Transform StartPoint2;
     [SerializeField] private GameObject bulletPrefab;
-    [SerializeField] private float bulletSpeed = 10f;
+    //[SerializeField] private float bulletSpeed = 10f;
     Transform P1;
     Transform P2;
 
@@ -22,7 +22,7 @@ public class BulletController : MonoBehaviour
         Rigidbody bullet_rb = bullet.GetComponent<Rigidbody>();
         Rigidbody bullet_rb2 = bullet2.GetComponent<Rigidbody>();
 
-        bullet_rb.velocity = StartPoint1.forward * bulletSpeed;
-        bullet_rb2.velocity = StartPoint1.forward * bulletSpeed;
+        //bullet_rb.velocity = StartPoint1.forward * bulletSpeed;
+        //bullet_rb2.velocity = StartPoint1.forward * bulletSpeed;
     }
 }
