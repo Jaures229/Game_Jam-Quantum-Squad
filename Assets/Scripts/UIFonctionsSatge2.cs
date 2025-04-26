@@ -34,6 +34,6 @@ public class UIFonctions : MonoBehaviour
 
     private void ChangeHelathBar ()
     {
-        //_healthBar.sprite = HelfState[9 - PlayerControler.instance._healthBar];
+        _healthBar.sprite = HelfState[9 - PlayerControler.instance._healthBar];
     }
 }
