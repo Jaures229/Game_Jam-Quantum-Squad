@@ -10,7 +10,7 @@ public class UiController : MonoBehaviour
     [SerializeField] private GameObject _menuPanel;
     [SerializeField] private GameObject _transiGame;
     [SerializeField] private GameObject _continueGame;
-    [SerializeField] private AudioSource backgroundMusic;
+    //[SerializeField] private AudioSource backgroundMusic;
 
     [SerializeField] private AudioSource TouchingSound;
     [SerializeField] private AudioClip buttonClickSound;
@@ -22,7 +22,6 @@ public class UiController : MonoBehaviour
     {
         _menuPanel.SetActive(false);
         _transiGame.SetActive(false);
-        PlayBackgroundMusic();
         _animatorIntro = _panelStartAnimation.GetComponent<Animator>();
         PlayerPrefs.SetString("_currentScene", "MainScene1");
         if (PlayerPrefs.GetInt("_hasSeeIntro", 0) == 1)
@@ -35,15 +34,6 @@ public class UiController : MonoBehaviour
         {
             StartCoroutine(PlayIntro());
 
-        }
-    }
-
-    public void PlayBackgroundMusic()
-    {
-        if (backgroundMusic != null)
-        {
-            backgroundMusic.loop = true;
-            backgroundMusic.Play();
         }
     }
 
@@ -77,7 +67,7 @@ public class UiController : MonoBehaviour
     {
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
-            backgroundMusic.volume = Mathf.Clamp(backgroundMusic.volume * 0.2f, 0.1f, 1f);
+            //backgroundMusic.volume = Mathf.Clamp(backgroundMusic.volume * 0.2f, 0.1f, 1f);
             TouchingSound.Play();
             return true;
         }

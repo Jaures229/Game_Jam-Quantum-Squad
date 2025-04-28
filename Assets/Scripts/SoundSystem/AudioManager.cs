@@ -11,6 +11,10 @@ public class AudioManager : MonoBehaviour
     public event Action OnMusicFinished;
     private void Awake()
     {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
         DontDestroyOnLoad(this);
     }
 

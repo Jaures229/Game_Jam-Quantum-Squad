@@ -623,6 +623,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 350083039}
   m_CullTransparentMesh: 1
+--- !u!1 &459901283
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 459901284}
+  m_Layer: 0
+  m_Name: AudioScene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &459901284
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459901283}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -527.02826, y: 1786.3853, z: -808.16016}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &641288023
 GameObject:
   m_ObjectHideFlags: 0
@@ -948,7 +979,6 @@ MonoBehaviour:
   _menuPanel: {fileID: 246234629}
   _transiGame: {fileID: 641288023}
   _continueGame: {fileID: 1365086675}
-  backgroundMusic: {fileID: 0}
   TouchingSound: {fileID: 0}
   buttonClickSound: {fileID: 0}
 --- !u!1 &1297040443
@@ -2096,3 +2126,4 @@ SceneRoots:
   - {fileID: 684971939}
   - {fileID: 1459126478}
   - {fileID: 1863849059}
+  - {fileID: 459901284}
