@@ -16,6 +16,7 @@ public class AudioManager : MonoBehaviour
             Instance = this;
         }
         DontDestroyOnLoad(this);
+        _audioSource.volume = 0.3f;
     }
 
     private void Start()
@@ -57,15 +58,19 @@ public class AudioManager : MonoBehaviour
 
     public void PlaySFX(AudioClip effect)
     {
+        _audioSource.volume = 0.25f;
         _audioSourceSFX.PlayOneShot(effect);
+        _audioSource.volume = 0.30f;
     }
 
     public void SetVolumeMusic(float volume)
     {
+        _audioSource.volume = volume;
     }
 
     public void SetSFXVolume(float volume)
     {
+        _audioSourceSFX.volume = volume;
     }
 
     public void SetMasterVolume ()

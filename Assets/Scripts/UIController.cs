@@ -12,7 +12,7 @@ public class UiController : MonoBehaviour
     [SerializeField] private GameObject _continueGame;
     //[SerializeField] private AudioSource backgroundMusic;
 
-    [SerializeField] private AudioSource TouchingSound;
+    [SerializeField] private AudioClip TouchingSound;
     [SerializeField] private AudioClip buttonClickSound;
 
 
@@ -67,8 +67,7 @@ public class UiController : MonoBehaviour
     {
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
-            //backgroundMusic.volume = Mathf.Clamp(backgroundMusic.volume * 0.2f, 0.1f, 1f);
-            TouchingSound.Play();
+            AudioManager.Instance.PlaySFX(TouchingSound);
             return true;
         }
         return false;

@@ -632,6 +632,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 459901284}
+  - component: {fileID: 459901285}
   m_Layer: 0
   m_Name: AudioScene
   m_TagString: Untagged
@@ -654,6 +655,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &459901285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459901283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a09c983ca0a0ab3499b6d8ed1f634362, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _musicList:
+  - {fileID: 8300000, guid: 97a583915e39a5448893cdb1c7de80ce, type: 3}
 --- !u!1 &641288023
 GameObject:
   m_ObjectHideFlags: 0
@@ -979,7 +994,7 @@ MonoBehaviour:
   _menuPanel: {fileID: 246234629}
   _transiGame: {fileID: 641288023}
   _continueGame: {fileID: 1365086675}
-  TouchingSound: {fileID: 0}
+  TouchingSound: {fileID: 8300000, guid: cb7a1158a7fb40544b3a63f430dde01f, type: 3}
   buttonClickSound: {fileID: 0}
 --- !u!1 &1297040443
 GameObject:
