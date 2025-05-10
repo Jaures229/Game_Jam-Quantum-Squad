@@ -8,6 +8,8 @@ public class PlayerController2 : MonoBehaviour
     [SerializeField] private Joystick joystick;
     [SerializeField] private float speed = 5f;
     [SerializeField] private Animator _animator;
+    bool _collide_materials = false;
+    private GameObject _stoneInRange;
 
     private Rigidbody rb;
 
@@ -30,14 +32,40 @@ public class PlayerController2 : MonoBehaviour
 
         _animator.SetBool("Walk", direction.magnitude > 0.1f);
     }
-
-    public void TakeObject ()
-    {
-        _animator.SetTrigger("Take");
-    }
-
     private void UpdateAnimation()
     {
+    }
+    public void TakeObject()
+    {
+        if (_collide_materials && _stoneInRange != null)
+        {
+            _animator.SetTrigger("Take");
+
+            // Envoie l'événement de collecte de la pierre
+            QuestEvents.OnPlanetStoneCollected?.Invoke("Mars", "Stone");
+
+            // Désactive la pierre seulement ici
+            _stoneInRange.SetActive(false);
+            _stoneInRange = null;
+            _collide_materials = false;
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Stone"))
+        {
+            _collide_materials = true;
+            _stoneInRange = other.gameObject;
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject == _stoneInRange)
+        {
+            _collide_materials = false;
+            _stoneInRange = null;
+        }
     }
 }
 

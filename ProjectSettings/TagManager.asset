@@ -14,6 +14,7 @@ TagManager:
   - Neptune
   - Player2D
   - "Ast\xE9roides"
+  - Stone
   layers:
   - Default
   - TransparentFX
