@@ -11,6 +11,8 @@ public class MiniMapManager : MonoBehaviour
     [SerializeField] private Transform _vaiseau;
     [SerializeField] private float _hauteur;
     [SerializeField] private float scale;
+    [SerializeField] private float _playerScaleX;
+    [SerializeField] private float _playerScaleY;
     void Start()
     {
         CreateTriangle(_vaiseau);
@@ -41,7 +43,7 @@ public class MiniMapManager : MonoBehaviour
         GameObject _triangle = Instantiate(_vaiseauMarqueur, _vaiseau.position + Vector3.up * _hauteur, Quaternion.Euler(90, 0, 0));
 
        _triangle.layer = LayerMask.NameToLayer("MiniMapObjects");
-        _triangle.transform.localScale = new Vector3(3000, 4000, 1f);
+        _triangle.transform.localScale = new Vector3(_playerScaleX, _playerScaleY, 1f);
 
         _triangle.transform.SetParent(_vaiseau);
     }
