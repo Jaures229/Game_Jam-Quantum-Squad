@@ -4184,6 +4184,8 @@ MonoBehaviour:
   _vaiseau: {fileID: 5931538911348598355}
   _hauteur: 900
   scale: 1600
+  _playerScaleX: 0
+  _playerScaleY: 0
 --- !u!1 &1427893567
 GameObject:
   m_ObjectHideFlags: 0
@@ -5926,8 +5928,8 @@ MonoBehaviour:
   _boostDuration: 20
   _fadeOutDuration: 5
   _healthBar: 9
-  forwardSpeed: 17797
-  moveSpeed: 11712
+  forwardSpeed: 20000
+  moveSpeed: 30000
   rotationSpeed: 100
   maxRotationAngle: 360
 --- !u!1 &5000957045824912453

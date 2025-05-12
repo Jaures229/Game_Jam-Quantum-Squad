@@ -38,7 +38,7 @@ public class QuestUIUpdater : MonoBehaviour
         string combinedProgress = "";
         foreach (var goal in currentQuest.goals)
         {
-            combinedProgress += "- " + goal.goalName + ": " + goal.GetProgression() + "\n";
+            combinedProgress += "- " + goal.GetProgression() + "\n";
         }
 
         questProgressionText.text = combinedProgress;

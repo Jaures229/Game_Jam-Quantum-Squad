@@ -1,11 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Reward : ScriptableObject
-{
-    public abstract void ApplyReward();
-}
-
 [CreateAssetMenu(fileName = "NewQuest", menuName = "Quests/Quest")]
 public class Quest : ScriptableObject
 {

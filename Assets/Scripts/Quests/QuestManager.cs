@@ -70,7 +70,7 @@ public class QuestManager : MonoBehaviour
         completedQuests.Add(currentQuest);
 
         // Enlever la quête terminée de la liste
-        quests.Remove(currentQuest);
+        //quests.Remove(currentQuest);
 
         currentQuest = null;
     }

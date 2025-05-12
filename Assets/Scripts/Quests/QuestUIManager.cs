@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
 public class QuestUIManager : MonoBehaviour
 {
     [Header("UI References")]
     public Transform contentContainer;           // Le Content de ta Scroll View
     public GameObject questUIPrefab;             // Ton prefab QuestUIItem
+    public TextMeshProUGUI Current_Quest_text;
 
     private List<Quest> quests;                  // Toutes les quêtes à afficher (à adapter selon ton système)
     private void Start()
@@ -36,6 +37,7 @@ public class QuestUIManager : MonoBehaviour
     private void OnQuestSelected(Quest selectedQuest)
     {
         Debug.Log("Quête sélectionnée : " + selectedQuest.questTitle);
+        Current_Quest_text.text = "Prochaine quête: " + selectedQuest.questTitle;
 
         QuestManager.Instance.SetCurrentQuest(selectedQuest);
         QuestManager.Instance.StartQuest(selectedQuest);

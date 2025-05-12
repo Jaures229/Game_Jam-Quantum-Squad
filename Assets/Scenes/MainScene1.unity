@@ -3006,7 +3006,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.95
+  m_fontSize: 45.1
   m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3201,6 +3201,7 @@ GameObject:
   - component: {fileID: 221298448}
   - component: {fileID: 221298450}
   - component: {fileID: 221298449}
+  - component: {fileID: 221298451}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -3247,8 +3248,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Oh ! n\u2019oublions pas le Soleil. \nSource d\u2019\xE9nergie in\xE9puisable
-    de notre syst\xE8me."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -3275,7 +3275,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 41.1
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3325,6 +3325,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 221298447}
   m_CullTransparentMesh: 1
+--- !u!114 &221298451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221298447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 221298449}
+  fullText: "Oh ! n\u2019oublions pas le Soleil. \nSource d\u2019\xE9nergie in\xE9puisable
+    de notre syst\xE8me."
+  typingSpeed: 0.05
 --- !u!1 &222193097
 GameObject:
   m_ObjectHideFlags: 0
@@ -3637,6 +3653,7 @@ GameObject:
   - component: {fileID: 251107642}
   - component: {fileID: 251107644}
   - component: {fileID: 251107643}
+  - component: {fileID: 251107645}
   m_Layer: 5
   m_Name: second Text
   m_TagString: Untagged
@@ -3683,9 +3700,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Tu te trouves actuellement dans une simulation qui est le premier niveau
-    de ton parcours. Voil\xE0 pourquoi j\u2019appara\xEEt dans cette apparence, ha
-    ha..."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -3762,6 +3777,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 251107641}
   m_CullTransparentMesh: 1
+--- !u!114 &251107645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251107641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 251107643}
+  fullText: "Tu te trouves actuellement dans une simulation qui est le premier niveau
+    de ton parcours. Voil\xE0 pourquoi j\u2019appara\xEEt dans cette apparence, ha
+    ha..."
+  typingSpeed: 0.05
 --- !u!1 &266311407
 GameObject:
   m_ObjectHideFlags: 0
@@ -3773,6 +3805,7 @@ GameObject:
   - component: {fileID: 266311408}
   - component: {fileID: 266311410}
   - component: {fileID: 266311409}
+  - component: {fileID: 266311411}
   m_Layer: 5
   m_Name: Text (TMP) (2)
   m_TagString: Untagged
@@ -3819,8 +3852,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Temp\xE9rature moyenne : -63\xB0C. \nGravit\xE9 : 3,7 m/s\xB2, soit 38%
-    de la Terre."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -3847,7 +3879,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36.1
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3897,6 +3929,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 266311407}
   m_CullTransparentMesh: 1
+--- !u!114 &266311411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266311407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 266311409}
+  fullText: "Temp\xE9rature moyenne : -63\xB0C. \nGravit\xE9 : 3,7 m/s\xB2, soit
+    38% de la Terre."
+  typingSpeed: 0.05
 --- !u!1 &276772230
 GameObject:
   m_ObjectHideFlags: 0
@@ -4211,6 +4259,7 @@ GameObject:
   - component: {fileID: 284317883}
   - component: {fileID: 284317885}
   - component: {fileID: 284317884}
+  - component: {fileID: 284317886}
   m_Layer: 5
   m_Name: Text (TMP) (1)
   m_TagString: Untagged
@@ -4257,8 +4306,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Unique en son genre avec de l\u2019eau liquide. Seul plan\xE8te du syst\xE8me
-    solaire \xE0 abriter la vie"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -4285,7 +4333,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 33.4
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4335,6 +4383,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 284317882}
   m_CullTransparentMesh: 1
+--- !u!114 &284317886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284317882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 284317884}
+  fullText: "Unique en son genre avec de l\u2019eau liquide. Seul plan\xE8te du syst\xE8me
+    solaire \xE0 abriter la vie"
+  typingSpeed: 0.05
 --- !u!1 &285989441
 GameObject:
   m_ObjectHideFlags: 0
@@ -4458,6 +4522,7 @@ GameObject:
   - component: {fileID: 291271942}
   - component: {fileID: 291271944}
   - component: {fileID: 291271943}
+  - component: {fileID: 291271945}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -4504,7 +4569,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Et enfin, la toute derni\xE8re, Neptune."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -4531,7 +4596,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45.5
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4581,6 +4646,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 291271941}
   m_CullTransparentMesh: 1
+--- !u!114 &291271945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291271941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 291271943}
+  fullText: "Et enfin, la toute derni\xE8re, Neptune."
+  typingSpeed: 0.05
 --- !u!1 &301560113
 GameObject:
   m_ObjectHideFlags: 0
@@ -4667,7 +4747,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 43.65
+  m_fontSize: 43.85
   m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -7331,6 +7411,7 @@ GameObject:
   - component: {fileID: 546183593}
   - component: {fileID: 546183595}
   - component: {fileID: 546183594}
+  - component: {fileID: 546183596}
   m_Layer: 5
   m_Name: Text (TMP) (2)
   m_TagString: Untagged
@@ -7377,7 +7458,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Appuie sur le bouton commencer pour d\xE9buter le niveau."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -7404,7 +7485,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34.75
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -7454,6 +7535,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 546183592}
   m_CullTransparentMesh: 1
+--- !u!114 &546183596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546183592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 546183594}
+  fullText: "Appuie sur le bouton commencer pour d\xE9buter le niveau."
+  typingSpeed: 0.05
 --- !u!1 &556237807
 GameObject:
   m_ObjectHideFlags: 0
@@ -7682,7 +7778,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &584637180
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7855,6 +7951,7 @@ GameObject:
   - component: {fileID: 594052933}
   - component: {fileID: 594052935}
   - component: {fileID: 594052934}
+  - component: {fileID: 594052936}
   m_Layer: 5
   m_Name: Text (TMP) (2)
   m_TagString: Untagged
@@ -7901,8 +7998,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Pour l'instant tu as le Premier badge, celui d'Apprentis Astronaute. Obtiens
-    le plus d'\xE9toiles possible pour d\xE9bloquer le prochain badge."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -7929,7 +8025,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32.05
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -7979,6 +8075,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 594052932}
   m_CullTransparentMesh: 1
+--- !u!114 &594052936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594052932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 594052934}
+  fullText: "Pour l'instant tu as le Premier badge, celui d'Apprentis Astronaute.
+    Obtiens le plus d'\xE9toiles possible pour d\xE9bloquer le prochain badge."
+  typingSpeed: 0.05
 --- !u!1 &600298753
 GameObject:
   m_ObjectHideFlags: 0
@@ -8861,6 +8973,7 @@ GameObject:
   - component: {fileID: 626597369}
   - component: {fileID: 626597371}
   - component: {fileID: 626597370}
+  - component: {fileID: 626597372}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -8907,9 +9020,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Avant de commencer le niveau laisse moi t\u2019expliquer quelques petites
-    choses qui te seront utiles.\nJe vais tout d\u2019abord commencer par te pr\xE9senter
-    les plan\xE8tes de notre syst\xE8me solaire..."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -8986,6 +9097,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 626597368}
   m_CullTransparentMesh: 1
+--- !u!114 &626597372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626597368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 626597370}
+  fullText: "Avant de commencer le niveau laisse moi t\u2019expliquer quelques petites
+    choses qui te seront utiles.\nJe vais tout d\u2019abord commencer par te pr\xE9senter
+    les plan\xE8tes de notre syst\xE8me solaire..."
+  typingSpeed: 0.05
 --- !u!1 &635802400
 GameObject:
   m_ObjectHideFlags: 0
@@ -9732,6 +9860,7 @@ GameObject:
   - component: {fileID: 665565196}
   - component: {fileID: 665565198}
   - component: {fileID: 665565197}
+  - component: {fileID: 665565199}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -9778,7 +9907,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tout d'abord commencons par Mercure
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -9805,7 +9934,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 47.85
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -9855,6 +9984,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 665565195}
   m_CullTransparentMesh: 1
+--- !u!114 &665565199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665565195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 665565197}
+  fullText: Tout d'abord commencons par Mercure
+  typingSpeed: 0.05
 --- !u!1 &666623232
 GameObject:
   m_ObjectHideFlags: 0
@@ -10833,6 +10977,7 @@ GameObject:
   - component: {fileID: 736361265}
   - component: {fileID: 736361267}
   - component: {fileID: 736361266}
+  - component: {fileID: 736361268}
   m_Layer: 5
   m_Name: Text (TMP) (2)
   m_TagString: Untagged
@@ -10879,8 +11024,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Une \xE9toile avec une temp\xE9rature d\u2019environ 5.500 degr\xE9 celcius
-    (\xB0C) \xE0 sa surface et une Gravit\xE9 de 274\_m/s\xB2"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -10907,7 +11051,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 39.55
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -10957,6 +11101,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 736361264}
   m_CullTransparentMesh: 1
+--- !u!114 &736361268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736361264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 736361266}
+  fullText: "Une \xE9toile avec une temp\xE9rature d\u2019environ 5.500 degr\xE9
+    celcius (\xB0C) \xE0 sa surface et une Gravit\xE9 de 274\_m/s\xB2"
+  typingSpeed: 0.05
 --- !u!1 &747688002
 GameObject:
   m_ObjectHideFlags: 0
@@ -11612,6 +11772,7 @@ GameObject:
   - component: {fileID: 811851087}
   - component: {fileID: 811851089}
   - component: {fileID: 811851088}
+  - component: {fileID: 811851090}
   m_Layer: 5
   m_Name: Text (TMP) (2)
   m_TagString: Untagged
@@ -11658,8 +11819,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "La plus vent\xE9e, jusqu'\xE0 2 100 km/h. \nGravit\xE9 : 11,2 m/s\xB2,
-    similaire \xE0 Saturne."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -11686,7 +11846,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 41.45
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -11736,6 +11896,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 811851086}
   m_CullTransparentMesh: 1
+--- !u!114 &811851090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811851086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 811851088}
+  fullText: "La plus vent\xE9e, jusqu'\xE0 2 100 km/h. \nGravit\xE9 : 11,2 m/s\xB2,
+    similaire \xE0 Saturne."
+  typingSpeed: 0.05
 --- !u!1 &814362193
 GameObject:
   m_ObjectHideFlags: 0
@@ -12634,6 +12810,7 @@ GameObject:
   - component: {fileID: 872189282}
   - component: {fileID: 872189284}
   - component: {fileID: 872189283}
+  - component: {fileID: 872189285}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -12680,7 +12857,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Puis, notre ch\xE8re plan\xE8te Terre."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -12707,7 +12884,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 47.85
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -12757,6 +12934,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 872189281}
   m_CullTransparentMesh: 1
+--- !u!114 &872189285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872189281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 872189283}
+  fullText: "Puis, notre ch\xE8re plan\xE8te Terre."
+  typingSpeed: 0.05
 --- !u!1 &884851107
 GameObject:
   m_ObjectHideFlags: 0
@@ -13110,6 +13302,7 @@ GameObject:
   - component: {fileID: 890280435}
   - component: {fileID: 890280437}
   - component: {fileID: 890280436}
+  - component: {fileID: 890280438}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -13156,8 +13349,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Voici maintenant, la plus grande plan\xE8te du syst\xE8me solaire, 318
-    fois la masse terrestre. "
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -13184,7 +13376,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40.75
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -13234,6 +13426,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 890280434}
   m_CullTransparentMesh: 1
+--- !u!114 &890280438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890280434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 890280436}
+  fullText: "Voici maintenant, la plus grande plan\xE8te du syst\xE8me solaire, 318
+    fois la masse terrestre. "
+  typingSpeed: 0.05
 --- !u!1 &896051428
 GameObject:
   m_ObjectHideFlags: 0
@@ -13873,6 +14081,7 @@ GameObject:
   - component: {fileID: 972479314}
   - component: {fileID: 972479316}
   - component: {fileID: 972479315}
+  - component: {fileID: 972479317}
   m_Layer: 5
   m_Name: Text (TMP) (2)
   m_TagString: Untagged
@@ -13919,7 +14128,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Gravit\xE9 : 10,4 m/s\xB2, proche de celle de la Terre."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -13946,7 +14155,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40.05
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -13996,6 +14205,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 972479313}
   m_CullTransparentMesh: 1
+--- !u!114 &972479317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972479313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 972479315}
+  fullText: "Gravit\xE9 : 10,4 m/s\xB2, proche de celle de la Terre."
+  typingSpeed: 0.05
 --- !u!1 &973012239
 GameObject:
   m_ObjectHideFlags: 0
@@ -14658,7 +14882,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000024318695, y: 0.0000026226044}
+  m_AnchoredPosition: {x: 0.000024318695, y: 0}
   m_SizeDelta: {x: 1512.0686, y: 708.358}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1023805276
@@ -14860,6 +15084,7 @@ GameObject:
   - component: {fileID: 1042757919}
   - component: {fileID: 1042757921}
   - component: {fileID: 1042757920}
+  - component: {fileID: 1042757922}
   m_Layer: 5
   m_Name: Text (TMP) (1)
   m_TagString: Untagged
@@ -14906,8 +15131,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Elle a une rotation inclin\xE9e \xE0 98\xB0, avec des saisons extr\xEAmes
-    de\n42 ans. "
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -14934,7 +15158,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38.8
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -14984,6 +15208,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1042757918}
   m_CullTransparentMesh: 1
+--- !u!114 &1042757922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042757918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1042757920}
+  fullText: "Elle a une rotation inclin\xE9e \xE0 98\xB0, avec des saisons extr\xEAmes
+    de\n42 ans. "
+  typingSpeed: 0.05
 --- !u!1 &1046610541
 GameObject:
   m_ObjectHideFlags: 0
@@ -15547,6 +15787,7 @@ GameObject:
   - component: {fileID: 1069928683}
   - component: {fileID: 1069928685}
   - component: {fileID: 1069928684}
+  - component: {fileID: 1069928686}
   m_Layer: 5
   m_Name: Text (TMP) (2)
   m_TagString: Untagged
@@ -15593,7 +15834,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Atmosph\xE8re ultra-dense, pression 92 fois celle de la Terre."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -15620,7 +15861,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 39.6
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -15670,6 +15911,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1069928682}
   m_CullTransparentMesh: 1
+--- !u!114 &1069928686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069928682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1069928684}
+  fullText: "Atmosph\xE8re ultra-dense, pression 92 fois celle de la Terre."
+  typingSpeed: 0.05
 --- !u!1 &1070564546
 GameObject:
   m_ObjectHideFlags: 0
@@ -17035,6 +17291,7 @@ GameObject:
   - component: {fileID: 1157865580}
   - component: {fileID: 1157865582}
   - component: {fileID: 1157865581}
+  - component: {fileID: 1157865583}
   m_Layer: 5
   m_Name: Text (TMP) (1)
   m_TagString: Untagged
@@ -17081,7 +17338,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Journ\xE9e plus longue que son ann\xE9e (243 jours). "
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -17108,7 +17365,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 39.6
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -17158,6 +17415,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1157865579}
   m_CullTransparentMesh: 1
+--- !u!114 &1157865583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157865579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1157865581}
+  fullText: "Journ\xE9e plus longue que son ann\xE9e (243 jours). "
+  typingSpeed: 0.05
 --- !u!1 &1177199568
 GameObject:
   m_ObjectHideFlags: 0
@@ -17753,7 +18025,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 42.9
+  m_fontSize: 43.45
   m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -18543,6 +18815,7 @@ GameObject:
   - component: {fileID: 1289901868}
   - component: {fileID: 1289901870}
   - component: {fileID: 1289901869}
+  - component: {fileID: 1289901871}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -18589,7 +18862,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Tiens voici ma pr\xE9f\xE9re\xE9,\nSaturne, une plan\xE8te gazeuse. "
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -18616,7 +18889,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 41.6
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -18666,6 +18939,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1289901867}
   m_CullTransparentMesh: 1
+--- !u!114 &1289901871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289901867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1289901869}
+  fullText: "Tiens voici ma pr\xE9f\xE9re\xE9,\nSaturne, une plan\xE8te gazeuse. "
+  typingSpeed: 0.05
 --- !u!1 &1296079172
 GameObject:
   m_ObjectHideFlags: 0
@@ -20685,6 +20973,7 @@ GameObject:
   - component: {fileID: 1454411884}
   - component: {fileID: 1454411886}
   - component: {fileID: 1454411885}
+  - component: {fileID: 1454411887}
   m_Layer: 5
   m_Name: Text (TMP) (2)
   m_TagString: Untagged
@@ -20731,9 +21020,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Tu dois savoir que chaque niveau r\xE9ussi te fait gagner des \xE9toiles
-    qui seront ton score. Chaque \xE9toile gagn\xE9e t'offre 100 points d'\xE9volution,
-    ces points te seront utiles pour d\xE9bloquer des Badges."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -20760,7 +21047,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 29.75
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -20810,6 +21097,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1454411883}
   m_CullTransparentMesh: 1
+--- !u!114 &1454411887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454411883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1454411885}
+  fullText: "Tu dois savoir que chaque niveau r\xE9ussi te fait gagner des \xE9toiles
+    qui seront ton score. Chaque \xE9toile gagn\xE9e t'offre 100 points d'\xE9volution,
+    ces points te seront utiles pour d\xE9bloquer des Badges."
+  typingSpeed: 0.05
 --- !u!1 &1484601560
 GameObject:
   m_ObjectHideFlags: 0
@@ -20977,6 +21281,7 @@ GameObject:
   - component: {fileID: 1519282326}
   - component: {fileID: 1519282328}
   - component: {fileID: 1519282327}
+  - component: {fileID: 1519282329}
   m_Layer: 5
   m_Name: Text (TMP) (2)
   m_TagString: Untagged
@@ -21023,7 +21328,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Gravit\xE9 : 9,8 m/s\xB2."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -21050,7 +21355,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38.7
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -21100,6 +21405,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1519282325}
   m_CullTransparentMesh: 1
+--- !u!114 &1519282329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519282325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1519282327}
+  fullText: "Gravit\xE9 : 9,8 m/s\xB2."
+  typingSpeed: 0.05
 --- !u!1 &1529453542
 GameObject:
   m_ObjectHideFlags: 0
@@ -21979,6 +22299,7 @@ GameObject:
   - component: {fileID: 1636103155}
   - component: {fileID: 1636103157}
   - component: {fileID: 1636103156}
+  - component: {fileID: 1636103158}
   m_Layer: 5
   m_Name: Text (TMP) (2)
   m_TagString: Untagged
@@ -22025,7 +22346,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Gravit\xE9 : 8,7 m/s\xB2."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -22052,7 +22373,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 47.15
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -22102,6 +22423,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1636103154}
   m_CullTransparentMesh: 1
+--- !u!114 &1636103158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636103154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1636103156}
+  fullText: "Gravit\xE9 : 8,7 m/s\xB2."
+  typingSpeed: 0.05
 --- !u!1 &1649820836
 GameObject:
   m_ObjectHideFlags: 0
@@ -22246,6 +22582,7 @@ GameObject:
   - component: {fileID: 1649976312}
   - component: {fileID: 1649976314}
   - component: {fileID: 1649976313}
+  - component: {fileID: 1649976315}
   m_Layer: 5
   m_Name: Text (TMP) (3)
   m_TagString: Untagged
@@ -22292,9 +22629,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Voil\xE0! C'est fini, tu sais tout ce qu'il y a savoir pour l'instant
-    sur le Premier niveau et le syst\xE8me de r\xE9compense.\nJe pense que tu es
-    fin pr\xEAt \xE0 relever le d\xE9fi."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -22321,7 +22656,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34.55
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -22371,6 +22706,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1649976311}
   m_CullTransparentMesh: 1
+--- !u!114 &1649976315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649976311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1649976313}
+  fullText: "Voil\xE0! C'est fini, tu sais tout ce qu'il y a savoir pour l'instant
+    sur le Premier niveau et le syst\xE8me de r\xE9compense.\nJe pense que tu es
+    fin pr\xEAt \xE0 relever le d\xE9fi."
+  typingSpeed: 0.05
 --- !u!1 &1652078800
 GameObject:
   m_ObjectHideFlags: 0
@@ -22927,13 +23279,14 @@ GameObject:
   - component: {fileID: 1705811334}
   - component: {fileID: 1705811336}
   - component: {fileID: 1705811335}
+  - component: {fileID: 1705811337}
   m_Layer: 5
   m_Name: Text (TMP) (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1705811334
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22973,9 +23326,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Cependant, ton temps est limit\xE9 et tu devras faire vite pour obtenir
-    un bon score. Chaque 15s, tu perdras une \xE9toile. Termine le niveau en moins
-    de 15s pour obtenir toutes les \xE9toiles."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -23002,7 +23353,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 29.75
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -23052,6 +23403,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1705811333}
   m_CullTransparentMesh: 1
+--- !u!114 &1705811337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705811333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1705811335}
+  fullText: "Cependant, ton temps est limit\xE9 et tu devras faire vite pour obtenir
+    un bon score. Chaque 15s, tu perdras une \xE9toile. Termine le niveau en moins
+    de 15s pour obtenir toutes les \xE9toiles."
+  typingSpeed: 0.05
 --- !u!1 &1716255878
 GameObject:
   m_ObjectHideFlags: 0
@@ -23637,6 +24005,7 @@ GameObject:
   - component: {fileID: 1756708451}
   - component: {fileID: 1756708453}
   - component: {fileID: 1756708452}
+  - component: {fileID: 1756708454}
   m_Layer: 5
   m_Name: Text (TMP) (2)
   m_TagString: Untagged
@@ -23683,7 +24052,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Gravit\xE9 : 24,8 m/s\xB2, la plus \xE9lev\xE9e du syst\xE8me."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -23710,7 +24079,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45.2
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -23760,6 +24129,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1756708450}
   m_CullTransparentMesh: 1
+--- !u!114 &1756708454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756708450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1756708452}
+  fullText: "Gravit\xE9 : 24,8 m/s\xB2, la plus \xE9lev\xE9e du syst\xE8me."
+  typingSpeed: 0.05
 --- !u!1 &1763111524
 GameObject:
   m_ObjectHideFlags: 0
@@ -23983,6 +24367,7 @@ GameObject:
   - component: {fileID: 1775944731}
   - component: {fileID: 1775944733}
   - component: {fileID: 1775944732}
+  - component: {fileID: 1775944734}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -24029,7 +24414,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ensuite nous avons V\xE9nus en deuxi\xE8me position.\n"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -24056,7 +24441,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38.9
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -24106,6 +24491,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1775944730}
   m_CullTransparentMesh: 1
+--- !u!114 &1775944734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775944730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1775944732}
+  fullText: "Ensuite nous avons V\xE9nus en deuxi\xE8me position."
+  typingSpeed: 0.05
 --- !u!1 &1777341602
 GameObject:
   m_ObjectHideFlags: 0
@@ -26305,6 +26705,7 @@ GameObject:
   - component: {fileID: 1924154198}
   - component: {fileID: 1924154200}
   - component: {fileID: 1924154199}
+  - component: {fileID: 1924154201}
   m_Layer: 5
   m_Name: Text (TMP) (2)
   m_TagString: Untagged
@@ -26351,8 +26752,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Elle est \xE0 une distance de 384.400\_km de la Terre et a un rayon de
-    1\u202F737,4\_km\nGravit\xE9 : 1,62\_m/s\xB2"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -26379,7 +26779,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 39.55
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -26429,6 +26829,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1924154197}
   m_CullTransparentMesh: 1
+--- !u!114 &1924154201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924154197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1924154199}
+  fullText: "Elle est \xE0 une distance de 384.400\_km de la Terre et a un rayon
+    de 1\u202F737,4\_km\nGravit\xE9 : 1,62\_m/s\xB2"
+  typingSpeed: 0.05
 --- !u!1 &1928029828
 GameObject:
   m_ObjectHideFlags: 0
@@ -26758,6 +27174,7 @@ GameObject:
   - component: {fileID: 1950437511}
   - component: {fileID: 1950437513}
   - component: {fileID: 1950437512}
+  - component: {fileID: 1950437514}
   m_Layer: 5
   m_Name: Text (TMP) (1)
   m_TagString: Untagged
@@ -26804,7 +27221,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ses anneaux s\u2019\xE9tendent\nsur 282 000 km. "
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -26831,7 +27248,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38.7
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -26881,6 +27298,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1950437510}
   m_CullTransparentMesh: 1
+--- !u!114 &1950437514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950437510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1950437512}
+  fullText: "Ses anneaux s\u2019\xE9tendent\nsur 282 000 km. "
+  typingSpeed: 0.05
 --- !u!1 &1951441341
 GameObject:
   m_ObjectHideFlags: 0
@@ -27042,6 +27474,7 @@ GameObject:
   - component: {fileID: 1955253802}
   - component: {fileID: 1955253804}
   - component: {fileID: 1955253803}
+  - component: {fileID: 1955253805}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -27088,7 +27521,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Et aussi le satellite naturel de notre plan\xE8te."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -27115,7 +27548,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40.05
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -27165,6 +27598,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1955253801}
   m_CullTransparentMesh: 1
+--- !u!114 &1955253805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955253801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1955253803}
+  fullText: "Et aussi le satellite naturel de notre plan\xE8te."
+  typingSpeed: 0.05
 --- !u!1 &1958919525
 GameObject:
   m_ObjectHideFlags: 0
@@ -27729,6 +28177,7 @@ GameObject:
   - component: {fileID: 1985679670}
   - component: {fileID: 1985679672}
   - component: {fileID: 1985679671}
+  - component: {fileID: 1985679673}
   m_Layer: 5
   m_Name: Text (TMP) (1)
   m_TagString: Untagged
@@ -27775,7 +28224,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "La plus rapide autour du Soleil (88 jours pour faire le \ntour)."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -27802,7 +28251,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38.35
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -27852,6 +28301,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1985679669}
   m_CullTransparentMesh: 1
+--- !u!114 &1985679673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985679669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1985679671}
+  fullText: "La plus rapide autour du Soleil (88 jours pour faire le \ntour)."
+  typingSpeed: 0.05
 --- !u!1 &1986626175
 GameObject:
   m_ObjectHideFlags: 0
@@ -28212,6 +28676,7 @@ GameObject:
   - component: {fileID: 2023740233}
   - component: {fileID: 2023740235}
   - component: {fileID: 2023740234}
+  - component: {fileID: 2023740236}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -28258,8 +28723,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Je te pr\xE9sente ensuite la \u201Cplan\xE8te rouge\u201D, Mars.\nJuste
-    derri\xE8re la Terre."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -28286,7 +28750,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40.75
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -28336,6 +28800,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2023740232}
   m_CullTransparentMesh: 1
+--- !u!114 &2023740236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023740232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 2023740234}
+  fullText: "Je te pr\xE9sente ensuite la \u201Cplan\xE8te rouge\u201D, Mars.\nJuste
+    derri\xE8re la Terre."
+  typingSpeed: 0.05
 --- !u!1 &2024876776
 GameObject:
   m_ObjectHideFlags: 0
@@ -28765,6 +29245,7 @@ GameObject:
   - component: {fileID: 2044338659}
   - component: {fileID: 2044338661}
   - component: {fileID: 2044338660}
+  - component: {fileID: 2044338662}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -28811,8 +29292,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Pour le Premier niveau, tu dois simplement ranger les plan\xE8tes dans
-    le bonne ordre\n"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -28839,7 +29319,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 31.6
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -28889,6 +29369,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2044338658}
   m_CullTransparentMesh: 1
+--- !u!114 &2044338662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044338658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 2044338660}
+  fullText: "Pour le Premier niveau, tu dois simplement ranger les plan\xE8tes dans
+    le bonne ordre\n"
+  typingSpeed: 0.05
 --- !u!1 &2056746211
 GameObject:
   m_ObjectHideFlags: 0
@@ -29034,6 +29530,7 @@ GameObject:
   - component: {fileID: 2057800835}
   - component: {fileID: 2057800837}
   - component: {fileID: 2057800836}
+  - component: {fileID: 2057800838}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -29080,7 +29577,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Uranus est \xE9galement une\nplan\xE8te gazeuse."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -29107,7 +29604,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 47.35
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -29157,6 +29654,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2057800834}
   m_CullTransparentMesh: 1
+--- !u!114 &2057800838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057800834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 2057800836}
+  fullText: "Uranus est \xE9galement une\nplan\xE8te gazeuse."
+  typingSpeed: 0.05
 --- !u!1 &2061631530
 GameObject:
   m_ObjectHideFlags: 0
@@ -29168,6 +29680,7 @@ GameObject:
   - component: {fileID: 2061631531}
   - component: {fileID: 2061631533}
   - component: {fileID: 2061631532}
+  - component: {fileID: 2061631534}
   m_Layer: 5
   m_Name: Text (TMP) (2)
   m_TagString: Untagged
@@ -29214,7 +29727,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Gravit\xE9 : 3,7 m/s\xB2 (38% de celle de la Terre)."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -29241,7 +29754,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36.8
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -29291,6 +29804,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2061631530}
   m_CullTransparentMesh: 1
+--- !u!114 &2061631534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061631530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 2061631532}
+  fullText: "Gravit\xE9 : 3,7 m/s\xB2 (38% de celle de la Terre)."
+  typingSpeed: 0.05
 --- !u!1 &2064514134
 GameObject:
   m_ObjectHideFlags: 0
@@ -29436,6 +29964,7 @@ GameObject:
   - component: {fileID: 2066469510}
   - component: {fileID: 2066469512}
   - component: {fileID: 2066469511}
+  - component: {fileID: 2066469513}
   m_Layer: 5
   m_Name: Text (TMP) (3)
   m_TagString: Untagged
@@ -29482,8 +30011,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Les Badges d\xE9terminent ton grade au sein d'Astroworld et son la preuve
-    de ton \xE9volution globale.\nLe d\xE9blocage de chaque badge requiert 1000 points"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
   m_sharedMaterial: {fileID: 1711983043954827060, guid: 75b7b8e794d0149e08dac1cae220549e, type: 2}
@@ -29510,7 +30038,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34.55
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -29560,6 +30088,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2066469509}
   m_CullTransparentMesh: 1
+--- !u!114 &2066469513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066469509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f883388ea0d9f91409dd8944419a7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 2066469511}
+  fullText: "Les Badges d\xE9terminent ton grade au sein d'Astroworld et son la preuve
+    de ton \xE9volution globale.\nLe d\xE9blocage de chaque badge requiert 1000 points"
+  typingSpeed: 0.05
 --- !u!1 &2084234631
 GameObject:
   m_ObjectHideFlags: 0

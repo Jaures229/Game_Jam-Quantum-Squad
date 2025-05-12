@@ -170,7 +170,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -840.99, y: -226.68}
+  m_AnchoredPosition: {x: -534.1, y: -226.68}
   m_SizeDelta: {x: 227.3445, y: 61.6481}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3652276801985143428
@@ -414,8 +414,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Il y a tr\xE8s longtemps, il y avait peut-\xEAtre de l\u2019eau sur Mars
-    ! Aide ton robot \xE0 retrouver des indices."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e5bf0b3c48662877097cba9edf6fce84, type: 2}
   m_sharedMaterial: {fileID: 6896447468821814563, guid: e5bf0b3c48662877097cba9edf6fce84, type: 2}
@@ -639,7 +638,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 604.86, y: -257.51}
+  m_AnchoredPosition: {x: 604.86, y: -269}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2405293470561431070
@@ -693,11 +692,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 10
-    m_Right: 10
-    m_Top: 10
-    m_Bottom: 10
-  m_ChildAlignment: 4
+    m_Left: 42
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
