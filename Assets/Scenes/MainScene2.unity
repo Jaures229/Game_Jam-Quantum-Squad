@@ -1415,6 +1415,7 @@ MonoBehaviour:
   _next:
   - {fileID: 1309032448}
   - {fileID: 1427893567}
+  MarsFirstQuest: {fileID: 11400000, guid: c0068cf731f2544428b2645ba72f979b, type: 2}
 --- !u!1 &498483064
 GameObject:
   m_ObjectHideFlags: 0

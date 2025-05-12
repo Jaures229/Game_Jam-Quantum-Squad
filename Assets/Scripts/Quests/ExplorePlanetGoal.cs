@@ -17,17 +17,12 @@ public class ExplorePlanetGoal : QuestGoal
     {
         if (IsCompleted) return;
 
-        // change progression
-
-
-        //  Notifie l’UI
-        NotifyProgressChanged();
-
         if (visitedPlanet == planetName)
         {
             IsCompleted = true;
             Debug.Log("Goal complete: Explored " + planetName);
 
+            QuestManager.Instance.CheckQuestCompletion();
             // On se désabonne quand c’est terminé
             QuestEvents.OnPlanetVisited -= CheckPlanetVisited;
         }

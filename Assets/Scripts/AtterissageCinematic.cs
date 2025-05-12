@@ -7,6 +7,8 @@ using UnityEngine.UI;
 public class AtterissageCinematic : MonoBehaviour
 {
     [SerializeField] private List<GameObject> _next;
+    public Quest MarsFirstQuest;
+
 
     private void Enable()
     {
@@ -26,6 +28,9 @@ public class AtterissageCinematic : MonoBehaviour
 
     public void PlayNewCinematic()
     {
+        if (QuestManager.Instance.currentQuest.Equals(MarsFirstQuest)) {
+            QuestEvents.OnPlanetVisited?.Invoke("Mars");
+        }
         Enable();
     }
 }

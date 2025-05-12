@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ecc159ef12100d45826d9636d208481, type: 3}
   m_Name: XPReward
   m_EditorClassIdentifier: 
-  xpAmount: 50
+  type: 0
+  experience: 1500

@@ -11,17 +11,13 @@ public class TypewriterEffect : MonoBehaviour
 
     private void Start()
     {
-        /*if (textComponent == null) {
+        if (textComponent == null)
+        {
             textComponent = GetComponent<TextMeshProUGUI>();
-        }*/
+        }
     }
     private void OnEnable()
     {
-        /*if (textComponent == null)
-        {
-            textComponent = GetComponent<TextMeshProUGUI>();
-        }*/
-
         StopAllCoroutines(); // au cas où elle aurait déjà été lancée
         StartCoroutine(TypeText());
     }

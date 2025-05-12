@@ -54,14 +54,14 @@ public class LoobyManager : MonoBehaviour
 
     public void Play_Game()
     {
-        if (Stage_to_load == "Stage 01")
+        if (Stage_to_load == "Harmonie Céleste")
         {
             lobbyPanel.SetActive(false);
             _transiPanel.SetActive(true);
             StartCoroutine(LoadSceneWithAnimation("MainScene1"));
             //SceneManager.LoadScene("MainScene1");
         }
-        if (Stage_to_load == "Stage 02") {
+        if (Stage_to_load == "Exploration Stellaire") {
             lobbyPanel.SetActive(false);
             _transiPanel.SetActive(true);
             StartCoroutine(LoadSceneWithAnimation("MainScene2"));

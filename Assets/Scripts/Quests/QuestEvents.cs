@@ -10,4 +10,5 @@ public static class QuestEvents
     public static Action<string, string> OnPlanetStoneCollected;
     public static Action<Quest> OnQuestActivated;
     public static Action<Quest> OnQuestCompleted;
+    public static Action<string> ApplyRewards;
 }

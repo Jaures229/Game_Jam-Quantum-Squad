@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d156d0f469b959044aeea2eb2894234b, type: 3}
+  m_Name: Explore_Mars
+  m_EditorClassIdentifier: 
+  questTitle: Explore Mars
+  questName: Explore Mars
+  description: "Explore Mars pour conna\xEEtre ses secrets"
+  destination: Mars
+  goals:
+  - {fileID: 11400000, guid: e3e32bc0a3b510b459175cc679493e41, type: 2}
+  rewards:
+  - {fileID: 11400000, guid: 1a45b020e83d16a4c87ce49b5b72c130, type: 2}
+  - {fileID: 11400000, guid: 0424a77fcdd28d2489e2327c7639b115, type: 2}

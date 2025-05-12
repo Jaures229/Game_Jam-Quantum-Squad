@@ -57,10 +57,9 @@ public class QuestManager : MonoBehaviour
         {
             if (!goal.IsCompleted) return;
         }
-
         Debug.Log("Quête terminée : " + currentQuest.questTitle);
         QuestEvents.OnQuestCompleted?.Invoke(currentQuest);
-
+        // calling the reward Manager
         CompleteQuest();
     }
 
@@ -70,10 +69,21 @@ public class QuestManager : MonoBehaviour
         completedQuests.Add(currentQuest);
 
         // Enlever la quête terminée de la liste
-        //quests.Remove(currentQuest);
+        quests.Remove(currentQuest);
 
         currentQuest = null;
     }
 
-
+    public void UnlockQuest(Quest quest)
+    {
+        quests.Add(quest);
+        StartQuest(quest);
+        /*Debug.Log("Enter Unlocked Quest");
+        if (!quests.Contains(quest))
+        {
+            Debug.Log("Enter Unlocked Quest two ");
+            // Tu peux aussi déclencher une UI ici si besoin
+            QuestUIManager.Instance.AddNewQuest(quest);
+        }*/
+    }
 }
