@@ -9,11 +9,13 @@ public class LoadAudioScene : MonoBehaviour
 
     private void OnEnable()
     {
+        if (AudioManager.Instance != null)
         AudioManager.Instance.OnMusicFinished += PlayNextClip;
     }
 
     private void OnDisable()
     {
+        if (AudioManager.Instance != null)
         AudioManager.Instance.OnMusicFinished -= PlayNextClip;
     }
 

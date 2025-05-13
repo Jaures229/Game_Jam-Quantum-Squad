@@ -22,8 +22,8 @@ public class Scene_two_quest_controller : MonoBehaviour
         }
         else
         {
-            Quest_name.text = "Mission :";
-            Quest_description.text = "Rien pour le moment";
+            Quest_name.text = "MISSION :";
+            Quest_description.text = "Première misson trouver \r\nla planete rouge.\r\nUn indice c'est la 4eme planete du système.";
         }
     }
 }

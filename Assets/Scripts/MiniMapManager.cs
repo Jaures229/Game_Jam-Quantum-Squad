@@ -7,8 +7,10 @@ public class MiniMapManager : MonoBehaviour
 {
     [SerializeField] private GameObject _circleMarqueur;
     [SerializeField] private GameObject _vaiseauMarqueur;
+    [SerializeField] private GameObject _base;
     [SerializeField] private List<Transform> _planets;
     [SerializeField] private Transform _vaiseau;
+    [SerializeField] private Transform _basePosition;
     [SerializeField] private float _hauteur;
     [SerializeField] private float scale;
     [SerializeField] private float _playerScaleX;
@@ -16,6 +18,10 @@ public class MiniMapManager : MonoBehaviour
     void Start()
     {
         CreateTriangle(_vaiseau);
+        if (_basePosition != null)
+        {
+            CreateExagone(_basePosition);
+        }
         foreach(Transform _planet in _planets)
         {
             CreateCircle(_planet);
@@ -46,5 +52,15 @@ public class MiniMapManager : MonoBehaviour
         _triangle.transform.localScale = new Vector3(_playerScaleX, _playerScaleY, 1f);
 
         _triangle.transform.SetParent(_vaiseau);
+    }
+
+    private void CreateExagone(Transform _basePosition)
+    {
+        GameObject _triangle = Instantiate(_base, _basePosition.position + Vector3.up * _hauteur, Quaternion.Euler(90, 0, 0));
+
+        _triangle.layer = LayerMask.NameToLayer("MiniMapObjects");
+        _triangle.transform.localScale = new Vector3(scale, scale, 1f);
+
+        _triangle.transform.SetParent(_basePosition);
     }
 }
