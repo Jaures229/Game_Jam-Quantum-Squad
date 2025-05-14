@@ -35,7 +35,7 @@ public class RewardManager : MonoBehaviour
 
         Debug.Log($"Récompense de la quête {quest.questTitle} :");
 
-        foreach (var reward in quest.rewards)
+        /*foreach (var reward in quest.rewards)
         {
             reward.ApplyReward();
         }
@@ -45,6 +45,6 @@ public class RewardManager : MonoBehaviour
             QuestEvents.ApplyRewards?.Invoke("XP");
         } else {
             QuestEvents.ApplyRewards?.Invoke("None");
-        }
+        }*/
     }
 }
