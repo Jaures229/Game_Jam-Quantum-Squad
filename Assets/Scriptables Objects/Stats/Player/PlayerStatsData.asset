@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e0778e717f3ab408bd1bd930479f3e, type: 3}
+  m_Name: PlayerStatsData
+  m_EditorClassIdentifier: 
+  level: 1
+  experience: 0
+  gold: 0
+  xpMultiplier: 1.5
+  xpThresholds: e8030000d007000088130000
+  playerGrades:
+  - Apprentis Astronaute
+  - "Maitre des \xE9toiles"
+  - Voyageur interstellaire
+  - Ranger de l'espace
+  levelBadges:
+  - {fileID: -554887729, guid: 64962fa87fa1a9043b3b892431055cd5, type: 3}
+  - {fileID: 1977691495, guid: 33a35e2e54fbc18438a8b2910994e101, type: 3}
+  - {fileID: -478051077, guid: aab10b585b9f91641bcb40bcf2d63d2b, type: 3}
+  - {fileID: 21300000, guid: c6fe87a5f013753449111268cbf3642f, type: 3}

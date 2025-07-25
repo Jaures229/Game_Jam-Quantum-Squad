@@ -427,12 +427,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 217402966}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f78295d2f23557f4080321057c589dc3, type: 3}
+  m_Script: {fileID: 11500000, guid: 177c9b463a33ea646bf1ab22e435869b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  quests:
-  - {fileID: 11400000, guid: 3b7ae5499f39c994bb8e20213c703ef1, type: 2}
-  currentQuest: {fileID: 0}
+  activeQuests: []
   completedQuests: []
 --- !u!1 &222999241
 GameObject:
@@ -910,9 +908,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e980b466d9fa4f408807138d731bfc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  contentContainer: {fileID: 879808454}
-  questUIPrefab: {fileID: 4125239334207168942, guid: 46c600ed62b1a0040848c72d209ea225, type: 3}
-  Current_Quest_text: {fileID: 1319616333}
 --- !u!1 &400987800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1728,7 +1723,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 611120769}
-  - component: {fileID: 611120770}
   m_Layer: 0
   m_Name: RewardManager
   m_TagString: Untagged
@@ -1751,18 +1745,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &611120770
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 611120768}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d4e001a764c5444a8a65c6c470fe9d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &615293909
 GameObject:
   m_ObjectHideFlags: 0
@@ -5502,23 +5484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4a870dab32a84a4cacd749986d5141b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 1
-  experience: 0
-  gold: 0
-  xpMultiplier: 1.5
-  Player_badge_image: {fileID: 615293911}
-  levelBadges:
-  - {fileID: -554887729, guid: 64962fa87fa1a9043b3b892431055cd5, type: 3}
-  - {fileID: 1977691495, guid: 33a35e2e54fbc18438a8b2910994e101, type: 3}
-  - {fileID: -478051077, guid: aab10b585b9f91641bcb40bcf2d63d2b, type: 3}
-  - {fileID: 21300000, guid: c6fe87a5f013753449111268cbf3642f, type: 3}
-  currentBadge: {fileID: 0}
-  xpThresholds: e80300008813000010270000
-  PlayerGrade:
-  - Apprentis Astronaute
-  - "Maitre des \xE9toiles"
-  - Voyageur interstellaire
-  - Ranger de l'espace
+  data: {fileID: 11400000, guid: b482e37504b2a0e47ae78ce9977a89f9, type: 2}
 --- !u!1 &1437252304
 GameObject:
   m_ObjectHideFlags: 0
@@ -6520,7 +6486,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1599913319}
-  - component: {fileID: 1599913320}
   m_Layer: 0
   m_Name: RewardUiManager
   m_TagString: Untagged
@@ -6543,20 +6508,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1599913320
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1599913318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb0ecb8103779cb41894aa003247949c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  XpSlider: {fileID: 1096824458}
-  Number_xp: {fileID: 222999243}
 --- !u!1 &1612571479
 GameObject:
   m_ObjectHideFlags: 0

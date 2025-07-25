@@ -42,7 +42,7 @@ public class PlayerController2 : MonoBehaviour
             _animator.SetTrigger("Take");
 
             // Envoie l'événement de collecte de la pierre
-            QuestEvents.OnPlanetStoneCollected?.Invoke("Mars", "Stone");
+            //QuestEvents.OnPlanetStoneCollected?.Invoke("Mars", "Stone");
 
             // Désactive la pierre seulement ici
             _stoneInRange.SetActive(false);
