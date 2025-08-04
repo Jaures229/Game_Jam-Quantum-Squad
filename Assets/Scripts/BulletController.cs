@@ -54,6 +54,6 @@ public class BulletController : MonoBehaviour
 
     public Vector3 GetShipVelocity ()
     {
-        return _shipVelocity.velocity;
+        return _shipVelocity.linearVelocity;
     }
 }

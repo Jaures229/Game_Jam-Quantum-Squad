@@ -86,15 +86,15 @@ public class PlayerControler : MonoBehaviour
 
         if (isBoostingForward)
         {
-            _rigidbody.velocity = forwardSpeed * Time.deltaTime * forward;
+            _rigidbody.linearVelocity = forwardSpeed * Time.deltaTime * forward;
         }
         else if (isMovingForward)
         {
-            _rigidbody.velocity = moveSpeed * Time.fixedDeltaTime * forward;
+            _rigidbody.linearVelocity = moveSpeed * Time.fixedDeltaTime * forward;
         }
         else
         {
-            _rigidbody.velocity = Vector3.zero;
+            _rigidbody.linearVelocity = Vector3.zero;
         }
     }
 
@@ -107,7 +107,7 @@ public class PlayerControler : MonoBehaviour
             _baseSpeed = _speed;
             _speed *= _boostMutiplicateur;
 
-           /* Debug.Log("Boost activé");*/
+           /* Debug.Log("Boost activï¿½");*/
             StartCoroutine(DisableBoost());
         }
     }
@@ -130,7 +130,7 @@ public class PlayerControler : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Astéroides") == true)
+        if(other.CompareTag("Astï¿½roides") == true)
         {
             _healthBar -= 1;
         }

@@ -22,7 +22,7 @@ public class Bullet : MonoBehaviour
 
     void Update()
     {
-        GetComponent<Rigidbody>().velocity = _shipVelocity + _moveDirection * _speed;
+        GetComponent<Rigidbody>().linearVelocity = _shipVelocity + _moveDirection * _speed;
         if (Vector3.Distance(_startPosition, transform.position) > _distance)
         {
             Destroy(gameObject);

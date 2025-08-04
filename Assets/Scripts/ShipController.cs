@@ -32,15 +32,15 @@ public class ShipController : MonoBehaviour
 
         if (isBoostingForward)
         {
-            _rigidbody.velocity = forward * forwardSpeed;
+            _rigidbody.linearVelocity = forward * forwardSpeed;
         }
         else if (isMovingForward)
         {
-            _rigidbody.velocity = forward * moveSpeed;
+            _rigidbody.linearVelocity = forward * moveSpeed;
         }
         else
         {
-            _rigidbody.velocity = Vector3.zero;
+            _rigidbody.linearVelocity = Vector3.zero;
         }
     }
 
