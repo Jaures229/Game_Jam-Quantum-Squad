@@ -16,8 +16,8 @@ public class CameraLookFPS : MonoBehaviour
 
     void Update()
     {
-        _XMove = _lockAxis.x;
-        _YMove = _lockAxis.y;
+        _XMove = _lockAxis.x * Time.deltaTime * sensivity;
+        _YMove = _lockAxis.y * Time.deltaTime * sensivity;
         _XRotation -= _YMove;
         _XRotation = Mathf.Clamp(_XRotation, -90f, 90f);
         transform.localRotation = Quaternion.Euler(_XRotation, 0, 0);
