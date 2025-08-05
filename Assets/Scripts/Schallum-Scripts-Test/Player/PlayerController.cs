@@ -1,10 +1,22 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public FixedJoystick _joyStick;
-    public float _speedMove = 5f;
+    [Header("Move Player")]
     private CharacterController _characterController;
+
+    public FixedJoystick _joyStick;
+    public float _acceleration = 5f;
+    public float _maxSpeed = 5f;
+    public float _deceleration = 3f;
+    private Vector3 velocity = Vector3.zero;
+
+    [Header("Jump Player")]
+    public float jumpForce = 1f;
+    private float yVelocity = 0f;
+    public float gravity = -9.81f;
+    private bool isJumping = false;
+
     void Start()
     {
         _characterController = GetComponent<CharacterController>();
@@ -13,7 +25,43 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        Vector3 _move = transform.right * _joyStick.Horizontal + transform.forward * _joyStick.Vertical;
-        _characterController.Move(_move*_speedMove*Time.deltaTime);
+        //Gestion du Jump
+        if (_characterController.isGrounded && yVelocity < 0)
+            yVelocity = -2f;
+
+        if (isJumping)
+            yVelocity = jumpForce;
+
+        yVelocity += gravity * Time.deltaTime;
+
+        // Gestion du Déplacement avec Inertie
+
+        Vector3 inputDirection = transform.right * _joyStick.Horizontal + transform.forward * _joyStick.Vertical;
+
+        if (inputDirection.magnitude > 0.1f)
+        {
+            velocity += inputDirection.normalized * _acceleration * Time.deltaTime;
+        }
+        else
+        {
+            velocity = Vector3.Lerp(velocity, Vector3.zero, _deceleration * Time.deltaTime);
+        }
+
+        velocity = Vector3.ClampMagnitude(velocity, _maxSpeed);
+
+        velocity.y = yVelocity;
+
+        _characterController.Move(velocity * Time.deltaTime);
+
     }
+
+    public void Jump(bool isHeld)
+    {
+        if (_characterController.isGrounded && !isHeld)
+            return;
+
+        isJumping = isHeld;
+    }
+
+
 }
