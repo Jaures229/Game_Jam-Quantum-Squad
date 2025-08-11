@@ -9,7 +9,7 @@ public class FixedTouchField : MonoBehaviour, IPointerDownHandler, IPointerUpHan
 
     void Start()
     {
-        
+
     }
     void Update()
     {
@@ -32,7 +32,7 @@ public class FixedTouchField : MonoBehaviour, IPointerDownHandler, IPointerUpHan
         }
     }
 
-    public void OnPointerDown (PointerEventData _eventData)
+    public void OnPointerDown(PointerEventData _eventData)
     {
         _pressed = true;
         _pointerId = _eventData.pointerId;
