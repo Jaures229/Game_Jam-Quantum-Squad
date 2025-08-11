@@ -2,19 +2,8 @@ using UnityEngine;
 
 public class SpaceShipController : MonoBehaviour
 {
-<<<<<<< Updated upstream
     private Rigidbody _spaceShip;
-
-    void Start()
-    {
         
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-=======
     //private Rigidbody _spaceShipRB;
 
     //float verticalMove;
@@ -150,6 +139,5 @@ public class SpaceShipController : MonoBehaviour
 
         // Appliquer tilt sans casser le pitch
         transform.rotation = Quaternion.Euler(pitchAngle, transform.eulerAngles.y, currentTilt);
->>>>>>> Stashed changes
     }
 }
