@@ -1,57 +1,57 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using TMPro;
+// using System.Collections;
+// using System.Collections.Generic;
+// using UnityEngine;
+// using TMPro;
 
 
-public class QuestUIUpdater : MonoBehaviour
-{
-    public TextMeshProUGUI questTitleText;
-    public TextMeshProUGUI questDescriptionText;
-    public TextMeshProUGUI questProgressionText;
+// public class QuestUIUpdater : MonoBehaviour
+// {
+//     public TextMeshProUGUI questTitleText;
+//     public TextMeshProUGUI questDescriptionText;
+//     public TextMeshProUGUI questProgressionText;
 
-    // private Quest currentQuest;
+//     // private Quest currentQuest;
 
-    // void Start()
-    // {
-    //     currentQuest = QuestManager.Instance.currentQuest;
+//     // void Start()
+//     // {
+//     //     currentQuest = QuestManager.Instance.currentQuest;
 
-    //     if (currentQuest != null)
-    //     {
-    //         questTitleText.text = currentQuest.questTitle;
-    //         questDescriptionText.text = currentQuest.description;
+//     //     if (currentQuest != null)
+//     //     {
+//     //         questTitleText.text = currentQuest.questTitle;
+//     //         questDescriptionText.text = currentQuest.description;
 
-    //         // ?? Inscrire les callbacks pour chaque goal
-    //         foreach (var goal in currentQuest.goals)
-    //         {
-    //             goal.OnProgressChanged += UpdateProgression;
-    //         }
+//     //         // ?? Inscrire les callbacks pour chaque goal
+//     //         foreach (var goal in currentQuest.goals)
+//     //         {
+//     //             goal.OnProgressChanged += UpdateProgression;
+//     //         }
 
-    //         UpdateProgression();
-    //     }
-    // }
+//     //         UpdateProgression();
+//     //     }
+//     // }
 
-    // void UpdateProgression()
-    // {
-    //     if (currentQuest == null || currentQuest.goals == null) return;
+//     // void UpdateProgression()
+//     // {
+//     //     if (currentQuest == null || currentQuest.goals == null) return;
 
-    //     string combinedProgress = "";
-    //     foreach (var goal in currentQuest.goals)
-    //     {
-    //         combinedProgress += "- " + goal.GetProgression() + "\n";
-    //     }
+//     //     string combinedProgress = "";
+//     //     foreach (var goal in currentQuest.goals)
+//     //     {
+//     //         combinedProgress += "- " + goal.GetProgression() + "\n";
+//     //     }
 
-    //     questProgressionText.text = combinedProgress;
-    // }
+//     //     questProgressionText.text = combinedProgress;
+//     // }
 
-    // void OnDestroy()
-    // {
-    //     if (currentQuest != null && currentQuest.goals != null)
-    //     {
-    //         foreach (var goal in currentQuest.goals)
-    //         {
-    //             goal.OnProgressChanged -= UpdateProgression;
-    //         }
-    //     }
-    // }
-}
+//     // void OnDestroy()
+//     // {
+//     //     if (currentQuest != null && currentQuest.goals != null)
+//     //     {
+//     //         foreach (var goal in currentQuest.goals)
+//     //         {
+//     //             goal.OnProgressChanged -= UpdateProgression;
+//     //         }
+//     //     }
+//     // }
+// }
