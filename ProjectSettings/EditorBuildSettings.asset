@@ -8,22 +8,22 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/StartScene.unity
     guid: c40f73f24e1daee44a7c5ac2c3bca038
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainScene1.unity
     guid: 6bedef6e0f172cad9b116c9c848d4cc6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainScene2.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menu.unity
     guid: 92d9cbbb0c649844baf0e3e21f09515e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Lobby.unity
     guid: 4e7b57143c1be444fb81a762d1f3022d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Mars.unity
     guid: 0c6004006f3d6a742b212a5e0156deb0
   m_configObjects:
@@ -31,3 +31,4 @@ EditorBuildSettings:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 3fb8b1248defa72499162c2ea8f717fc, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 27a03183896a2974ab9ae316d5190483, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: cb902ba6b691e9542987b4c63ea71a5a, type: 2}
+  m_UseUCBPForAssetBundles: 0
