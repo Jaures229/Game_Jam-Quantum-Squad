@@ -8,7 +8,7 @@ public class CameraLookFPS : MonoBehaviour
     //private float YRotation;
     [SerializeField] private Transform _playerBody;
     public Vector2 _lockAxis;
-    public float sensivity = 40f;
+    public float sensivity = 10f;
     void Start()
     {
         
