@@ -25,9 +25,11 @@ public class DoorSystem : MonoBehaviour
         Vector3 _leftTarget = _isOpen ? _leftClosedPos + _leftOpenOffset : _leftClosedPos;
         Vector3 _rightTarget = _isOpen ? _rightClosedPos + _rightOpenOffset : _rightClosedPos;
 
-        _leftDoor.localPosition = Vector3.Lerp(_leftDoor.localPosition, _leftTarget, Time.deltaTime * _speed);
-        _rightDoor.localPosition = Vector3.Lerp(_rightDoor.localPosition, _rightTarget, Time.deltaTime * _speed);
-        Debug.Log("There " + _isOpen);
+        _leftDoor.GetComponent<Rigidbody>().MovePosition(transform.parent.TransformPoint(
+        Vector3.Lerp(_leftDoor.localPosition, _leftTarget, Time.deltaTime * _speed)));
+
+        _rightDoor.GetComponent<Rigidbody>().MovePosition(transform.parent.TransformPoint(
+        Vector3.Lerp(_rightDoor.localPosition, _rightTarget, Time.deltaTime * _speed)));
     }
 
     private void OnTriggerEnter(Collider other)

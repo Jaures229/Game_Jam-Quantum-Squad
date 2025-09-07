@@ -1,46 +1,43 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
-public class FixedTouchField : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
+public class FixedTouchField : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler
 {
-    [HideInInspector] public Vector2 _touchDist;
-    [HideInInspector] public Vector2 _pointerOld;
-    [HideInInspector] protected int _pointerId;
-    [HideInInspector] public bool _pressed;
+    [HideInInspector] public Vector2 touchDirection; // Direction "stick"
+    [HideInInspector] public bool pressed;
 
-    void Start()
+    private int pointerId;
+    private Vector2 startPos;
+
+    [Header("Sensibilité")]
+    public float sensitivityX = 1f;
+    public float sensitivityY = 1f;
+
+    public void OnPointerDown(PointerEventData eventData)
     {
-
+        pressed = true;
+        pointerId = eventData.pointerId;
+        startPos = eventData.position; // point d’origine
+        touchDirection = Vector2.zero;
     }
-    void Update()
+
+    public void OnDrag(PointerEventData eventData)
     {
-        if (_pressed)
+        if (pressed && eventData.pointerId == pointerId)
         {
-            if (_pointerId >= 0 && _pointerId < Input.touches.Length)
-            {
-                _touchDist = Input.touches[_pointerId].position - _pointerOld;
-                _pointerOld = Input.touches[_pointerId].position;
-            }
-            else
-            {
-                _touchDist = new Vector2(Input.mousePosition.x, Input.mousePosition.y) - _pointerOld;
-                _pointerOld = Input.mousePosition;
-            }
+            Vector2 currentPos = eventData.position;
+            Vector2 rawDir = currentPos - startPos;
+
+            // Appliquer sensibilité séparée X/Y
+            touchDirection = new Vector2(rawDir.x * sensitivityX, rawDir.y * sensitivityY);
         }
-        else
+    }
+
+    public void OnPointerUp(PointerEventData eventData)
+    {
+        if (eventData.pointerId == pointerId)
         {
-            _touchDist = new Vector2();
+            pressed = false;
+            touchDirection = Vector2.zero; // reset quand on lâche
         }
-    }
-
-    public void OnPointerDown(PointerEventData _eventData)
-    {
-        _pressed = true;
-        _pointerId = _eventData.pointerId;
-        _pointerOld = _eventData.position;
-    }
-
-    public void OnPointerUp(PointerEventData _eventData)
-    {
-        _pressed = false;
     }
 }

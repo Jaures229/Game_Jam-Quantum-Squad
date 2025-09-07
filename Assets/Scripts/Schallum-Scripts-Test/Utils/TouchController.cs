@@ -12,6 +12,6 @@ public class TouchController : MonoBehaviour
 
     void Update()
     {
-        _CameraLookFPS._lockAxis = _FixedTouchField._touchDist;
+        _CameraLookFPS._lockAxis = _FixedTouchField.touchDirection;
     }
 }
