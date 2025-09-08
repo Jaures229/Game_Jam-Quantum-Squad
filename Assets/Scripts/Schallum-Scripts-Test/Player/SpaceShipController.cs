@@ -39,15 +39,31 @@ public class SpaceShipController : MonoBehaviour
     void FixedUpdate()
     {
         // --- Avancer ---
-        Vector3 forwardMove = transform.forward * forwardSpeed * Mathf.Max(0, _slider.value);
-        rb.linearVelocity = forwardMove;
+        // Vector3 forwardMove = transform.forward * forwardSpeed * Mathf.Max(0, _slider.value);
+        // rb.linearVelocity = forwardMove;
+        // 
+        if (_slider.value > 0.1f)
+        {
+            Vector3 forwardForce = transform.forward * forwardSpeed * _slider.value * rb.mass * Time.fixedDeltaTime;
+            rb.MovePosition(rb.position + forwardForce);
+        }
 
+
+        // // --- Rotation du parent (trajectoire réelle) ---
+        // float yaw = inputDir.x * rotationSpeed * Time.fixedDeltaTime;   // gauche/droite
+        // float pitch = -inputDir.y * rotationSpeed * Time.fixedDeltaTime; // haut/bas
+
+        // targetRotation *= Quaternion.Euler(pitch, yaw, 0);
+        // rb.MoveRotation(Quaternion.Slerp(rb.rotation, targetRotation, Time.fixedDeltaTime * smoothFactor));
         // --- Rotation du parent (trajectoire réelle) ---
         float yaw = inputDir.x * rotationSpeed * Time.fixedDeltaTime;   // gauche/droite
         float pitch = -inputDir.y * rotationSpeed * Time.fixedDeltaTime; // haut/bas
 
+        // Appliquez la rotation directement pour qu'elle soit fluide
         targetRotation *= Quaternion.Euler(pitch, yaw, 0);
-        rb.MoveRotation(Quaternion.Lerp(rb.rotation, targetRotation, Time.fixedDeltaTime * smoothFactor));
+
+        // Laissez le Rigidbody s'orienter vers la cible de manière plus fluide
+        rb.MoveRotation(Quaternion.Slerp(rb.rotation, targetRotation, Time.fixedDeltaTime * smoothFactor));
 
         // --- Rotation visuelle du mesh ---
         float rollVisual = -inputDir.x * tiltAmount;   // penche à gauche/droite
