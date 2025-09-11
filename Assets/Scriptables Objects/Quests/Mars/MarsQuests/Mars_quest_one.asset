@@ -1,27 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d156d0f469b959044aeea2eb2894234b, type: 3}
-  m_Name: Mars_quest_one
-  m_EditorClassIdentifier: 
-  questTitle: "Mars/O\xF9 est pass\xE9e l\u2019eau ?"
-  questName: "Mars \u2014 Mission principale : \"D\xE9couvre les secrets de la plan\xE8te
-    rouge !"
-  description: "Il y a tr\xE8s longtemps, il y avait peut-\xEAtre de l\u2019eau sur
-    Mars !\nAide ton robot \xE0 retrouver des indices.\n- Va dans trois zones sp\xE9ciales.\n-
-    Utilise le *scanner* pour analyser le sol.\n"
-  destination: "Il y a tr\xE8s longtemps, il y avait peut-\xEAtre de l\u2019eau sur
-    Mars ! Aide ton robot \xE0 retrouver des indices.\n- Va dans trois zones sp\xE9ciales.\n-
-    Utilise le *scanner* pour analyser le sol.\n"
-  goals:
-  - {fileID: 11400000, guid: 72b2c278837995b47a44dea71f6c05c8, type: 2}
-  rewards:
-  - {fileID: 11400000, guid: 0424a77fcdd28d2489e2327c7639b115, type: 2}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb85c6c6c2707ada823c561af4f3baec68941e76d1b096d4d88775b78781eb01
+size 1208

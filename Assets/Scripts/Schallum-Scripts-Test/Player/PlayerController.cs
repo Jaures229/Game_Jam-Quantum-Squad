@@ -3,7 +3,7 @@
 public class PlayerController : MonoBehaviour
 {
     [Header("Move Player")]
-    private CharacterController _characterController;
+    public CharacterController _characterController;
 
     public FixedJoystick _joyStick;
     public float _acceleration = 5f;
@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        _characterController = GetComponent<CharacterController>();
+        //_characterController = GetComponent<CharacterController>();
     }
 
 
