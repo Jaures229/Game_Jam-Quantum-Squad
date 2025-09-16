@@ -43,7 +43,7 @@ Material:
     - _fade_distance: 2000
     - _outline_thickness: 0.002
     m_Colors:
-    - _outline_color: {r: 0.07924521, g: 0.032326065, b: 0.0010466307, a: 1}
+    - _outline_color: {r: 0.006289184, g: 0.0028835312, b: 0.00061309553, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &3242526731019617131
