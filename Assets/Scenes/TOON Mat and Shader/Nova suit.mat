@@ -46,7 +46,7 @@ Material:
     - _QueueOffset: 0
     - _max: 2
     - _min: 0.2
-    - _shades: 0.3
+    - _shades: 0.2
     - _smoothness: 0
     m_Colors:
     - _Color: {r: 1, g: 0.9968553, b: 0.9968553, a: 1}
