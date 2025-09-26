@@ -1,3 +1,5 @@
 # ninja log v5
 2	697	7784378481797216	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	1854260c9ba18118
 700	943	7784378484039831	D:/Documents/Projects/Game_Jam-Quantum-Squad/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/545h6s4k/obj/arm64-v8a/libswappywrapper.so	96698b2222945b20
+9	481	7802359226707722	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	1854260c9ba18118
+482	840	7802359229961984	D:/Documents/Projects/Game_Jam-Quantum-Squad/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/545h6s4k/obj/arm64-v8a/libswappywrapper.so	96698b2222945b20

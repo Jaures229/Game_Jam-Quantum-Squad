@@ -17,6 +17,8 @@ public class PlayerController : MonoBehaviour
     public float gravity = -9.81f;
     private bool isJumping = false;
 
+    public Animator animator;
+
     void Start()
     {
         //_characterController = GetComponent<CharacterController>();
@@ -41,6 +43,7 @@ public class PlayerController : MonoBehaviour
         if (inputDirection.magnitude > 0.1f)
         {
             velocity += inputDirection.normalized * _acceleration * Time.deltaTime;
+            animator.SetTrigger("Walk");
         }
         else
         {

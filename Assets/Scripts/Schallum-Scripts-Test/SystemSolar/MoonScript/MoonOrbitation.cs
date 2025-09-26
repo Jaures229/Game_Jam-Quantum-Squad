@@ -24,7 +24,7 @@ public class MoonOrbitation : MonoBehaviour
         float z = Mathf.Sin(rad) * orbitRadius;
 
         // Légère variation verticale pour le réalisme
-        float y = earth.position.y + Mathf.Sin(currentAngle * 2f) * heightVariation;
+        float y = earth.position.y /*+ Mathf.Sin(currentAngle * 2f) * heightVariation*/;
 
         // Position finale de la Lune
         transform.position = new Vector3(x, y, z) + earth.position;
