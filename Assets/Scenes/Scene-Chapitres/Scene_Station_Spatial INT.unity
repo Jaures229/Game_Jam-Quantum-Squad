@@ -24272,6 +24272,10 @@ MonoBehaviour:
   middleTimeline: {fileID: 2124191599}
   outroTimeline: {fileID: 65177696}
   screenFader: {fileID: 4260305339083293861}
+  defaultCamera: {fileID: 298176454}
+  introCamera: {fileID: 65065038}
+  middleCamera: {fileID: 619999619}
+  outroCamera: {fileID: 619999619}
 --- !u!1 &1235064608
 GameObject:
   m_ObjectHideFlags: 0

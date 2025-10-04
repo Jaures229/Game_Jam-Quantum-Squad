@@ -1,47 +1,53 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SceneLoader : MonoBehaviour
 {
-    [Header("UI Références")]
-    public GameObject loadingScreen;   // Le panel du loading screen
-    public Slider progressBar;         // La barre de chargement
-    public Text progressText;          // (optionnel) pour afficher le %
+    [Header("UI")]
+    public Slider progressBar;
+    public TextMeshProUGUI progressText; // ou TMP_Text si tu utilises TextMeshPro
 
     [Header("Paramètres")]
-    public string sceneToLoad;         // La scène à charger (ex: "GameScene")
+    public float fakeSpeed = 0.3f; // vitesse simulée pour un effet fluide
+    public float minLoadingTime = 2f; // temps minimum de chargement pour le style
 
-    // Fonction appelée par ton bouton "New Game"
-    public void StartNewGame()
+    private float targetProgress = 0f;
+
+    public void LoadScene(string sceneName)
     {
-        StartCoroutine(LoadSceneAsync(sceneToLoad));
+        StartCoroutine(LoadSceneAsync(sceneName));
     }
 
-    private IEnumerator LoadSceneAsync(string sceneName)
+    IEnumerator LoadSceneAsync(string sceneName)
     {
-        loadingScreen.SetActive(true);
 
-        // Commence à charger la scène en arrière-plan
+        yield return new WaitForSeconds(0.3f); // petit délai esthétique
+
+        // 2️⃣ Commence le chargement
         AsyncOperation operation = SceneManager.LoadSceneAsync(sceneName);
-        operation.allowSceneActivation = false; // Empêche d’activer direct la scène
+        operation.allowSceneActivation = false;
 
+        float timer = 0f;
         while (!operation.isDone)
         {
-            // Progression (Unity retourne [0,0.9] pendant le chargement)
-            float progress = Mathf.Clamp01(operation.progress / 0.9f);
+            timer += Time.deltaTime;
 
-            progressBar.value = progress;
+            // Unity charge réellement jusqu’à 0.9 avant d’activer la scène
+            float realProgress = Mathf.Clamp01(operation.progress / 0.9f);
 
-            if (progressText != null)
-                progressText.text = (progress * 100f).ToString("F0") + "%";
+            // Lissage de la progression pour que ça soit doux
+            targetProgress = Mathf.MoveTowards(targetProgress, realProgress, Time.deltaTime * fakeSpeed);
 
-            // Quand c’est presque fini → active la scène
-            if (progress >= 1f)
+            progressBar.value = targetProgress;
+            progressText.text = Mathf.RoundToInt(targetProgress * 100f) + "%";
+
+            // 3️⃣ Quand c’est prêt et que le temps minimum est écoulé → on active la scène
+            if (targetProgress >= 1f && operation.progress >= 0.9f && timer > minLoadingTime)
             {
-                yield return new WaitForSeconds(0.5f); // petit délai optionnel
                 operation.allowSceneActivation = true;
             }
 
