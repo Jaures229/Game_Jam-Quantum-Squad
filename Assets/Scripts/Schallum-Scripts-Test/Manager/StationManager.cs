@@ -5,6 +5,8 @@ public class StationManager : MonoBehaviour
     public CinematicManager cinematicManager;
     public GameObject puzzlePanel;
 
+    public PuzzleManager puzzleManager;
+
     void Start()
     {
         // S’abonner à l’événement quand une cinématique se termine
@@ -22,6 +24,7 @@ public class StationManager : MonoBehaviour
         if (cinematicName == "intro")
         {
             puzzlePanel.SetActive(true);
+            puzzleManager.StartPlayMusic();
             Debug.Log("🧩 Puzzle activé après la cinématique d’intro !");
         }
     }

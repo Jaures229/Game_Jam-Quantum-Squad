@@ -5,6 +5,10 @@ using TMPro;
 
 public class UIDropChecker : MonoBehaviour, IDropHandler
 {
+
+    [Tooltip("Référence au Puzzle Manager de la scène")]
+    public PuzzleManager puzzleManager; 
+
     // Doit correspondre à l'ID de la planète, ex: "Earth"
     public string requiredID = "Earth";
     public float fadeDuration = 1.0f; // Durée de l'animation de disparition en secondes
@@ -46,7 +50,15 @@ public class UIDropChecker : MonoBehaviour, IDropHandler
                     socketImage.enabled = false;
                 }
                 Debug.Log("La planète " + droppedPlanet.planetID + " a été placée.");
-                // >>> AJOUTER ICI LA LOGIQUE DE COMPTAGE DU PUZZLE <<<
+                // >>> LA LOGIQUE DE COMPTAGE DU PUZZLE <<<
+                // NOTIFIE LE MANAGER via la référence assignée
+                if (puzzleManager != null)
+                {
+                    puzzleManager.PiecePlacedSuccessfully();
+                } else {
+                    // Message de sécurité si vous avez oublié d'assigner le manager
+                    Debug.LogError("Le Puzzle Manager n'a pas été assigné au socle " + gameObject.name + "!");
+                }
             }
             else
             {
