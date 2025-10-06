@@ -7,13 +7,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: contour TERRAIN
-  m_Shader: {fileID: -6465566751694194690, guid: 3410179a6aa771f4e8520514fcb43da7, type: 3}
+  m_Name: mat test
+  m_Shader: {fileID: -6465566751694194690, guid: 9dfb472adadf6874a89e64bf7e766715, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -24,6 +24,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -40,13 +44,15 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _fade_distance: 2000
-    - _outline_thickness: 0.0014
+    - _max: 1
+    - _min: 0.3
+    - _shades: 0.5
+    - _smoothness: 0
     m_Colors:
-    - _outline_color: {r: 0.006289184, g: 0.0028835312, b: 0.00061309553, a: 1}
+    - _Color: {r: 1, g: 0.9968553, b: 0.9968553, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &3242526731019617131
+--- !u!114 &2641275925044203651
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
