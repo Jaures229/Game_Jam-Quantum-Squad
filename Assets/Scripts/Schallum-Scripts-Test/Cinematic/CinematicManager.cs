@@ -12,19 +12,46 @@ public class CinematicManager : MonoBehaviour
 
     [Header("Fade optionnel")]
     public ScreenFader screenFader;
+    
 
     [Header("Caméras")]
     public CinemachineCamera defaultCamera;
     public CinemachineCamera introCamera;
     public CinemachineCamera middleCamera;
     public CinemachineCamera outroCamera;
-
+    public PuzzleManager puzzleManager;
     private CinemachineCamera currentCamera;
+    public Timeline3Trigger timelineCinematic3;
+    public GameObject PlayerCinematic;
+    public GameObject PlayerGameplay;
+    public GameObject CameraCinemactic;
 
     // --- Événement global ---
     public event Action<string> OnCinematicEnd;
     // string = nom de la cinématique terminée
 
+    private void OnEnable()
+    {
+        PuzzleManager.OnPuzzleCompleted += HandlePuzzleCompleted; // 🔗 écoute l'événement
+        Timeline3Trigger.Cinematic3 += Cinematic3;
+    }
+
+    private void OnDisable()
+    {
+        PuzzleManager.OnPuzzleCompleted -= HandlePuzzleCompleted;
+        Timeline3Trigger.Cinematic3 -= Cinematic3;
+    }
+
+    private void HandlePuzzleCompleted()
+    {
+        Debug.Log("🎬 Le puzzle est terminé → Lancement de la cinématique suivante !");
+        PlayMiddle(middleCamera);
+    }
+
+    private  void Cinematic3()
+    {
+        PlayOutro(outroCamera);
+    }
     private void Start()
     {
         PlayIntro(introCamera);
@@ -40,6 +67,7 @@ public class CinematicManager : MonoBehaviour
     public void PlayMiddle(CinemachineCamera endCamera = null)
     {
         StartCoroutine(PlayTimeline(middleTimeline, endCamera, "middle"));
+
     }
 
     // --- Fonction pour jouer l'outro ---
@@ -55,16 +83,19 @@ public class CinematicManager : MonoBehaviour
 
         // --- Fade avant la cinématique ---
         if (screenFader != null)
+        {
             yield return StartCoroutine(screenFader.FadeOut());
-
+        }
+        PlayerGameplay.SetActive(false);
+        PlayerCinematic.SetActive(true);
+        CameraCinemactic.SetActive(true);
         // --- Lancer la timeline ---
         director.gameObject.SetActive(true);
         director.Play();
 
         // --- Attendre la fin ---
-        yield return new WaitForSeconds((float)director.duration);
+        yield return new WaitForSeconds((float)director.duration - 25f);
 
-        // --- Fade après la cinématique ---
         if (screenFader != null)
             yield return StartCoroutine(screenFader.FadeIn());
 
@@ -74,9 +105,20 @@ public class CinematicManager : MonoBehaviour
         else if (defaultCamera != null)
             SetActiveCamera(defaultCamera);
 
+        yield return new WaitForSeconds(5f);
+
+        // --- Fade après la cinématique ---
+
+
         // --- Prévenir les autres systèmes ---
         OnCinematicEnd?.Invoke(cinematicName);
         Debug.Log($"🎬 Cinématique terminée : {cinematicName}");
+        PlayerGameplay.SetActive(true);
+        PlayerCinematic.SetActive(false );
+        PlayerGameplay.transform.position = PlayerCinematic.transform.position;
+        PlayerGameplay.transform.rotation = PlayerCinematic.transform.rotation;
+        yield return StartCoroutine(screenFader.FadeOut());
+        screenFader.gameObject.SetActive(false);
     }
 
     // --- Active une caméra et désactive toutes les autres ---
@@ -91,4 +133,13 @@ public class CinematicManager : MonoBehaviour
 
         Debug.Log($"➡ Caméra active : {targetCam.name}");
     }
+
+   /*rivate void Update()
+    {
+        if (puzzleManager.finish_puzzle == true)
+        {
+            PlayMiddle(middleCamera);
+            puzzleManager.finish_puzzle = false;
+        }
+    }*/
 }

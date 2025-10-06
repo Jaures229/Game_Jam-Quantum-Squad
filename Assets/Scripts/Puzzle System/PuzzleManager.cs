@@ -1,11 +1,10 @@
 using UnityEngine;
 using System.Collections;
+using System;
 
 public class PuzzleManager : MonoBehaviour
 {
-    // ----------------------------------------------------
-    // Singleton pour un accès facile
-    // ----------------------------------------------------
+    public static event Action OnPuzzleCompleted;
 
     // ----------------------------------------------------
     // Paramètres du Puzzle
@@ -81,6 +80,7 @@ public class PuzzleManager : MonoBehaviour
         if (puzzlePanelCanvasGroup != null)
         {
             StartCoroutine(FadeOutPanel(puzzlePanelCanvasGroup, fadeOutDuration));
+            OnPuzzleCompleted?.Invoke();
         }
         // 2. REND INVISIBLE LE PANEL UI
         finish_puzzle = true;
