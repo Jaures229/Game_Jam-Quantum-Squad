@@ -41,7 +41,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _fade_distance: 2000
-    - _outline_thickness: 0.0014
+    - _outline_thickness: 0.001
     m_Colors:
     - _outline_color: {r: 0.006289184, g: 0.0028835312, b: 0.00061309553, a: 1}
   m_BuildTextureStacks: []

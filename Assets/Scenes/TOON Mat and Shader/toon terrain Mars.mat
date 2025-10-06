@@ -138,6 +138,6 @@ Material:
     - _smoothness: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.40392157, g: 0.23506317, b: 0.18431373, a: 1}
+    - _Color: {r: 0.4339623, g: 0.17918003, b: 0.13673905, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
