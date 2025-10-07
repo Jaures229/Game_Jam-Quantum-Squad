@@ -23,7 +23,7 @@ public class DirectionnalArrow : MonoBehaviour
         // S'abonner à l'événement du GPSManager pour recevoir la nouvelle cible (Transform)
         if (GPSManager.Instance != null)
         {
-            GPSManager.Instance.OnTargetTransformSet += HandleNewTarget;
+            GPSManager.Instance.OnTargetSet += HandleNewTarget;
             // Récupérer la cible actuelle au démarrage (si elle existe)
             cibleMobile = GPSManager.Instance.TargetTransform;
             flecheUI.gameObject.SetActive(cibleMobile != null);
@@ -31,10 +31,11 @@ public class DirectionnalArrow : MonoBehaviour
     }
 
     // Méthode appelée lorsque le manager définit une nouvelle cible
-    private void HandleNewTarget(Transform newTarget)
+    private void HandleNewTarget(Transform newTarget, string newTargetID)
     {
         cibleMobile = newTarget;
-        // La flèche s'affiche si la cible n'est PAS null.
+        // L'ID n'est pas utilisé ici, mais il est reçu
+        // ...
         flecheUI.gameObject.SetActive(cibleMobile != null);
     }
 
@@ -43,7 +44,7 @@ public class DirectionnalArrow : MonoBehaviour
         // Se désabonner de l'événement
         if (GPSManager.Instance != null)
         {
-            GPSManager.Instance.OnTargetTransformSet -= HandleNewTarget;
+            GPSManager.Instance.OnTargetSet -= HandleNewTarget;
         }
     }
 
@@ -65,7 +66,6 @@ public class DirectionnalArrow : MonoBehaviour
 
         if (distanceRestante <= distanceDeDetection)
         {
-            Debug.Log(distanceRestante);
             // Cible atteinte ! On demande au manager d'effacer la destination.
             GPSManager.Instance.ClearDestination();
             return;

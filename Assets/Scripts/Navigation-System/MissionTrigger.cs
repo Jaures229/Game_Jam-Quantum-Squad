@@ -16,7 +16,7 @@ public class MissionTrigger : MonoBehaviour
         if (planeteCible != null)
         {
             // Appel au Manager, en lui donnant la référence au Transform de la planète
-            GPSManager.Instance.SetNewTarget(planeteCible);
+            GPSManager.Instance.SetNewTarget(planeteCible, planeteCible.gameObject.name);
         }
     }
 }

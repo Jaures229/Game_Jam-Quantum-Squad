@@ -3,6 +3,12 @@ using System;
 
 public class GPSManager : MonoBehaviour
 {
+    // Événement 1 : Pour notifier la flèche (la cible a changé)
+    public event Action<Transform, string> OnTargetSet;
+
+    // NOUVEL ÉVÉNEMENT 2 : Pour notifier les systèmes (cible atteinte)
+    public event Action<string> OnTargetReached;
+
     // Singleton : Rendre le manager accessible de partout
     public static GPSManager Instance { get; private set; }
 
@@ -14,11 +20,17 @@ public class GPSManager : MonoBehaviour
     // Si cette valeur est null, il n'y a pas de destination.
     public Transform TargetTransform { get; private set; }
 
+
+    // NOUVELLE PROPRIÉTÉ : L'ID de la cible actuelle
+    public string TargetID { get; private set; }
+
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
+
+           // DontDestroyOnLoad(gameObject);
         }
         else
         {
@@ -27,34 +39,36 @@ public class GPSManager : MonoBehaviour
     }
 
     /// <summary>
-    /// Définit une nouvelle cible de navigation en utilisant la référence à son Transform.
+    /// Définit une nouvelle cible et son ID unique.
     /// </summary>
-    /// <param name="newTarget">Le Transform de la planète ou de l'objet à suivre.</param>
-    public void SetNewTarget(Transform newTarget)
+    public void SetNewTarget(Transform newTarget, string targetId)
     {
         TargetTransform = newTarget;
+        TargetID = targetId;
 
         if (newTarget != null)
         {
-            Debug.Log($"Nouvelle cible GPS définie : {newTarget.name}");
-        }
-        else
-        {
-            // Si on passe null, c'est équivalent à ClearDestination
-            Debug.Log("Cible GPS réinitialisée.");
+            Debug.Log($"Nouvelle cible GPS définie : {newTarget.name} (ID: {targetId})");
         }
 
-        // Notifier la flèche de la nouvelle cible (ou de null pour cacher)
-        OnTargetTransformSet?.Invoke(TargetTransform);
+        // Notifier la flèche : on passe la cible et l'ID (l'ID peut être null pour effacer)
+        OnTargetSet?.Invoke(TargetTransform, TargetID);
     }
-
+    
     /// <summary>
-    /// Réinitialise la cible (pour cacher la flèche).
+    /// Appelé par la flèche lorsque la distance est atteinte.
+    /// Déclenche l'événement d'achèvement de mission.
     /// </summary>
     public void ClearDestination()
     {
-        Debug.Log("Cible GPS atteinte");
-        // On définit la référence à null pour indiquer qu'il n'y a pas de cible.
-        SetNewTarget(null);
+        if (TargetID != null)
+        {
+            Debug.Log($"Cible GPS atteinte ! ID: {TargetID}");
+            // 🚨 ÉTAPE CRUCIALE : Déclenche l'événement OnTargetReached avec l'ID
+            OnTargetReached?.Invoke(TargetID);
+        }
+        
+        // On efface la référence de la cible
+        SetNewTarget(null, null); 
     }
 }
