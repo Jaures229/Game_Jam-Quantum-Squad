@@ -17,7 +17,7 @@ public class QuestManager : MonoBehaviour
     [Header("Quêtes Terminées du Joueur")]
     public List<QuestState> completedQuests = new List<QuestState>();
     [Header("Quêtes Disponibles (débloquées)")]
-    public List<QuestState> availableQuests = new List<QuestState>();
+    public List<QuestState> availableQuests = new();
 
     private void Awake()
     {
@@ -146,7 +146,7 @@ public class QuestManager : MonoBehaviour
     }
 
     // --- Les méthodes de notification sont corrigées pour éviter l'erreur "Collection was modified" ---
-    
+
     public void NotifyItemCollected(string itemName)
     {
         // On itère à l'envers sur une boucle for pour gérer les modifications
@@ -159,6 +159,23 @@ public class QuestManager : MonoBehaviour
                 {
                     collectObjective.ItemCollected(itemName);
                     UpdateObjectiveProgress(questState.questData, collectObjective);
+                }
+            }
+        }
+    }
+    
+    public void NotifyPlanetVisited(string  PlanetName)
+    {
+        // On itère à l'envers sur une boucle for pour gérer les modifications
+        for (int i = activeQuests.Count - 1; i >= 0; i--)
+        {
+            QuestState questState = activeQuests[i];
+            foreach (QuestObjective objective in questState.questData.objectives)
+            {
+                if (objective is VisitPlanetObjective visitObjective)
+                {
+                    visitObjective.PlanetEntered(PlanetName);
+                    UpdateObjectiveProgress(questState.questData, visitObjective);
                 }
             }
         }
