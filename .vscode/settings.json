@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Game_Jam-Quantum-Squad.sln"
+    "dotnet.defaultSolution": "Game_Jam-Quantum-Squad.slnx"
 }

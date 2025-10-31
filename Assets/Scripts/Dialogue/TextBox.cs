@@ -20,7 +20,7 @@ public class TextBox : MonoBehaviour
     {
         if (dialogueAsset != null)
         {
-            Debug.Log("interact");
+            //Debug.Log("interact");
             dialogueManager.StartDialogue(dialogueAsset);
         }
     }
@@ -29,7 +29,7 @@ public class TextBox : MonoBehaviour
     {
         if (TutoId == "Tutorial_Intro")
         {
-            Debug.Log("oui");
+            //Debug.Log("oui");
             Interact();
         }
     }

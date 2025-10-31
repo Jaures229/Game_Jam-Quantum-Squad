@@ -98,7 +98,25 @@ public class QuestManager : MonoBehaviour
             questStateToAccept.questData.ResetProgress(); 
 
             Debug.Log($"Quête acceptée : {questStateToAccept.questData.questName}");
-            QuestEvents.QuestAccepted(questStateToAccept.questData); 
+            QuestEvents.QuestAccepted(questStateToAccept.questData);
+
+            // 2. Notifier l'objectif actuel (la progression initiale)
+        
+            // >>> LOGIQUE MISE À JOUR POUR UTILISER List<QuestObjective> <<<
+            
+            // Vérifie si la liste d'objectifs existe et contient au moins un élément.
+            if (questStateToAccept.questData.objectives != null && questStateToAccept.questData.objectives.Count > 0)
+            {
+                // On prend le premier objectif [0] de la Liste
+                QuestObjective initialObjective = questStateToAccept.questData.objectives[0];
+                
+                // Déclencher l'événement d'objectif
+                QuestEvents.OnQuestObjectives(questStateToAccept.questData, initialObjective); 
+            }
+            else
+            {
+                Debug.LogWarning($"La quête '{questDataToAccept.questName}' acceptée n'a pas d'objectif initial.");
+            }
         }
         else
         {

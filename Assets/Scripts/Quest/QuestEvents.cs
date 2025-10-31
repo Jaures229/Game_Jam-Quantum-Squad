@@ -67,6 +67,11 @@ public static class QuestEvents
     // --- Méthodes pour déclencher les événements ---
     // Ces méthodes sont publiques et statiques pour être appelées depuis n'importe où.
 
+
+    // Événement déclenché à pour notifier l'objectif de la quete actuelle.
+    // Les arguments sont la quête et l'objectif de la quete
+    public static event Action<Quest, QuestObjective> QuestObjectives;
+
     public static void QuestAccepted(Quest quest)
     {
         OnQuestAccepted?.Invoke(quest);
@@ -89,5 +94,10 @@ public static class QuestEvents
     {
         OnQuestUnlocked?.Invoke(unlockedQuest);
         Debug.Log($"EVENT: Quête '{unlockedQuest.questName}' débloquée.");
+    }
+
+    public static void OnQuestObjectives(Quest quest, QuestObjective objective)
+    {
+        QuestObjectives?.Invoke(quest, objective);
     }
 }
