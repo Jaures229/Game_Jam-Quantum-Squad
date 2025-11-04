@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class SceneTrigger : MonoBehaviour
@@ -46,6 +47,10 @@ public class SceneTrigger : MonoBehaviour
             // 2. L'ID correspond ! Charger la scène.
             if (!string.IsNullOrEmpty(nomDeSceneCible))
             {
+                if ( QuestManager.Instance != null && QuestManager.Instance.activeQuests.Count > 0)
+                {
+                    QuestManager.Instance.NotifyPlanetVisited(reachedId);
+                }
                 Debug.Log($"[SceneLoaderListener: {idCibleAEcouter}] La cible correspond. Chargement de la scène : {nomDeSceneCible}");
                 loading_panel.SetActive(true);
                 sceneLoader.LoadScene(nomDeSceneCible);

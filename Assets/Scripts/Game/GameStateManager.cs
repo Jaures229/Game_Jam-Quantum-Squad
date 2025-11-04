@@ -132,13 +132,13 @@ public class GameStateManager : MonoBehaviour
 
     public void CheckedFinieshedObjective(string objective_id)
     {
-        Debug.Log($"Objectif terminé : {objective_id}");
 
 
         if (!isTutorialActive) return;
         // Si l'objectif terminé est l'un des objectifs qui font avancer le tutoriel
         if (objective_id == "Touch_slider" && currentTutorialStep == 2)
         {
+            
             AdvanceTutorialStep();
         }
         if (objective_id == "Touch_move" && currentTutorialStep == 4)
@@ -146,6 +146,7 @@ public class GameStateManager : MonoBehaviour
             // On avance immédiatement à l'étape suivante, ce qui lancera la vérification de fin.
             AdvanceTutorialStep();
         }
+        Debug.Log($"Objectif terminé : {objective_id}");
     }
 
     // public void CheckWaitingTutorial(string objective_id)

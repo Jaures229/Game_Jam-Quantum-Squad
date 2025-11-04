@@ -29,7 +29,9 @@ public class VisitPlanetObjective : QuestObjective
 
     public override string GetProgressText()
     {
-        return _hasBeenVisited ? $"✔️ {targetPlanetIdentifier} (Visité)" : $"❌ Se rendre sur {targetPlanetIdentifier}";
+        string progress = $"Rend toi sur la planéte : {targetPlanetIdentifier} en suivant la flèche.";
+        return progress;
+        //return _hasBeenVisited ? $"✔️ {targetPlanetIdentifier} (Visité)" : $"❌ Se rendre sur {targetPlanetIdentifier}";
     }
     
     public override bool IsCompleted()

@@ -182,7 +182,7 @@ public class QuestManager : MonoBehaviour
         }
     }
     
-    public void NotifyPlanetVisited(string  PlanetName)
+    public void NotifyPlanetVisited(string PlanetName)
     {
         // On itère à l'envers sur une boucle for pour gérer les modifications
         for (int i = activeQuests.Count - 1; i >= 0; i--)
