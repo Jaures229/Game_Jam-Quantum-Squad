@@ -11,8 +11,8 @@ public class Quest : ScriptableObject
     public string description = "Description de la quête.";
 
     [Header("Objectifs et Récompenses")]
-    public List<QuestObjective> objectives = new List<QuestObjective>();
-    public List<QuestReward> rewards = new List<QuestReward>(); 
+    public List<QuestObjective> objectives = new ();
+    public List<QuestReward> rewards = new (); 
 
     [Header("Dépendances")]
     [Tooltip("Indique si cette quête débloque une autre quête à sa complétion.")]

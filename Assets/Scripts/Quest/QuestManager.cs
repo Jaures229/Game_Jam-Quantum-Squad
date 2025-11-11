@@ -10,12 +10,12 @@ public class QuestManager : MonoBehaviour
     public GameDatabase gameDatabase;
 
     // Listes d'états de quêtes pour le joueur
-    private List<QuestState> _allPlayerQuestStates = new List<QuestState>();
+    private List<QuestState> _allPlayerQuestStates = new ();
     
     [Header("Quêtes Actives du Joueur")]
-    public List<QuestState> activeQuests = new List<QuestState>();
+    public List<QuestState> activeQuests = new();
     [Header("Quêtes Terminées du Joueur")]
-    public List<QuestState> completedQuests = new List<QuestState>();
+    public List<QuestState> completedQuests = new ();
     [Header("Quêtes Disponibles (débloquées)")]
     public List<QuestState> availableQuests = new();
 

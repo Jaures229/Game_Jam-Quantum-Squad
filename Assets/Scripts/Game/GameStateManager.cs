@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using System;
 
 public class GameStateManager : MonoBehaviour
 {
@@ -12,6 +14,8 @@ public class GameStateManager : MonoBehaviour
     [Header("Référence à la Quête Actuelle")]
     public Quest currentMainQuest; // Référence au ScriptableObject de la quête principale en cours
     public string Tutorial_name;
+    public string location;
+    public bool is_prologue = true;
     void OnEnable()
     {
         // ABONNEMENT : On ajoute la méthode à l'événement
@@ -26,6 +30,8 @@ public class GameStateManager : MonoBehaviour
         TutorialEvents.OnTutorialEnded += TutorialEnded;
 
         TutorialEvents.OnTutorialObjectiveCompleted += CheckedFinieshedObjective;
+
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
     void OnDisable()
@@ -39,6 +45,7 @@ public class GameStateManager : MonoBehaviour
 
         TutorialEvents.OnTutorialStarted -= TutorialStarted;
         TutorialEvents.OnTutorialEnded -= TutorialEnded;
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
 
@@ -188,5 +195,28 @@ public class GameStateManager : MonoBehaviour
             QuestManager.Instance.AcceptQuest(QuestManager.Instance.availableQuests[0].questData);
             isTutorialActive = false;
         }
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (scene.name == "Mars_new_terrain")
+        {
+            location = "Mars";
+            if (is_prologue)
+            {
+                // accept the mainquest
+                QuestManager.Instance.AcceptQuest(currentMainQuest);
+            }
+        }
+        if (scene.name == "Scene1-Prologue")
+        {
+            location = "Space";
+        }
+        if (scene.name == "Scene_Station_Spatial INT")
+        {
+            location = "SpaceStation";
+        }
+        //Debug.Log("Scene Loaded: " + scene.name);
+        // Perform actions specific to the loaded scene
     }
 }
