@@ -32030,6 +32030,7 @@ MonoBehaviour:
   _deceleration: 3
   jumpForce: 5
   gravity: -9.81
+  animator: {fileID: 1849673323}
 --- !u!143 &1418315229
 CharacterController:
   m_ObjectHideFlags: 0
